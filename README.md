@@ -6,19 +6,20 @@ I need to keep track of what Japanese I've studied and what I still need to stud
 
 ## Project Requirements
 
-  * Simple feature set
-  * CRUD
+  * List of Japanese characters and readings with English translations and JLPT data.
+  * CRUD - In particular, a word can be updated to have the status 'know' or 'review'.
 
 ## Feature List:
 
-   * I can enter what I have studied and whether I need to review it.
-   * I can query for which categories I am strongest at
-   * I can look at the full list of words to study in a given category
-   * I can get a report of my percent progress through a category
+   * I can enter what I have studied and whether I know it or need to review it.
+   * I can query for which categories I am strongest at.
+   * I can look at the full list of words to study in a given category.
+   * I can quiz myself and update my progress when I get the answer right.
+
 
 ## Interesting Query:
 
-Figuring out which 
+   * I can get a report of my percent progress through a category.
 
 ## Data Source:
 
