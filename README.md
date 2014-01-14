@@ -2,7 +2,7 @@ SQL_Language_Capstone
 =====================
 ## Elevator Pitch
 
-I need to keep track of what Japanese I've studied and what I still need to study, according to the standard lists. The standard is the Japanese Language Proficiency Test, the JLPT, which has five levels. 
+I need to keep track of what Japanese I've studied and what I still need to study, according to the standard lists. The standard is the Japanese Language Proficiency Test, the JLPT, which has five difficulty levels. 
 
 ## Project Requirements
 
