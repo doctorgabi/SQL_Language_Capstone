@@ -237,7 +237,7 @@ User Story 9c (update)
 
 
 
-User Story 10
+User Story 10 (view keyboard commands)
     As a Japanese language student
     I want to know what keyboard commands are available to me at any point in the exercise
     so that I know how to proceed with the study exercise.
