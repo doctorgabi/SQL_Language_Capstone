@@ -1,9 +1,9 @@
 #USER STORIES
 
 User Story 1
-    :As a Japanese language student
-    :I want to see a list of what I need to study to pass a JLPT (e.g. level N5) exam
-    :so that I can focus on only studying material needed for the test.
+:As a Japanese language student
+:I want to see a list of what I need to study to pass a JLPT (e.g. level N5) exam
+:so that I can focus on only studying material needed for the test.
 
 * Acceptance Criteria:
 1. Accepts input of a JLPT level
