@@ -1,0 +1,3751 @@
+WordID	Kanji	Onyomi	Kunyomi	English	JLPT Level	Category
+1	日	ニチ ジツ -	ひ -び	day, sun, Japan	N5	Kanji
+2	一	イチ イツ ヒト.	ひと-	one	N5	Kanji
+3	国	コク ク		country	N5	Kanji
+4	人	ジン ニン -	ひと -り	person	N5	Kanji
+5	年	ネン ト		year	N5	Kanji
+6	大	ダイ タイ -オオ.イ	おお- おお.きい	large, big	N5	Kanji
+7	十	ジュウ ジッ ジュッ	とお	ten	N5	Kanji
+8	二	ニ ジ フタタ.	ふた ふた.つ	two	N5	Kanji
+9	本	ホン モ		book, present, main, true, real, counter for long things	N5	Kanji
+10	中	チュウ アタ.	なか うち	in, inside, middle, mean, center	N5	Kanji
+11	長	チョウ オ	なが.い	long, leader	N5	Kanji
+12	出	シュツ スイ イ.ダ	で.る -で だ.す -だ.す い.でる	exit, leave	N5	Kanji
+13	三	サン ゾウ ミッ.	み み.つ	three	N5	Kanji
+14	時	ジ -ド	とき	time, hour	N5	Kanji
+15	行	コウ ギョウ アン オコ.ナ	い.く ゆ.く -ゆ.き -ゆき -い.き -いき おこな.う	going, journey	N5	Kanji
+16	見	ケン	み.る み.える み.せる	see, hopes, chances, idea, opinion, look at, visible	N5	Kanji
+17	月	ゲツ ガツ ツ		month, moon	N5	Kanji
+18	後	ゴ コウ オク.レ	のち うし.ろ うしろ あと	behind, back, later	N5	Kanji
+19	前	ゼン -マ	まえ	in front, before	N5	Kanji
+20	生	セイ ショウ -	い.きる い.かす い.ける う.まれる う.まれ うまれ う.む お.う は.える は.やす き なま なま- な.る	life, genuine, birth	N5	Kanji
+21	五	ゴ イツ.	いつ	five	N5	Kanji
+22	間	カン ケン	あいだ ま あい	interval, space	N5	Kanji
+23	上	ジョウ ショウ シャン ヨ.	うえ -うえ うわ- かみ あ.げる -あ.げる あ.がる -あ.がる あ.がり -あ.がり のぼ.る のぼ.り のぼ.	above, up	N5	Kanji
+24	東	トウ ヒガ		east	N5	Kanji
+25	四	シ ヨ	よ よ.つ よっ.つ	four	N5	Kanji
+26	今	コン キン イ		now	N5	Kanji
+27	金	キン コン ゴン -ガ	かね かな-	gold	N5	Kanji
+28	九	キュウ ク ココノ.	ここの	nine	N5	Kanji
+29	入	ニュウ ジュ ハイ.	い.る -い.る -い.り い.れる -い.れ	enter, insert	N5	Kanji
+30	学	ガク マナ.		study, learning, science	N5	Kanji
+31	高	コウ タカ.メ	たか.い たか -だか たか.まる	tall, high, expensive	N5	Kanji
+32	円	エン マロ.ヤ	まる.い まる まど まど.か	circle, yen, round	N5	Kanji
+33	子	シ ス ツ	こ -こ	child, sign of the rat, 11PM-1AM, first sign of Chinese zodiac	N5	Kanji
+34	外	ガイ ゲ	そと ほか はず.す はず.れる と	outside	N5	Kanji
+35	八	ハチ ヨ	や や.つ やっ.つ	eight	N5	Kanji
+36	六	ロク リク ム	む む.つ むっ.つ	six	N5	Kanji
+37	下	カ ゲ オ.リ	した しも もと さ.げる さ.がる くだ.る くだ.り くだ.す -くだ.す くだ.さる お.ろす	below, down, descend, give, low, inferior	N5	Kanji
+38	来	ライ タイ	く.る きた.る きた.す き.たす き.たる き	come, due, next, cause, become	N5	Kanji
+39	気	キ ケ	いき	spirit, mind	N5	Kanji
+40	小	ショウ	ちい.さい こ- お- さ	little, small	N5	Kanji
+41	七	シチ ナ	なな なな.つ	seven	N5	Kanji
+42	山	サン セン ヤ		mountain	N5	Kanji
+43	話	ワ	はな.す はなし	tale, talk	N5	Kanji
+44	女	ジョ ニョ ニョウ	おんな	woman, female	N5	Kanji
+45	北	ホク キ		north	N5	Kanji
+46	午	ゴ	うま	noon, sign of the horse, 11AM-1PM, seventh sign of Chinese zodiac	N5	Kanji
+47	百	ヒャク ビャク モ		hundred	N5	Kanji
+48	書	ショ -ガ	か.く -が.き	write	N5	Kanji
+49	先	セン マ.	さき	before, ahead, previous, future, precedence	N5	Kanji
+50	名	メイ ミョウ -	な	name, noted, distinguished, reputation	N5	Kanji
+51	川	セン カ		stream, river	N5	Kanji
+52	千	セン		thousand	N5	Kanji
+53	水	スイ	みず みず	water	N5	Kanji
+54	半	ハン ナカ.		half, middle, odd number, semi-, part-	N5	Kanji
+55	男	ダン ナン	おとこ	male	N5	Kanji
+56	西	セイ サイ ス ニ		west, Spain	N5	Kanji
+57	電	デン		electricity	N5	Kanji
+58	校	コウ キョ		exam, school, printing, proof, correction	N5	Kanji
+59	語	ゴ	かた.る かた.らう	word, speech, language	N5	Kanji
+60	土	ド ト ツ		soil, earth, ground, Turkey	N5	Kanji
+61	木	ボク モク	き こ	tree, wood	N5	Kanji
+62	聞	ブン モン	き.く き.こえる	hear, ask, listen	N5	Kanji
+63	食	ショク ジキ ハ.	く.う く.らう た.べる	eat, food	N5	Kanji
+64	車	シャ クル		car	N5	Kanji
+65	何	カ	なに なん なに- なん	what	N5	Kanji
+66	南	ナン ナ ミナ		south	N5	Kanji
+67	万	マン バン ヨロ		ten thousand	N5	Kanji
+68	毎	マイ -ゴト.	ごと	every	N5	Kanji
+69	白	ハク ビャク シロ.	しろ しら-	white	N5	Kanji
+70	天	テン	あまつ あめ あま	heavens, sky, imperial	N5	Kanji
+71	母	ボ	はは も	mama, mother	N5	Kanji
+72	火	カ	ひ -び ほ-	fire	N5	Kanji
+73	右	ウ ユウ ミ		right	N5	Kanji
+74	読	ドク トク トウ -ヨ.	よ.む	read	N5	Kanji
+75	友	ユウ ト		friend	N5	Kanji
+76	左	サ シャ ヒダ		left	N5	Kanji
+77	休	キュウ	やす.む やす.まる やす.める	rest, day off, retire, sleep	N5	Kanji
+78	父	フ	ちち	father	N5	Kanji
+79	雨	ウ	あめ あま- -さめ	rain	N5	Kanji
+80	会う		あう	to meet	N5	Vocabulary
+81	青		あお	blue	N5	Vocabulary
+82	青い		あおい	blue	N5	Vocabulary
+83	赤		あか	red	N5	Vocabulary
+84	赤い		あかい	red	N5	Vocabulary
+85	明い		あかるい	bright	N5	Vocabulary
+86	秋		あき	autumn	N5	Vocabulary
+87	開く		あく	to open, to become open	N5	Vocabulary
+88	開ける		あける	to open	N5	Vocabulary
+89	上げる		あげる	to give	N5	Vocabulary
+90	朝		あさ	morning	N5	Vocabulary
+91	朝御飯		あさごはん	breakfast	N5	Vocabulary
+92			あさって	day after tomorrow	N5	Vocabulary
+93	足		あし	foot, leg	N5	Vocabulary
+94	明日		あした	tomorrow	N5	Vocabulary
+95			あそこ	over there	N5	Vocabulary
+96	遊ぶ		あそぶ	to play, to make a visit	N5	Vocabulary
+97	暖かい		あたたかい	warm	N5	Vocabulary
+98	頭		あたま	head	N5	Vocabulary
+99	新しい		あたらしい	new	N5	Vocabulary
+100			あちら	there	N5	Vocabulary
+101	暑い		あつい	hot	N5	Vocabulary
+102	熱い		あつい	hot to the touch	N5	Vocabulary
+103	厚い		あつい	kind, deep, thick	N5	Vocabulary
+104			あっち	over there	N5	Vocabulary
+105	後		あと	afterwards	N5	Vocabulary
+106			あなた	you	N5	Vocabulary
+107	兄		あに	(humble) older brother	N5	Vocabulary
+108	姉		あね	(humble) older sister	N5	Vocabulary
+109			あの	that over there	N5	Vocabulary
+110			あの	um...	N5	Vocabulary
+111			アパート	apartment	N5	Vocabulary
+112			あびる	to bathe, to shower	N5	Vocabulary
+113	危ない		あぶない	dangerous	N5	Vocabulary
+114	甘い		あまい	sweet	N5	Vocabulary
+115			あまり	not very	N5	Vocabulary
+116	雨		あめ	rain	N5	Vocabulary
+117	飴		あめ	candy	N5	Vocabulary
+118	洗う		あらう	to wash	N5	Vocabulary
+119			ある	to be,to have (used for inanimate objects)	N5	Vocabulary
+120	歩く		あるく	to walk	N5	Vocabulary
+121			あれ	that	N5	Vocabulary
+122			いい/よい	good	N5	Vocabulary
+123			いいえ	no	N5	Vocabulary
+124	言う		いう	to say	N5	Vocabulary
+125	家		いえ	house	N5	Vocabulary
+126			いかが	how	N5	Vocabulary
+127	行く		いく	to go	N5	Vocabulary
+128			いくつ	how many?,how old?	N5	Vocabulary
+129			いくら	how much?	N5	Vocabulary
+130	池		いけ	pond	N5	Vocabulary
+131	医者		いしゃ	medical doctor	N5	Vocabulary
+132			いす	chair	N5	Vocabulary
+133	忙しい		いそがしい	busy, irritated	N5	Vocabulary
+134	痛い		いたい	painful	N5	Vocabulary
+135	一		いち	one	N5	Vocabulary
+136	一日		いちにち	first of the month	N5	Vocabulary
+137			いちばん	best, first	N5	Vocabulary
+138			いつ	when	N5	Vocabulary
+139	五日		いつか	five days, fifth day	N5	Vocabulary
+140	一緒		いっしょ	together	N5	Vocabulary
+141	五つ		いつつ	five	N5	Vocabulary
+142			いつも	always	N5	Vocabulary
+143	犬		いぬ	dog	N5	Vocabulary
+144	今		いま	now	N5	Vocabulary
+145	意味		いみ	meaning	N5	Vocabulary
+146	妹		いもうと	(humble) younger sister	N5	Vocabulary
+147	嫌		いや	unpleasant	N5	Vocabulary
+148	入口		いりぐち	entrance	N5	Vocabulary
+149	居る		いる	to be, to have (used for people and animals)	N5	Vocabulary
+150	要る		いる	to need	N5	Vocabulary
+151	入れる		いれる	to put in	N5	Vocabulary
+152	色		いろ	colour	N5	Vocabulary
+153			いろいろ	various	N5	Vocabulary
+154	上		うえ	on top of	N5	Vocabulary
+155	後ろ		うしろ	behind	N5	Vocabulary
+156	薄い		うすい	thin,weak	N5	Vocabulary
+157	歌		うた	song	N5	Vocabulary
+158	歌う		うたう	to sing	N5	Vocabulary
+159	生まれる		うまれる	to be born	N5	Vocabulary
+160	海		うみ	sea	N5	Vocabulary
+161	売る		うる	to sell	N5	Vocabulary
+162	煩い		うるさい	noisy, annoying	N5	Vocabulary
+163	上着		うわぎ	jacket	N5	Vocabulary
+164	絵		え	picture	N5	Vocabulary
+165	映画		えいが	movie	N5	Vocabulary
+166	映画館		えいがかん	cinema	N5	Vocabulary
+167	英語		えいご	English language	N5	Vocabulary
+168			ええ	yes	N5	Vocabulary
+169	駅		えき	station	N5	Vocabulary
+170			エレベーター	elevator	N5	Vocabulary
+171	鉛筆		えんぴつ	pencil	N5	Vocabulary
+172			おいしい	delicious	N5	Vocabulary
+173	多い		おおい	many	N5	Vocabulary
+174	大きい		おおきい	big	N5	Vocabulary
+175	大きな		おおきな	big	N5	Vocabulary
+176	大勢		おおぜい	great number of people	N5	Vocabulary
+177	お母さん		おかあさん	(honorable) mother	N5	Vocabulary
+178	お菓子		おかし	sweets, candy	N5	Vocabulary
+179	お金		おかね	money	N5	Vocabulary
+180	起きる		おきる	to get up	N5	Vocabulary
+181	置く		おく	to put	N5	Vocabulary
+182	奥さん		おくさん	(honorable) wife	N5	Vocabulary
+183	お酒		おさけ	alcohol, rice wine	N5	Vocabulary
+184	お皿		おさら	plate, dish	N5	Vocabulary
+185	伯父/叔父		おじいさん	grandfather, male senior citizen	N5	Vocabulary
+186	教える		おしえる	to teach, to tell	N5	Vocabulary
+187	伯父/叔父		おじさん	uncle, middle aged gentleman	N5	Vocabulary
+188	押す		おす	to push, to stamp something	N5	Vocabulary
+189	遅い		おそい	late, slow	N5	Vocabulary
+190	お茶		おちゃ	green tea	N5	Vocabulary
+191	お手洗い		おてあらい	bathroom	N5	Vocabulary
+192	お父さん		おとうさん	(honorable) father	N5	Vocabulary
+193	弟		おとうと	younger brother	N5	Vocabulary
+194	男		おとこ	Man	N5	Vocabulary
+195	男の子		おとこのこ	Boy	N5	Vocabulary
+196	一昨日		おととい	day before yesterday	N5	Vocabulary
+197	一昨年		おととし	year before last	N5	Vocabulary
+198	大人		おとな	Adult	N5	Vocabulary
+199			おなか	stomach	N5	Vocabulary
+200	同じ		おなじ	same	N5	Vocabulary
+201	お兄さん		おにいさん	(honorable) older brother	N5	Vocabulary
+202	お姉さん		おねえさん	(honorable) older sister	N5	Vocabulary
+203			おばあさん	grandmother, female senior-citizen	N5	Vocabulary
+204	伯母さん/叔母さん		おばさん	Aunt	N5	Vocabulary
+205	お風呂		おふろ	Bath	N5	Vocabulary
+206	お弁当		おべんとう	boxed lunch	N5	Vocabulary
+207	覚える		おぼえる	to remember	N5	Vocabulary
+208			おまわりさん	friendly term for policeman	N5	Vocabulary
+209	重い		おもい	Heavy	N5	Vocabulary
+210			おもしろい	Interesting	N5	Vocabulary
+211	泳ぐ		およぐ	to swim	N5	Vocabulary
+212	降りる		おりる	to get off, to descend	N5	Vocabulary
+213	終る		おわる	to finish	N5	Vocabulary
+214	音楽		おんがく	Music	N5	Vocabulary
+215	女		おんな	Woman	N5	Vocabulary
+216	女の子		おんなのこ	Girl	N5	Vocabulary
+217	外国		がいこく	foreign country	N5	Vocabulary
+218	外国人		がいこくじん	Foreigner	N5	Vocabulary
+219	会社		かいしゃ	Company	N5	Vocabulary
+220	階段		かいだん	Stairs	N5	Vocabulary
+221	買い物		かいもの	Shopping	N5	Vocabulary
+222	買う		かう	to buy	N5	Vocabulary
+223	返す		かえす	to return something	N5	Vocabulary
+224	帰る		かえる	to go back	N5	Vocabulary
+225			かかる	to take time or money	N5	Vocabulary
+226			かぎ	Key	N5	Vocabulary
+227	書く		かく	to write	N5	Vocabulary
+228	学生		がくせい	Student	N5	Vocabulary
+229			かける	to call by phone	N5	Vocabulary
+230	傘		かさ	Umbrella	N5	Vocabulary
+231	貸す		かす	to lend	N5	Vocabulary
+232	風		かぜ	Wind	N5	Vocabulary
+233	風邪		かぜ	a cold	N5	Vocabulary
+234	家族		かぞく	Family	N5	Vocabulary
+235	方		かた	person, way of doing	N5	Vocabulary
+236	学校		がっこう	School	N5	Vocabulary
+237			カップ	Cup	N5	Vocabulary
+238	家庭		かてい	Household	N5	Vocabulary
+239	角		かど	a corner	N5	Vocabulary
+240			かばん	bag, basket	N5	Vocabulary
+241	花瓶		かびん	a vase	N5	Vocabulary
+242	紙		かみ	paper	N5	Vocabulary
+243			カメラ	camera	N5	Vocabulary
+244	火曜日		かようび	Tuesday	N5	Vocabulary
+245	辛い		からい	Spicy	N5	Vocabulary
+246	体		からだ	Body	N5	Vocabulary
+247	借りる		かりる	to borrow	N5	Vocabulary
+248	軽い		かるい	Light	N5	Vocabulary
+249			カレー	Curry	N5	Vocabulary
+250			カレンダー	calendar	N5	Vocabulary
+251	川/河		かわ	River	N5	Vocabulary
+252			かわいい	Cute	N5	Vocabulary
+253	漢字		かんじ	Chinese character	N5	Vocabulary
+254	木		き	tree, wood	N5	Vocabulary
+255	黄色		きいろ	yellow	N5	Vocabulary
+256	黄色い		きいろい	yellow	N5	Vocabulary
+257	消える		きえる	to disappear	N5	Vocabulary
+258	聞く		きく	to hear, to listen to, to ask	N5	Vocabulary
+259	北		きた	North	N5	Vocabulary
+260			ギター	Guitar	N5	Vocabulary
+261	汚い		きたない	Dirty	N5	Vocabulary
+262	喫茶店		きっさてん	coffee lounge	N5	Vocabulary
+263	切手		きって	postage stamp	N5	Vocabulary
+264	切符		きっぷ	Ticket	N5	Vocabulary
+265	昨日		きのう	Yesterday	N5	Vocabulary
+266	九		きゅう / く	Nine	N5	Vocabulary
+267	牛肉		ぎゅうにく	Beef	N5	Vocabulary
+268	牛乳		ぎゅうにゅう	Milk	N5	Vocabulary
+269	今日		きょう	Today	N5	Vocabulary
+270	教室		きょうしつ	Classroom	N5	Vocabulary
+271	兄弟		きょうだい	(humble) siblings	N5	Vocabulary
+272	去年		きょねん	last year	N5	Vocabulary
+273	嫌い		きらい	Hate	N5	Vocabulary
+274	切る		きる	to cut	N5	Vocabulary
+275	着る		きる	to put on from the shoulders down	N5	Vocabulary
+276			きれい	pretty, clean	N5	Vocabulary
+277			キロ/キログラム	Kilogram	N5	Vocabulary
+278			キロ/キロメートル	Kilometer	N5	Vocabulary
+279	銀行		ぎんこう	Bank	N5	Vocabulary
+280	金曜日		きんようび	Friday	N5	Vocabulary
+281	薬		くすり	medicine	N5	Vocabulary
+282			ください	Please	N5	Vocabulary
+283	果物		くだもの	Fruit	N5	Vocabulary
+284	口		くち	mouth, opening	N5	Vocabulary
+285	靴		くつ	Shoes	N5	Vocabulary
+286	靴下		くつした	Socks	N5	Vocabulary
+287	国		くに	Country	N5	Vocabulary
+288	曇り		くもり	cloudy weather	N5	Vocabulary
+289	曇る		くもる	to become cloudy, to become dim	N5	Vocabulary
+290	暗い		くらい	Gloomy	N5	Vocabulary
+291			クラス	Class	N5	Vocabulary
+292			グラム	Gram	N5	Vocabulary
+293	来る		くる	to come	N5	Vocabulary
+294	車		くるま	car, vehicle	N5	Vocabulary
+295	黒		くろ	Black	N5	Vocabulary
+296	黒い		くろい	black	N5	Vocabulary
+297	警官		けいかん	policeman	N5	Vocabulary
+298	今朝		けさ	this morning	N5	Vocabulary
+299	消す		けす	to erase, to turn off power	N5	Vocabulary
+300	結構		けっこう	splendid, enough	N5	Vocabulary
+301	結婚		けっこん	Marriage	N5	Vocabulary
+302	月曜日		げつようび	Monday	N5	Vocabulary
+303	玄関		げんかん	entry hall	N5	Vocabulary
+304	元気		げんき	health, vitality	N5	Vocabulary
+305	五		ご	Five	N5	Vocabulary
+306	公園		こうえん	Park	N5	Vocabulary
+307	交差点		こうさてん	intersection	N5	Vocabulary
+308	紅茶		こうちゃ	black tea	N5	Vocabulary
+309	交番		こうばん	police box	N5	Vocabulary
+310	声		こえ	Voice	N5	Vocabulary
+311			コート	coat, tennis court	N5	Vocabulary
+312			コーヒー	Coffee	N5	Vocabulary
+313			ここ	Here	N5	Vocabulary
+314	午後		ごご	afternoon	N5	Vocabulary
+315	九日		ここのか	nine days, ninth day	N5	Vocabulary
+316	九つ		ここのつ	Nine	N5	Vocabulary
+317	午前		ごぜん	morning	N5	Vocabulary
+318	答える		こたえる	to answer	N5	Vocabulary
+319			こちら	this person or way	N5	Vocabulary
+320			こっち	this person or way	N5	Vocabulary
+321			コップ	a glass	N5	Vocabulary
+322	今年		ことし	this year	N5	Vocabulary
+323	言葉		ことば	word, language	N5	Vocabulary
+324	子供		こども	Child	N5	Vocabulary
+325			この	This	N5	Vocabulary
+326	御飯		ごはん	cooked rice, meal	N5	Vocabulary
+327			コピーする	to copy	N5	Vocabulary
+328	困る		こまる	to be worried	N5	Vocabulary
+329			これ	This	N5	Vocabulary
+330	今月		こんげつ	this month	N5	Vocabulary
+331	今週		こんしゅう	this week	N5	Vocabulary
+332			こんな	Such	N5	Vocabulary
+333	今晩		こんばん	this evening	N5	Vocabulary
+334			さあ	well…	N5	Vocabulary
+335	財布		さいふ	Wallet	N5	Vocabulary
+336	魚		さかな	Fish	N5	Vocabulary
+337	先		さき	the future, previous	N5	Vocabulary
+338	咲く		さく	to bloom	N5	Vocabulary
+339	作文		さくぶん	composition, writing	N5	Vocabulary
+340	差す		さす	to stretch out hands, to raise an umbrella	N5	Vocabulary
+341	雑誌		ざっし	Magazine	N5	Vocabulary
+342	砂糖		さとう	Sugar	N5	Vocabulary
+343	寒い		さむい	Cold	N5	Vocabulary
+344	さ来年		さらいねん	year after next	N5	Vocabulary
+345	三		さん	Three	N5	Vocabulary
+346	散歩		さんぽする	to stroll	N5	Vocabulary
+347	四		し / よん	Four	N5	Vocabulary
+348	塩		しお	Salt	N5	Vocabulary
+349			しかし	However	N5	Vocabulary
+350	時間		じかん	Time	N5	Vocabulary
+351	仕事		しごと	Job	N5	Vocabulary
+352	辞書		じしょ	Dictionary	N5	Vocabulary
+353	静か		しずか	Quiet	N5	Vocabulary
+354	下		した	Below	N5	Vocabulary
+355	七		しち / なな	Seven	N5	Vocabulary
+356	質問		しつもん	Question	N5	Vocabulary
+357	自転車		じてんしゃ	Bicycle	N5	Vocabulary
+358	自動車		じどうしゃ	Automobile	N5	Vocabulary
+359	死ぬ		しぬ	to die	N5	Vocabulary
+360	字引		じびき	Dictionary	N5	Vocabulary
+361	自分		じぶん	Oneself	N5	Vocabulary
+362	閉まる		しまる	to close, to be closed	N5	Vocabulary
+363	閉める		しめる	to close something	N5	Vocabulary
+364	締める		しめる	to tie	N5	Vocabulary
+365			じゃ/じゃあ	well then…	N5	Vocabulary
+366	写真		しゃしん	photograph	N5	Vocabulary
+367			シャツ	Shirt	N5	Vocabulary
+368			シャワー	Shower	N5	Vocabulary
+369	十		じゅう とお	Ten	N5	Vocabulary
+370	授業		じゅぎょう	lesson, class work	N5	Vocabulary
+371	宿題		しゅくだい	homework	N5	Vocabulary
+372	上手		じょうず	Skillful	N5	Vocabulary
+373	丈夫		じょうぶ	strong, durable	N5	Vocabulary
+374			しょうゆ	soy sauce	N5	Vocabulary
+375	食堂		しょくどう	dining hall	N5	Vocabulary
+376	知る		しる	to know	N5	Vocabulary
+377	白		しろ	White	N5	Vocabulary
+378	白い		しろい	White	N5	Vocabulary
+379	新聞		しんぶん	newspaper	N5	Vocabulary
+380	水曜日		すいようび	Wednesday	N5	Vocabulary
+381	吸う		すう	to smoke, to suck	N5	Vocabulary
+382			スカート	Skirt	N5	Vocabulary
+383	好き		すき	Likeable	N5	Vocabulary
+384	少ない		すくない	a few	N5	Vocabulary
+385			すぐに	Instantly	N5	Vocabulary
+386	少し		すこし	Few	N5	Vocabulary
+387	涼しい		すずしい	Refreshing	N5	Vocabulary
+388			ストーブ	Heater	N5	Vocabulary
+389			スプーン	Spoon	N5	Vocabulary
+390			スポーツ	Sport	N5	Vocabulary
+391			ズボン	Trousers	N5	Vocabulary
+392	住む		すむ	to live in	N5	Vocabulary
+393			スリッパ	Slippers	N5	Vocabulary
+394			する	to do	N5	Vocabulary
+395	座る		すわる	to sit	N5	Vocabulary
+396	背		せ	height, stature	N5	Vocabulary
+397	生徒		せいと	Pupil	N5	Vocabulary
+398			セーター	sweater, jumper	N5	Vocabulary
+399			せっけん	Economy	N5	Vocabulary
+400	背広		せびろ	business suit	N5	Vocabulary
+401	狭い		せまい	Narrow	N5	Vocabulary
+402			ゼロ	Zero	N5	Vocabulary
+403	千		せん	Thousand	N5	Vocabulary
+404	先月		せんげつ	last month	N5	Vocabulary
+405	先週		せんしゅう	last week	N5	Vocabulary
+406	先生		せんせい	teacher, doctor	N5	Vocabulary
+407	洗濯		せんたく	Washing	N5	Vocabulary
+408	全部		ぜんぶ	All	N5	Vocabulary
+409	掃除		そうじする	to clean, to sweep	N5	Vocabulary
+410			そうして/そして	And	N5	Vocabulary
+411			そこ	that place	N5	Vocabulary
+412			そちら	over there	N5	Vocabulary
+413			そっち	over there	N5	Vocabulary
+414	外		そと	Outside	N5	Vocabulary
+415			その	That	N5	Vocabulary
+416			そば	near, beside	N5	Vocabulary
+417	空		そら	Sky	N5	Vocabulary
+418			それ	that	N5	Vocabulary
+419			それから	after that	N5	Vocabulary
+420			それでは	in that situation	N5	Vocabulary
+421	大学		だいがく	university	N5	Vocabulary
+422	大使館		たいしかん	embassy	N5	Vocabulary
+423	大丈夫		だいじょうぶ	all right	N5	Vocabulary
+424	大好き		だいすき	to be very likeable	N5	Vocabulary
+425	大切		たいせつ	important	N5	Vocabulary
+426	台所		だいどころ	kitchen	N5	Vocabulary
+427			たいへん	very	N5	Vocabulary
+428			たいへん	difficult situation	N5	Vocabulary
+429	高い		たかい	tall, expensive	N5	Vocabulary
+430			たくさん	many	N5	Vocabulary
+431			タクシー	taxi	N5	Vocabulary
+432	出す		だす	to put out	N5	Vocabulary
+433	立つ		たつ	to stand	N5	Vocabulary
+434			たて	length,height	N5	Vocabulary
+435	建物		たてもの	building	N5	Vocabulary
+436	楽しい		たのしい	enjoyable	N5	Vocabulary
+437	頼む		たのむ	to ask	N5	Vocabulary
+438			たばこ	tobacco,cigarettes	N5	Vocabulary
+439			たぶん	probably	N5	Vocabulary
+440	食べ物		たべもの	food	N5	Vocabulary
+441	食べる		たべる	to eat	N5	Vocabulary
+442	卵		たまご	egg	N5	Vocabulary
+443	誰		だれ	who	N5	Vocabulary
+444	誰		だれか	somebody	N5	Vocabulary
+445	誕生日		たんじょうび	birthday	N5	Vocabulary
+446			だんだん	gradually	N5	Vocabulary
+447	小さい		ちいさい	little	N5	Vocabulary
+448	小さな		ちいさな	little	N5	Vocabulary
+449	近い		ちかい	near	N5	Vocabulary
+450	違う		ちがう	to differ	N5	Vocabulary
+451	近く		ちかく	near	N5	Vocabulary
+452	地下鉄		ちかてつ	underground train	N5	Vocabulary
+453	地図		ちず	map	N5	Vocabulary
+454	茶色		ちゃいろ	brown	N5	Vocabulary
+455			ちゃわん	rice bowl	N5	Vocabulary
+456			ちょうど	exactly	N5	Vocabulary
+457			ちょっと	somewhat	N5	Vocabulary
+458	一日		ついたち	first of month	N5	Vocabulary
+459	使う		つかう	to use	N5	Vocabulary
+460	疲れる		つかれる	to get tired	N5	Vocabulary
+461	次		つぎ	next	N5	Vocabulary
+462	着く		つく	to arrive at	N5	Vocabulary
+463	机		つくえ	desk	N5	Vocabulary
+464	作る		つくる	to make	N5	Vocabulary
+465			つける	to turn on	N5	Vocabulary
+466	勤める		つとめる	to work for someone	N5	Vocabulary
+467			つまらない	boring	N5	Vocabulary
+468	冷たい		つめたい	cold to the touch	N5	Vocabulary
+469	強い		つよい	powerful	N5	Vocabulary
+470	手		て	hand	N5	Vocabulary
+471			テープ	tape	N5	Vocabulary
+472			テーブル	table	N5	Vocabulary
+473			テープレコーダー	tape recorder	N5	Vocabulary
+474	出かける		でかける	to go out	N5	Vocabulary
+475	手紙		てがみ	letter	N5	Vocabulary
+476			できる	to be able to	N5	Vocabulary
+477	出口		でぐち	exit	N5	Vocabulary
+478			テスト	test	N5	Vocabulary
+479			では	with that...	N5	Vocabulary
+480			デパート	department store	N5	Vocabulary
+481			でも	but	N5	Vocabulary
+482	出る		でる	to appear,to leave	N5	Vocabulary
+483			テレビ	television	N5	Vocabulary
+484	天気		てんき	weather	N5	Vocabulary
+485	電気		でんき	electricity,electric light	N5	Vocabulary
+486	電車		でんしゃ	electric train	N5	Vocabulary
+487	電話		でんわ	telephone	N5	Vocabulary
+488	戸		と	Japanese style door	N5	Vocabulary
+489			ドア	Western style door	N5	Vocabulary
+490			トイレ	toilet	N5	Vocabulary
+491			どう	how,in what way	N5	Vocabulary
+492			どうして	for what reason	N5	Vocabulary
+493			どうぞ	please	N5	Vocabulary
+494	動物		どうぶつ	animal	N5	Vocabulary
+495			どうも	thanks	N5	Vocabulary
+496	遠い		とおい	far	N5	Vocabulary
+497	十日		とおか	ten days,the tenth day	N5	Vocabulary
+498	時々		ときどき	sometimes	N5	Vocabulary
+499	時計		とけい	watch,clock	N5	Vocabulary
+500			どこ	where	N5	Vocabulary
+501	所		ところ	place	N5	Vocabulary
+502	年		とし	year	N5	Vocabulary
+503	図書館		としょかん	library	N5	Vocabulary
+504			どちら	which of two	N5	Vocabulary
+505			どっち	which	N5	Vocabulary
+506			とても	very	N5	Vocabulary
+507			どなた	who	N5	Vocabulary
+508	隣		となり	next door to	N5	Vocabulary
+509			どの	which	N5	Vocabulary
+510	飛ぶ		とぶ	to fly,to hop	N5	Vocabulary
+511	止まる		とまる	to come to a halt	N5	Vocabulary
+512	友達		ともだち	friend	N5	Vocabulary
+513	土曜日		どようび	Saturday	N5	Vocabulary
+514	鳥		とり	bird	N5	Vocabulary
+515	とり肉		とりにく	chicken meat	N5	Vocabulary
+516	取る		とる	to take something	N5	Vocabulary
+517	撮る		とる	to take a photo or record a film	N5	Vocabulary
+518			どれ	which (of three or more)	N5	Vocabulary
+519			ナイフ	knife	N5	Vocabulary
+520	中		なか	middle	N5	Vocabulary
+521	長い		ながい	long	N5	Vocabulary
+522	鳴く		なく	animal noise. to chirp, roar or croak etc.	N5	Vocabulary
+523	無くす		なくす	to lose something	N5	Vocabulary
+524			なぜ	why	N5	Vocabulary
+525	夏		なつ	summer	N5	Vocabulary
+526	夏休み		なつやすみ	summer holiday	N5	Vocabulary
+527			など	et cetera	N5	Vocabulary
+528	七つ		ななつ	seven	N5	Vocabulary
+529	七日		なのか	seven days,the seventh day	N5	Vocabulary
+530	名前		なまえ	name	N5	Vocabulary
+531	習う		ならう	to learn	N5	Vocabulary
+532	並ぶ		ならぶ	to line up,to stand in a line	N5	Vocabulary
+533	並べる		ならべる	to line up,to set up	N5	Vocabulary
+534			なる	to become	N5	Vocabulary
+535	何		なん/なに	what	N5	Vocabulary
+536	二		に	two	N5	Vocabulary
+537	賑やか		にぎやか	bustling,busy	N5	Vocabulary
+538	肉		にく	meat	N5	Vocabulary
+539	西		にし	west	N5	Vocabulary
+540	日曜日		にちようび	Sunday	N5	Vocabulary
+541	荷物		にもつ	luggage	N5	Vocabulary
+542			ニュース	news	N5	Vocabulary
+543	庭		にわ	garden	N5	Vocabulary
+544	脱ぐ		ぬぐ	to take off clothes	N5	Vocabulary
+545	温い		ぬるい	luke warm	N5	Vocabulary
+546			ネクタイ	tie,necktie	N5	Vocabulary
+547	猫		ねこ	cat	N5	Vocabulary
+548	寝る		ねる	to go to bed,to sleep	N5	Vocabulary
+549			ノート	notebook,exercise book	N5	Vocabulary
+550	登る		のぼる	to climb	N5	Vocabulary
+551	飲み物		のみもの	a drink	N5	Vocabulary
+552	飲む		のむ	to drink	N5	Vocabulary
+553	乗る		のる	to get on,to ride	N5	Vocabulary
+554	歯		は	tooth	N5	Vocabulary
+555			パーティー	party	N5	Vocabulary
+556			はい	yes	N5	Vocabulary
+557	灰皿		はいざら	ashtray	N5	Vocabulary
+558	入る		はいる	to enter,to contain	N5	Vocabulary
+559	葉書		はがき	postcard	N5	Vocabulary
+560			はく	to wear,to put on trousers	N5	Vocabulary
+561	箱		はこ	box	N5	Vocabulary
+562	橋		はし	bridge	N5	Vocabulary
+563			はし	chopsticks	N5	Vocabulary
+564	始まる		はじまる	to begin	N5	Vocabulary
+565	初め/始め		はじめ	beginning	N5	Vocabulary
+566	初めて		はじめて	for the first time	N5	Vocabulary
+567	走る		はしる	to run	N5	Vocabulary
+568			バス	bus	N5	Vocabulary
+569			バター	butter	N5	Vocabulary
+570	二十歳		はたち	20 years old,20th year	N5	Vocabulary
+571	働く		はたらく	to work	N5	Vocabulary
+572	八		はち	eight	N5	Vocabulary
+573	二十日		はつか	twenty days,twentieth	N5	Vocabulary
+574	花		はな	flower	N5	Vocabulary
+575	鼻		はな	nose	N5	Vocabulary
+576	話		はなし	talk,story	N5	Vocabulary
+577	話す		はなす	to speak	N5	Vocabulary
+578	早い		はやい	early	N5	Vocabulary
+579	速い		はやい	quick	N5	Vocabulary
+580	春		はる	spring	N5	Vocabulary
+581	貼る		はる	to stick	N5	Vocabulary
+582	晴れ		はれ	clear weather	N5	Vocabulary
+583	晴れる		はれる	to be sunny	N5	Vocabulary
+584	半		はん	half	N5	Vocabulary
+585	晩		ばん	evening	N5	Vocabulary
+586			パン	bread	N5	Vocabulary
+587			ハンカチ	handkerchief	N5	Vocabulary
+588	番号		ばんごう	number	N5	Vocabulary
+589	晩御飯		ばんごはん	evening meal	N5	Vocabulary
+590	半分		はんぶん	half minute	N5	Vocabulary
+591	東		ひがし	east	N5	Vocabulary
+592	引く		ひく	to pull	N5	Vocabulary
+593	弾く		ひく	to play an instrument with strings, including piano	N5	Vocabulary
+594	低い		ひくい	short,low	N5	Vocabulary
+595	飛行機		ひこうき	aeroplane	N5	Vocabulary
+596	左		ひだり	left hand side	N5	Vocabulary
+597	人		ひと	person	N5	Vocabulary
+598	一つ		ひとつ	one	N5	Vocabulary
+599	一月		ひとつき	one month	N5	Vocabulary
+600	一人		ひとり	one person	N5	Vocabulary
+601	暇		ひま	free time	N5	Vocabulary
+602	百		ひゃく	hundred	N5	Vocabulary
+603	病院		びょういん	hospital	N5	Vocabulary
+604	病気		びょうき	illness	N5	Vocabulary
+605	昼		ひる	noon, daytime	N5	Vocabulary
+606	昼御飯		ひるごはん	midday meal	N5	Vocabulary
+607	広い		ひろい	spacious,wide	N5	Vocabulary
+608			フィルム	roll of film	N5	Vocabulary
+609	封筒		ふうとう	envelope	N5	Vocabulary
+610			プール	swimming pool	N5	Vocabulary
+611			フォーク	fork	N5	Vocabulary
+612	吹く		ふく	to blow	N5	Vocabulary
+613	服		ふく	clothes	N5	Vocabulary
+614	二つ		ふたつ	two	N5	Vocabulary
+615	豚肉		ぶたにく	pork	N5	Vocabulary
+616	二人		ふたり	two people	N5	Vocabulary
+617	二日		ふつか	two days, second day of the month	N5	Vocabulary
+618	太い		ふとい	fat	N5	Vocabulary
+619	冬		ふゆ	winter	N5	Vocabulary
+620	降る		ふる	to fall, e.g. rain or snow	N5	Vocabulary
+621	古い		ふるい	old (not used for people)	N5	Vocabulary
+622			ふろ	bath	N5	Vocabulary
+623	文章		ぶんしょう	sentence,text	N5	Vocabulary
+624			ページ	page	N5	Vocabulary
+625	下手		へた	unskillful	N5	Vocabulary
+626			ベッド	bed	N5	Vocabulary
+627			ペット	pet	N5	Vocabulary
+628	部屋		へや	room	N5	Vocabulary
+629	辺		へん	area	N5	Vocabulary
+630			ペン	pen	N5	Vocabulary
+631	勉強		べんきょうする	to study	N5	Vocabulary
+632	便利		べんり	useful, convenient	N5	Vocabulary
+633	帽子		ぼうし	hat	N5	Vocabulary
+634			ボールペン	ball-point pen	N5	Vocabulary
+635			ほか	other, the rest	N5	Vocabulary
+636			ポケット	pocket	N5	Vocabulary
+637	欲しい		ほしい	want	N5	Vocabulary
+638			ポスト	post	N5	Vocabulary
+639	細い		ほそい	thin	N5	Vocabulary
+640			ボタン	button	N5	Vocabulary
+641			ホテル	hotel	N5	Vocabulary
+642	本		ほん	book	N5	Vocabulary
+643	本棚		ほんだな	bookshelves	N5	Vocabulary
+644			ほんとう	truth	N5	Vocabulary
+645	毎朝		まいあさ	every morning	N5	Vocabulary
+646	毎月		まいげつ/まいつき	every month	N5	Vocabulary
+647	毎週		まいしゅう	every week	N5	Vocabulary
+648	毎日		まいにち	every day	N5	Vocabulary
+649	毎年		まいねん/まいとし	every year	N5	Vocabulary
+650	毎晩		まいばん	every night	N5	Vocabulary
+651	前		まえ	before	N5	Vocabulary
+652	曲る		まがる	to turn,to bend	N5	Vocabulary
+653			まずい	unpleasant	N5	Vocabulary
+654			また	again,and	N5	Vocabulary
+655			まだ	yet,still	N5	Vocabulary
+656	町		まち	town,city	N5	Vocabulary
+657	待つ		まつ	to wait	N5	Vocabulary
+658			まっすぐ	straight ahead,direct	N5	Vocabulary
+659			マッチ	match	N5	Vocabulary
+660	窓		まど	window	N5	Vocabulary
+661	丸い/円い		まるい	round,circular	N5	Vocabulary
+662	万		まん	ten thousand	N5	Vocabulary
+663	万年筆		まんねんひつ	fountain pen	N5	Vocabulary
+664	磨く		みがく	to brush teeth, to polish	N5	Vocabulary
+665	右		みぎ	right side	N5	Vocabulary
+666	短い		みじかい	short	N5	Vocabulary
+667	水		みず	water	N5	Vocabulary
+668	店		みせ	shop	N5	Vocabulary
+669	見せる		みせる	to show	N5	Vocabulary
+670	道		みち	street	N5	Vocabulary
+671	三日		みっか	three days, third day of the month	N5	Vocabulary
+672	三つ		みっつ	three	N5	Vocabulary
+673	緑		みどり	green	N5	Vocabulary
+674	皆さん		みなさん	everyone	N5	Vocabulary
+675	南		みなみ	south	N5	Vocabulary
+676	耳		みみ	ear	N5	Vocabulary
+677	見る 観る		みる	to see, to watch	N5	Vocabulary
+678			みんな	everyone	N5	Vocabulary
+679	六日		むいか	six days, sixth day of the month	N5	Vocabulary
+680	向こう		むこう	over there	N5	Vocabulary
+681	難しい		むずかしい	difficult	N5	Vocabulary
+682	六つ		むっつ	six	N5	Vocabulary
+683	村		むら	village	N5	Vocabulary
+684	目		め	eye	N5	Vocabulary
+685			メートル	metre	N5	Vocabulary
+686	眼鏡		めがね	glasses	N5	Vocabulary
+687			もう	already	N5	Vocabulary
+688	もう一度		もういちど	again	N5	Vocabulary
+689	木曜日		もくようび	Thursday	N5	Vocabulary
+690	持つ		もつ	to hold	N5	Vocabulary
+691			もっと	more	N5	Vocabulary
+692	物		もの	thing	N5	Vocabulary
+693	門		もん	gate	N5	Vocabulary
+694	問題		もんだい	problem	N5	Vocabulary
+695	八百屋		やおや	greengrocer	N5	Vocabulary
+696	野菜		やさい	vegetable	N5	Vocabulary
+697	易しい		やさしい	easy, simple	N5	Vocabulary
+698	安い		やすい	cheap	N5	Vocabulary
+699	休み		やすみ	rest,holiday	N5	Vocabulary
+700	休む		やすむ	to rest	N5	Vocabulary
+701	八つ		やっつ	eight	N5	Vocabulary
+702	山		やま	mountain	N5	Vocabulary
+703			やる	to do	N5	Vocabulary
+704	夕方		ゆうがた	evening	N5	Vocabulary
+705	夕飯		ゆうはん	dinner	N5	Vocabulary
+706	郵便局		ゆうびんきょく	post office	N5	Vocabulary
+707	昨夜		ゆうべ	last night	N5	Vocabulary
+708	有名		ゆうめい	famous	N5	Vocabulary
+709	雪		ゆき	snow	N5	Vocabulary
+710	行く		ゆく	to go	N5	Vocabulary
+711			ゆっくりと	slowly	N5	Vocabulary
+712	八日		ようか	eight days, eighth day of the month	N5	Vocabulary
+713	洋服		ようふく	western-style clothes	N5	Vocabulary
+714			よく	often, well	N5	Vocabulary
+715	横		よこ	beside,side,width	N5	Vocabulary
+716	四日		よっか	four days, fouth day of the month	N5	Vocabulary
+717	四つ		よっつ	four	N5	Vocabulary
+718	呼ぶ		よぶ	to call out,to invite	N5	Vocabulary
+719	読む		よむ	to read	N5	Vocabulary
+720	夜		よる	evening,night	N5	Vocabulary
+721	弱い		よわい	weak	N5	Vocabulary
+722	来月		らいげつ	next month	N5	Vocabulary
+723	来週		らいしゅう	next week	N5	Vocabulary
+724	来年		らいねん	next year	N5	Vocabulary
+725			ラジオ	radio	N5	Vocabulary
+726			ラジカセ / ラジオカセット	radio cassette player	N5	Vocabulary
+727			りっぱ	splendid	N5	Vocabulary
+728	留学生		りゅうがくせい	overseas student	N5	Vocabulary
+729	両親		りょうしん	both parents	N5	Vocabulary
+730	料理		りょうり	cuisine	N5	Vocabulary
+731	旅行		りょこう	travel	N5	Vocabulary
+732	零		れい	zero	N5	Vocabulary
+733	冷蔵庫		れいぞうこ	refrigerator	N5	Vocabulary
+734			レコード	record	N5	Vocabulary
+735			レストラン	restaurant	N5	Vocabulary
+736	練習		れんしゅうする	to practice	N5	Vocabulary
+737	廊下		ろうか	corridor	N5	Vocabulary
+738	六		ろく	six	N5	Vocabulary
+739			ワイシャツ	business shirt	N5	Vocabulary
+740	若い		わかい	young	N5	Vocabulary
+741	分かる		わかる	to be understood	N5	Vocabulary
+742	忘れる		わすれる	to forget	N5	Vocabulary
+743	私		わたくし	(humble) I,myself	N5	Vocabulary
+744	私		わたし	I,myself	N5	Vocabulary
+745	渡す		わたす	to hand over	N5	Vocabulary
+746	渡る		わたる	to go across	N5	Vocabulary
+747	悪い		わるい	bad	N5	Vocabulary
+748			より、ほう	Used for comparison.	N5	Vocabulary
+749	会	カイ エ アツ.マ	あ.う あ.わせる	meeting, meet, party, association, interview, join	N4	Kanji
+750	同	ドウ	おな.じ	same, agree, equal	N4	Kanji
+751	事	ジ ズ ツカ.エ	こと つか.う	matter, thing, fact, business, reason, possibly	N4	Kanji
+752	自	ジ シ オノ.ズ	みずか.ら おの.ずから	oneself	N4	Kanji
+753	社	シャ ヤシ		company, firm, office, association, shrine	N4	Kanji
+754	発	ハツ ホツ ハナ.	た.つ あば.く おこ.る つか.わす	discharge, departure, publish, emit, start from, disclose	N4	Kanji
+755	者	シャ	もの	someone, person	N4	Kanji
+756	地	チ		ground, earth	N4	Kanji
+757	業	ギョウ ゴウ ワ		business, vocation, arts, performance	N4	Kanji
+758	方	ホウ -ガ	かた -かた	direction, person, alternative	N4	Kanji
+759	新	シン	あたら.しい あら.た あら- にい	new	N4	Kanji
+760	場	ジョウ チョウ	ば	location, place	N4	Kanji
+761	員	イ		employee, member, number, the one in charge	N4	Kanji
+762	立	リツ リュウ リットル -ダ.テ	た.つ -た.つ た.ち- た.てる -た.てる た.て- たて- -た.て -だ.て	stand up	N4	Kanji
+763	開	カイ ア.ケ	ひら.く ひら.き -びら.き ひら.ける あ.く	open, unfold, unseal	N4	Kanji
+764	手	シュ ズ	て て- -て た-	hand	N4	Kanji
+765	力	リョク リキ リイ チカ		power, strong, strain, bear up, exert	N4	Kanji
+766	問	モン ト	と.う と.い	question, ask, problem	N4	Kanji
+767	代	ダイ タイ シ	か.わる かわ.る かわ.り -がわ.り か.える よ	substitute, change, convert, replace, period, age, generation, charge, rate, fee	N4	Kanji
+768	明	メイ ミョウ ミン ア.カ	あ.かり あか.るい あか.るむ あか.らむ あき.らか あ.ける -あ.け あ.く あ.くる	bright, light	N4	Kanji
+769	動	ドウ ウゴ.カ	うご.く	move, motion, change, confusion, shift, shake	N4	Kanji
+770	京	キョウ ケイ キン ミヤ		capital, 10**16	N4	Kanji
+771	目	モク ボク	め -め ま	eye, class, look, insight, experience, care, favor	N4	Kanji
+772	通	ツウ ツ カヨ.	とお.る とお.り -とお.り -どお.り とお.す とお.し -どお.し	traffic, pass through, avenue, commute, counter for letters	N4	Kanji
+773	言	ゲン ゴン コ	い.う	say	N4	Kanji
+774	理	リ コトワ		logic, arrangement, reason, justice, truth	N4	Kanji
+775	体	タイ テイ カタ	からだ	body, substance, object, reality, counter for images	N4	Kanji
+776	田	デン		rice field, rice paddy	N4	Kanji
+777	主	シュ ス シュウ アル	ぬし おも	lord, chief, master, main thing, principal	N4	Kanji
+778	題	ダイ		topic, subject	N4	Kanji
+779	意			idea, mind, heart, taste, thought, desire, care, liking	N4	Kanji
+780	不	フ ブ		negative, non-, bad, ugly, clumsy	N4	Kanji
+781	作	サク サ -ヅク.	つく.る つく.り	make, production, prepare, build	N4	Kanji
+782	用	ヨウ モチ.イ		utilize, business, service, use, employ	N4	Kanji
+783	度	ド ト タク -タ.	たび	degrees, occurrence, time, counter for occurrences	N4	Kanji
+784	強	キョウ ゴウ コワ.	つよ.い つよ.まる つよ.める し.いる	strong	N4	Kanji
+785	公	コウ ク オオヤ		public, prince, official, governmental	N4	Kanji
+786	持	ジ モ.テ	も.つ -も.ち	hold, have	N4	Kanji
+787	野	ヤ ショ	の の	plains, field, rustic, civilian life	N4	Kanji
+788	以	イ モッ.		by means of, because, in view of, compared with	N4	Kanji
+789	思	シ	おも.う おもえら.く おぼ.す	think	N4	Kanji
+790	家	カ ケ ウ	いえ や	house, home	N4	Kanji
+791	世	セイ セ ソウ サンジュ	よ	generation, world, society, public	N4	Kanji
+792	多	タ	おお.い まさ.に まさ.る	many, frequent, much	N4	Kanji
+793	正	セイ ショウ マサ.	ただ.しい ただ.す まさ	correct, justice, righteous, 10**40	N4	Kanji
+794	安	アン ヤス.ラ	やす.い やす.まる やす	relax, cheap, low, quiet, rested, contented, peaceful	N4	Kanji
+795	院	イン		Inst., institution, temple, mansion, school	N4	Kanji
+796	心		りっしんべん	heart, mind, spirit	N4	Kanji
+797	界	カイ		world	N4	Kanji
+798	教	キョウ オソ.ワ	おし.える	teach, faith, doctrine	N4	Kanji
+799	文	ブン モン ア	ふみ	sentence, literature, style, art, decoration, figures, plan	N4	Kanji
+800	元	ゲン ガン モ		beginning, former time, origin	N4	Kanji
+801	重	ジュウ チョウ オ	え おも.い おも.り おも.なう かさ.ねる かさ.なる	heavy, heap up, pile up, nest of boxes, -fold	N4	Kanji
+802	近	キン コン チカ.		near, early, akin, tantamount	N4	Kanji
+803	考	コウ カンガ.	かんが.える	consider, think over	N4	Kanji
+804	画	ガ カク エ カイ	えが.く かく.する かぎ.る はかりごと はか.る	brush-stroke, picture	N4	Kanji
+805	海	カイ ウ		sea, ocean	N4	Kanji
+806	売	バイ ウ.レ	う.る	sell	N4	Kanji
+807	知	チ シ.ラセ	し.る	know, wisdom	N4	Kanji
+808	道	ドウ トウ ミ		road-way, street, district, journey, course, moral, teachings	N4	Kanji
+809	集	シュウ ツド.	あつ.まる あつ.める	gather, meet, congregate, swarm, flock	N4	Kanji
+810	別	ベツ ワ.ケ	わか.れる	separate, branch off, diverge, fork, another, extra, specially	N4	Kanji
+811	物	ブツ モツ	もの もの-	thing, object, matter	N4	Kanji
+812	使	シ	つか.う つか.い -つか.い -づか.い	use	N4	Kanji
+813	品	ヒン ホン	しな	goods, refinement, dignity, article, counter for meal courses	N4	Kanji
+814	計	ケイ ハカ.ラ	はか.る	plot, plan, scheme, measure	N4	Kanji
+815	死	シ	し.ぬ し.に-	death, die	N4	Kanji
+816	特	トク		special	N4	Kanji
+817	私	シ	わたくし わたし	private, I, me	N4	Kanji
+818	始	シ ハジ.マ	はじ.める -はじ.める	commence, begin	N4	Kanji
+819	朝	チョウ ア		morning, dynasty, regime, epoch, period, (North) Korea	N4	Kanji
+820	運	ウン	はこ.ぶ	carry, luck, destiny, fate, lot, transport, progress, advance	N4	Kanji
+821	終	シュウ ツイ.	お.わる -お.わる おわ.る お.える つい	end, finish	N4	Kanji
+822	台	ダイ タイ	うてな われ つかさ	pedestal, a stand, counter for machines and vehicles	N4	Kanji
+823	広	コウ	ひろ.い ひろ.まる ひろ.める ひろ.がる ひろ.げる	wide, broad, spacious	N4	Kanji
+824	住	ジュウ ヂュウ チュウ -ズ.マ	す.む す.まう	dwell, reside, live, inhabit	N4	Kanji
+825	真	シン マコ	ま ま-	true, reality, Buddhist sect	N4	Kanji
+826	有	ユウ ウ ア.		possess, have, exist, happen, occur, approx	N4	Kanji
+827	口	コウ ク	くち	mouth	N4	Kanji
+828	少	ショウ	すく.ない すこ.し	few, little	N4	Kanji
+829	町	チョウ	まち	village, town, block, street	N4	Kanji
+830	料	リョウ		fee, materials	N4	Kanji
+831	工	コウ ク		craft, construction	N4	Kanji
+832	建	ケン コン タ.	た.てる た.て -だ.て	build	N4	Kanji
+833	空	クウ ムナ.シ	そら あ.く あ.き あ.ける から す.く す.かす	empty, sky, void, vacant, vacuum	N4	Kanji
+834	急	キュウ	いそ.ぐ いそ.ぎ	hurry, emergency, sudden, steep	N4	Kanji
+835	止	シ -サ.	と.まる -ど.まり と.める -と.める -ど.め とど.める とど.め とど.まる や.める や.む -や.む よ.	stop, halt	N4	Kanji
+836	送	ソウ	おく.る	escort, send	N4	Kanji
+837	切	セツ サイ -ギ.	き.る -き.る き.り -き.り -ぎ.り き.れる -き.れる き.れ -き.れ	cut, cutoff, be sharp	N4	Kanji
+838	転	テン	ころ.がる ころ.げる ころ.がす ころ.ぶ まろ.ぶ うたた うつ.る	revolve, turn around, change	N4	Kanji
+839	研	ケン ト.		polish, study of, sharpen	N4	Kanji
+840	足	ソク タ.	あし た.りる た.る	leg, foot, be sufficient, counter for pairs of footwear	N4	Kanji
+841	究	キュウ ク キワ.メ		research, study	N4	Kanji
+842	楽	ガク ラク ゴウ コノ.	たの.しい たの.しむ	music, comfort, ease	N4	Kanji
+843	起	キ	お.きる お.こる お.こす おこ.す た.つ	rouse, wake up, get up	N4	Kanji
+844	着	チャク ジャク	き.る -ぎ き.せる -き.せ つ.く つ.ける	don, arrive, wear, counter for suits of clothing	N4	Kanji
+845	店	テン	みせ たな	store, shop	N4	Kanji
+846	病	ビョウ ヘイ	や.む -や.み やまい	ill, sick	N4	Kanji
+847	質	シツ シチ チ	たち ただ.す もと わりふ	substance, quality, matter, temperament	N4	Kanji
+848	待	タイ -マ.	ま.つ	wait, depend on	N4	Kanji
+849	試	シ	こころ.みる ため.す	test, try, attempt, experiment, ordeal	N4	Kanji
+850	族	ゾ		tribe, family	N4	Kanji
+851	銀	ギン シロガ		silver	N4	Kanji
+852	早	ソウ サッ	はや.い はや はや- はや.まる はや.める さ	early, fast	N4	Kanji
+853	映	エイ -バ.	うつ.る うつ.す は.える	reflect, reflection, projection	N4	Kanji
+854	親	シン シタ.シ	おや おや- した.しい	parent, intimacy, relative, familiarity, dealer (cards)	N4	Kanji
+855	験	ケン ゲン	あかし しるし ため.す ためし	verification, effect, testing	N4	Kanji
+856	英	エイ ハナブ		England, English	N4	Kanji
+857	医	イ	い.やす い.する くすし	doctor, medicine	N4	Kanji
+858	仕	シ ジ	つか.える	attend, doing, official, serve	N4	Kanji
+859	去	キョ コ -サ.	さ.る	gone, past, quit, leave, elapse, eliminate, divorce	N4	Kanji
+860	味	ミ	あじ あじ.わう	flavor, taste	N4	Kanji
+861	写	シャ ジャ	うつ.す うつ.る うつ- うつ.し	copy, be photographed, describe	N4	Kanji
+862	字	ジ	あざ あざな -な	character, letter, word, section of village	N4	Kanji
+863	答	トウ コタ.	こた.える	solution, answer	N4	Kanji
+864	夜	ヤ	よ よる	night, evening	N4	Kanji
+865	音	オン イン -ノン	おと	sound, noise	N4	Kanji
+866	注	チュウ	そそ.ぐ さ.す つ.ぐ	pour, irrigate, shed (tears), flow into, concentrate on, notes, comment, annotate	N4	Kanji
+867	帰	キ	かえ.る かえ.す おく.る とつ.ぐ	homecoming, arrive at, lead to, result in	N4	Kanji
+868	古	コ -フル.	ふる.い ふる-	old	N4	Kanji
+869	歌	カ	うた うた.う	song, sing	N4	Kanji
+870	買	バイ	か.う	buy	N4	Kanji
+871	悪	アク オ	わる.い わる- あ.し にく.い -にく.い ああ いずくに いずくんぞ にく.む	bad, vice, rascal, false, evil, wrong	N4	Kanji
+872	図	ズ ト ハカ.	え	map, drawing, plan, unexpected, accidentally	N4	Kanji
+873	週	シュウ		week	N4	Kanji
+874	室	シツ	むろ	room, apartment, chamber, greenhouse, cellar	N4	Kanji
+875	歩	ホ ブ フ アユ.	ある.く	walk, counter for steps	N4	Kanji
+876	風	フウ フ -カ	かぜ かざ-	wind, air, style, manner	N4	Kanji
+877	紙	シ	かみ	paper	N4	Kanji
+878	黒	コク	くろ くろ.ずむ くろ.い	black	N4	Kanji
+879	花	カ ケ ハ		flower	N4	Kanji
+880	春	シュン ハ		springtime, spring (season)	N4	Kanji
+881	赤	セキ シャク アカ.ラメ	あか あか- あか.い あか.らむ	red	N4	Kanji
+882	青	セイ ショウ アオ.	あお あお-	blue, green	N4	Kanji
+883	館	カン タ	やかた	building, mansion, large building, palace	N4	Kanji
+884	屋	オク		roof, house, shop, dealer, seller	N4	Kanji
+885	色	ショク シキ イ		color	N4	Kanji
+886	走	ソウ ハシ.		run	N4	Kanji
+887	秋	シュウ ト	あき	autumn	N4	Kanji
+888	夏	カ ガ ゲ	なつ	summer	N4	Kanji
+889	習	シュウ ジュ	なら.う なら.い	learn	N4	Kanji
+890	駅	エキ		station	N4	Kanji
+891	洋	ヨ		ocean, western style	N4	Kanji
+892	旅	リョ	たび	trip, travel	N4	Kanji
+893	服	フ		clothing, admit, obey, discharge	N4	Kanji
+894	夕	セキ ユ		evening	N4	Kanji
+895	借	シャク	か.りる	borrow, rent	N4	Kanji
+896	曜	ヨ		weekday	N4	Kanji
+897	飲	イン オン	の.む -の.み	drink, smoke, take	N4	Kanji
+898	肉	ニク		meat	N4	Kanji
+899	貸	タイ	か.す か.し- かし-	lend	N4	Kanji
+900	堂	ドウ		public chamber, hall	N4	Kanji
+901	鳥	チョウ ト		bird, chicken	N4	Kanji
+902	飯	ハン メ		meal, boiled rice	N4	Kanji
+903	勉	ベン ツト.メ		exertion	N4	Kanji
+904	冬	トウ	ふゆ	winter	N4	Kanji
+905	昼	チュウ	ひる	daytime, noon	N4	Kanji
+906	茶	チャ		tea	N4	Kanji
+907	弟	テイ ダイ デ オトウ		younger brother, faithful service to elders	N4	Kanji
+908	牛	ギュウ ウ		cow	N4	Kanji
+909	魚	ギョ -ザカ	うお さかな	fish	N4	Kanji
+910	兄	ケイ キョウ ア		elder brother, big brother	N4	Kanji
+911	犬	ケン	いぬ いぬ-	dog	N4	Kanji
+912	妹	マイ イモウ		younger sister	N4	Kanji
+913	姉	シ	あね はは	elder sister	N4	Kanji
+914	漢	カ		Sino-, China	N4	Kanji
+915			あ	Ah	N4	Vocabulary
+916			ああ	like that	N4	Vocabulary
+917			あいさつ・する	to greet	N4	Vocabulary
+918	間		あいだ	a space	N4	Vocabulary
+919	合う		あう	to match	N4	Vocabulary
+920			あかちゃん	infant	N4	Vocabulary
+921	上る		あがる	to rise	N4	Vocabulary
+922	赤ん坊		あかんぼう	baby	N4	Vocabulary
+923	空く		あく	to open, to become empty	N4	Vocabulary
+924			アクセサリー	accessory	N4	Vocabulary
+925			あげる	to give	N4	Vocabulary
+926	浅い		あさい	shallow,superficial	N4	Vocabulary
+927	味		あじ	flavour	N4	Vocabulary
+928			アジア	Asia	N4	Vocabulary
+929	明日		あす	tomorrow	N4	Vocabulary
+930	遊び		あそび	play	N4	Vocabulary
+931	集る		あつまる	to gather	N4	Vocabulary
+932	集める		あつめる	to collect something	N4	Vocabulary
+933			アナウンサー	announcer	N4	Vocabulary
+934			アフリカ	Africa	N4	Vocabulary
+935			アメリカ	America	N4	Vocabulary
+936	謝る		あやまる	to apologize	N4	Vocabulary
+937			アルコール	alcohol	N4	Vocabulary
+938			アルバイト	part-time job	N4	Vocabulary
+939	安心		あんしん	relief	N4	Vocabulary
+940	安全		あんぜん	safety	N4	Vocabulary
+941			あんな	such	N4	Vocabulary
+942	案内		あんない・する	to guide	N4	Vocabulary
+943	以下		いか	less than	N4	Vocabulary
+944	以外		いがい	with the exception of	N4	Vocabulary
+945	医学		いがく	medical science	N4	Vocabulary
+946	生きる		いきる	to live	N4	Vocabulary
+947	意見		いけん	opinion	N4	Vocabulary
+948	石		いし	stone	N4	Vocabulary
+949			いじめる	to tease	N4	Vocabulary
+950	以上		いじょう	more than,this is all	N4	Vocabulary
+951	急ぐ		いそぐ	to hurry	N4	Vocabulary
+952	致す		いたす	(humble) to do	N4	Vocabulary
+953			いただく	(humble) to receive	N4	Vocabulary
+954	一度		いちど	once	N4	Vocabulary
+955	一生懸命		いっしょうけんめい	with utmost effort	N4	Vocabulary
+956			いっぱい	full	N4	Vocabulary
+957	糸		いと	thread	N4	Vocabulary
+958	以内		いない	within	N4	Vocabulary
+959	田舎		いなか	countryside	N4	Vocabulary
+960	祈る		いのる	to pray	N4	Vocabulary
+961			いらっしゃる	(respectful) to be,to come or to go	N4	Vocabulary
+962	植える		うえる	to plant,to grow	N4	Vocabulary
+963			うかがう	to visit	N4	Vocabulary
+964	受付		うけつけ	receipt	N4	Vocabulary
+965	受ける		うける	to take a lesson or test	N4	Vocabulary
+966	動く		うごく	to move	N4	Vocabulary
+967			うそ	a lie	N4	Vocabulary
+968			うち	within	N4	Vocabulary
+969	打つ		うつ	to hit	N4	Vocabulary
+970	美しい		うつくしい	beautiful	N4	Vocabulary
+971	写す		うつす	to copy or photograph	N4	Vocabulary
+972	移る		うつる	to move house or transfer	N4	Vocabulary
+973	腕		うで	arm	N4	Vocabulary
+974			うまい	delicious	N4	Vocabulary
+975	裏		うら	reverse side	N4	Vocabulary
+976	売り場		うりば	place where things are sold	N4	Vocabulary
+977			うれしい	glad	N4	Vocabulary
+978			うん	(informal) yes	N4	Vocabulary
+979	運転		うんてん・する	to drive	N4	Vocabulary
+980	運転手		うんてんしゅ	driver	N4	Vocabulary
+981	運動		うんどう・する	to exercise	N4	Vocabulary
+982			エスカレーター	escalator	N4	Vocabulary
+983	枝		えだ	branch, twig	N4	Vocabulary
+984	選ぶ		えらぶ	to choose	N4	Vocabulary
+985	遠慮		えんりょ・する	to be reserved, to be restrained	N4	Vocabulary
+986			おいでになる	(respectful) to be	N4	Vocabulary
+987	お祝い		おいわい	congratulation	N4	Vocabulary
+988			オートバイ	motorcycle	N4	Vocabulary
+989			おかげ	owing to	N4	Vocabulary
+990			おかしい	strange or funny	N4	Vocabulary
+991	億		おく	one hundred million	N4	Vocabulary
+992	屋上		おくじょう	rooftop	N4	Vocabulary
+993	贈り物		おくりもの	gift	N4	Vocabulary
+994	送る		おくる	to send	N4	Vocabulary
+995	遅れる		おくれる	to be late	N4	Vocabulary
+996	起す		おこす	to wake	N4	Vocabulary
+997	行う		おこなう	to do	N4	Vocabulary
+998	怒る		おこる	to get angry,to be angry	N4	Vocabulary
+999	押し入れ		おしいれ	closet	N4	Vocabulary
+1000	お嬢さん		おじょうさん	young lady	N4	Vocabulary
+1001	お宅		おたく	(polite) your house	N4	Vocabulary
+1002	落る		おちる	to fall or drop	N4	Vocabulary
+1003			おっしゃる	(respectful) to say	N4	Vocabulary
+1004	夫		おっと	husband	N4	Vocabulary
+1005			おつり	change from purchase, balance	N4	Vocabulary
+1006	音		おと	sound,note	N4	Vocabulary
+1007	落す		おとす	to drop	N4	Vocabulary
+1008	踊り		おどり	a dance	N4	Vocabulary
+1009	踊る		おどる	to dance	N4	Vocabulary
+1010	驚く		おどろく	to be surprised	N4	Vocabulary
+1011	お祭り		おまつり	festival	N4	Vocabulary
+1012	お見舞い		おみまい	calling on someone who is ill,enquiry	N4	Vocabulary
+1013	お土産		おみやげ	souvenir	N4	Vocabulary
+1014	思い出す		おもいだす	to remember	N4	Vocabulary
+1015	思う		おもう	to think,to feel	N4	Vocabulary
+1016			おもちゃ	toy	N4	Vocabulary
+1017	表		おもて	the front	N4	Vocabulary
+1018	親		おや	parents	N4	Vocabulary
+1019	下りる		おりる	to get off	N4	Vocabulary
+1020	折る		おる	to break or to fold	N4	Vocabulary
+1021	お礼		おれい	expression of gratitude	N4	Vocabulary
+1022	折れる		おれる	to break or be folded	N4	Vocabulary
+1023	終わり		おわり	the end	N4	Vocabulary
+1024			カーテン	curtain	N4	Vocabulary
+1025	海岸		かいがん	coast	N4	Vocabulary
+1026	会議		かいぎ	meeting	N4	Vocabulary
+1027	会議室		かいぎしつ	meeting room	N4	Vocabulary
+1028	会場		かいじょう	assembly hall or meeting place	N4	Vocabulary
+1029	会話		かいわ	conversation	N4	Vocabulary
+1030	帰り		かえり	return	N4	Vocabulary
+1031	変える		かえる	to change	N4	Vocabulary
+1032	科学		かがく	science	N4	Vocabulary
+1033	鏡		かがみ	mirror	N4	Vocabulary
+1034	掛ける		かける	to hang something	N4	Vocabulary
+1035	飾る		かざる	to decorate	N4	Vocabulary
+1036	火事		かじ	fire	N4	Vocabulary
+1037			ガス	petrol	N4	Vocabulary
+1038			ガソリン	petrol	N4	Vocabulary
+1039			ガソリンスタンド	petrol station	N4	Vocabulary
+1040	堅/硬/固い		かたい	hard	N4	Vocabulary
+1041	形		かたち	shape	N4	Vocabulary
+1042	片付ける		かたづける	to tidy up	N4	Vocabulary
+1043	課長		かちょう	section manager	N4	Vocabulary
+1044	勝つ		かつ	to win	N4	Vocabulary
+1045			かっこう	appearance	N4	Vocabulary
+1046	家内		かない	housewife	N4	Vocabulary
+1047	悲しい		かなしい	sad	N4	Vocabulary
+1048	必ず		かならず	certainly,necessarily	N4	Vocabulary
+1049	お・金持ち		かねもち/おかねもち	rich man	N4	Vocabulary
+1050	彼女		かのじょ	she,girlfriend	N4	Vocabulary
+1051	壁		かべ	wall	N4	Vocabulary
+1052			かまう	to mind	N4	Vocabulary
+1053	髪		かみ	hair	N4	Vocabulary
+1054	噛む		かむ	to bite,to chew	N4	Vocabulary
+1055	通う		かよう	to commute	N4	Vocabulary
+1056			ガラス	a glass pane	N4	Vocabulary
+1057	彼		かれ	he,boyfriend	N4	Vocabulary
+1058	彼ら		かれら	they	N4	Vocabulary
+1059	乾く		かわく	to get dry	N4	Vocabulary
+1060	代わり		かわり	substitute,alternate	N4	Vocabulary
+1061	変わる		かわる	to change	N4	Vocabulary
+1062	考える		かんがえる	to consider	N4	Vocabulary
+1063	関係		かんけい	relationship	N4	Vocabulary
+1064	看護婦		かんごふ	female nurse	N4	Vocabulary
+1065	簡単		かんたん	simple	N4	Vocabulary
+1066	気		き	spirit,mood	N4	Vocabulary
+1067	機会		きかい	opportunity	N4	Vocabulary
+1068	危険		きけん	danger	N4	Vocabulary
+1069	聞こえる		きこえる	to be heard	N4	Vocabulary
+1070	汽車		きしゃ	steam train	N4	Vocabulary
+1071	技術		ぎじゅつ	art,technology,skill	N4	Vocabulary
+1072	季節		きせつ	season	N4	Vocabulary
+1073	規則		きそく	regulations	N4	Vocabulary
+1074			きっと	surely	N4	Vocabulary
+1075	絹		きぬ	silk	N4	Vocabulary
+1076	厳しい		きびしい	strict	N4	Vocabulary
+1077	気分		きぶん	mood	N4	Vocabulary
+1078	決る		きまる	to be decided	N4	Vocabulary
+1079	君		きみ	(informal) You (used by men towards women)	N4	Vocabulary
+1080	決める		きめる	to decide	N4	Vocabulary
+1081	気持ち		きもち	feeling,mood	N4	Vocabulary
+1082	着物		きもの	kimono	N4	Vocabulary
+1083	客		きゃく	guest,customer	N4	Vocabulary
+1084	急		きゅう	urgent, steep	N4	Vocabulary
+1085	急行		きゅうこう	speedy, express	N4	Vocabulary
+1086	教育		きょういく	education	N4	Vocabulary
+1087	教会		きょうかい	church	N4	Vocabulary
+1088	競争		きょうそう	competition	N4	Vocabulary
+1089	興味		きょうみ	an interest	N4	Vocabulary
+1090	近所		きんじょ	neighbourhood	N4	Vocabulary
+1091	具合		ぐあい	condition,health	N4	Vocabulary
+1092	空気		くうき	air,atmosphere	N4	Vocabulary
+1093	空港		くうこう	airport	N4	Vocabulary
+1094	草		くさ	grass	N4	Vocabulary
+1095			くださる	(respectful) to give	N4	Vocabulary
+1096	首		くび	neck	N4	Vocabulary
+1097	雲		くも	cloud	N4	Vocabulary
+1098	比べる		くらべる	to compare	N4	Vocabulary
+1099			くれる	to give	N4	Vocabulary
+1100	暮れる		くれる	to get dark,to come to an end	N4	Vocabulary
+1101	君		くん	suffix for familiar young male	N4	Vocabulary
+1102	毛		け	hair or fur	N4	Vocabulary
+1103	計画		けいかく・する	to plan	N4	Vocabulary
+1104	経験		けいけん・する	to experience	N4	Vocabulary
+1105	経済		けいざい	finance,economy	N4	Vocabulary
+1106	警察		けいさつ	police	N4	Vocabulary
+1107			ケーキ	cake	N4	Vocabulary
+1108			けが・する	to injure	N4	Vocabulary
+1109	景色		けしき	scene,landscape	N4	Vocabulary
+1110	消しゴム		けしゴム	eraser	N4	Vocabulary
+1111	下宿		げしゅく	lodging	N4	Vocabulary
+1112	決して		けっして	never	N4	Vocabulary
+1113			けれど/けれども	however	N4	Vocabulary
+1114	原因		げんいん	cause,source	N4	Vocabulary
+1115			けんか・する	to quarrel	N4	Vocabulary
+1116	研究		けんきゅう	research	N4	Vocabulary
+1117	研究室		けんきゅうしつ	study room,laboratory	N4	Vocabulary
+1118	見物		けんぶつ	sightseeing	N4	Vocabulary
+1119	子		こ	child	N4	Vocabulary
+1120			こう	this way	N4	Vocabulary
+1121	郊外		こうがい	outskirts	N4	Vocabulary
+1122	講義		こうぎ	lecture	N4	Vocabulary
+1123	工業		こうぎょう	the manufacturing industry	N4	Vocabulary
+1124	高校		こうこう	high school	N4	Vocabulary
+1125	高校生		こうこうせい	high school student	N4	Vocabulary
+1126	工場		こうじょう	factory	N4	Vocabulary
+1127	校長		こうちょう	headmaster	N4	Vocabulary
+1128	交通		こうつう	traffic,transportation	N4	Vocabulary
+1129	講堂		こうどう	auditorium	N4	Vocabulary
+1130	高等学校		こうとうがっこう	high school	N4	Vocabulary
+1131	公務員		こうむいん	government worker	N4	Vocabulary
+1132	国際		こくさい	international	N4	Vocabulary
+1133	心		こころ	core,heart	N4	Vocabulary
+1134	御主人		ごしゅじん	(honorable) your husband	N4	Vocabulary
+1135	故障		こしょう・する	to break-down	N4	Vocabulary
+1136	ご存じ		ごぞんじ	knowing,acquaintance	N4	Vocabulary
+1137	答		こたえ	response	N4	Vocabulary
+1138			ごちそう	a feast	N4	Vocabulary
+1139			こと	thing,matter	N4	Vocabulary
+1140	小鳥		ことり	small bird	N4	Vocabulary
+1141			このあいだ	the other day,recently	N4	Vocabulary
+1142			このごろ	these days,nowadays	N4	Vocabulary
+1143	細かい		こまかい	small, fine	N4	Vocabulary
+1144			ごみ	rubbish	N4	Vocabulary
+1145	込む		こむ	to be crowded	N4	Vocabulary
+1146	米		こめ	uncooked rice	N4	Vocabulary
+1147			ごらんになる	(respectful) to see	N4	Vocabulary
+1148			これから	after this	N4	Vocabulary
+1149	怖い		こわい	frightening	N4	Vocabulary
+1150	壊す		こわす	to break	N4	Vocabulary
+1151	壊れる		こわれる	to be broken	N4	Vocabulary
+1152			コンサート	concert	N4	Vocabulary
+1153	今度		こんど	now,next time	N4	Vocabulary
+1154			コンピュータ/コンピューター	computer	N4	Vocabulary
+1155	今夜		こんや	tonight	N4	Vocabulary
+1156	最近		さいきん	latest,nowadays	N4	Vocabulary
+1157	最後		さいご	last,end	N4	Vocabulary
+1158	最初		さいしょ	beginning,first	N4	Vocabulary
+1159	坂		さか	slope,hill	N4	Vocabulary
+1160	探す		さがす	to look for	N4	Vocabulary
+1161	下る		さがる	to get down,to descend	N4	Vocabulary
+1162	盛ん		さかん	popularity,prosperous	N4	Vocabulary
+1163	下げる		さげる	to hang,to lower,to move back	N4	Vocabulary
+1164	差し上げる		さしあげる	(polite) to give	N4	Vocabulary
+1165			さっき	some time ago	N4	Vocabulary
+1166	寂しい		さびしい	lonely	N4	Vocabulary
+1167	さ来月		さらいげつ	the month after next	N4	Vocabulary
+1168	さ来週		さらいしゅう	the week after next	N4	Vocabulary
+1169			サラダ	salad	N4	Vocabulary
+1170	騒ぐ		さわぐ	to make noise,to be excited	N4	Vocabulary
+1171	触る		さわる	to touch	N4	Vocabulary
+1172	産業		さんぎょう	industry	N4	Vocabulary
+1173			サンダル	sandal	N4	Vocabulary
+1174			サンドイッチ	sandwich	N4	Vocabulary
+1175	残念		ざんねん	disappointment	N4	Vocabulary
+1176	市		し	city	N4	Vocabulary
+1177	字		じ	character	N4	Vocabulary
+1178	試合		しあい	match,game	N4	Vocabulary
+1179	仕方		しかた	method	N4	Vocabulary
+1180			しかる	a particular	N4	Vocabulary
+1181	試験		しけん	examination	N4	Vocabulary
+1182	事故		じこ	accident	N4	Vocabulary
+1183	地震		じしん	earthquake	N4	Vocabulary
+1184	時代		じだい	era	N4	Vocabulary
+1185	下着		したぎ	underwear	N4	Vocabulary
+1186	支度		したく・する	to prepare	N4	Vocabulary
+1187			しっかり	firmly,steadily	N4	Vocabulary
+1188	失敗		しっぱい	failure,mistake	N4	Vocabulary
+1189	辞典		じてん	dictionary	N4	Vocabulary
+1190	品物		しなもの	goods	N4	Vocabulary
+1191			しばらく	little while	N4	Vocabulary
+1192	島		しま	island	N4	Vocabulary
+1193	市民		しみん	citizen	N4	Vocabulary
+1194	事務所		じむしょ	office	N4	Vocabulary
+1195	社会		しゃかい	society,public	N4	Vocabulary
+1196	社長		しゃちょう	company president	N4	Vocabulary
+1197			じゃま	hindrance,intrusion	N4	Vocabulary
+1198			ジャム	jam	N4	Vocabulary
+1199	自由		じゆう	freedom	N4	Vocabulary
+1200	習慣		しゅうかん	custom,manners	N4	Vocabulary
+1201	住所		じゅうしょ	an address,a residence	N4	Vocabulary
+1202	柔道		じゅうどう	judo	N4	Vocabulary
+1203	十分		じゅうぶん	enough	N4	Vocabulary
+1204	出席		しゅっせき・する	to attend	N4	Vocabulary
+1205	出発		しゅっぱつ・する	to depart	N4	Vocabulary
+1206	趣味		しゅみ	hobby	N4	Vocabulary
+1207	準備		じゅんび・する	to prepare	N4	Vocabulary
+1208	紹介		しょうかい	introduction	N4	Vocabulary
+1209	小学校		しょうがっこう	elementary school	N4	Vocabulary
+1210	小説		しょうせつ	novel	N4	Vocabulary
+1211	招待		しょうたい・する	to invite	N4	Vocabulary
+1212	承知		しょうち・する	to consent	N4	Vocabulary
+1213	将来		しょうらい	future,prospects	N4	Vocabulary
+1214	食事		しょくじ・する	to have a meal	N4	Vocabulary
+1215	食料品		しょくりょうひん	groceries	N4	Vocabulary
+1216	女性		じょせい	woman	N4	Vocabulary
+1217	知らせる		しらせる	to notify	N4	Vocabulary
+1218	調べる		しらべる	to investigate	N4	Vocabulary
+1219	人口		じんこう	population	N4	Vocabulary
+1220	神社		じんじゃ	Shinto shrine	N4	Vocabulary
+1221	親切		しんせつ	kindness	N4	Vocabulary
+1222	心配		しんぱい・する	to worry	N4	Vocabulary
+1223	新聞社		しんぶんしゃ	newspaper company	N4	Vocabulary
+1224	水泳		すいえい	swimming	N4	Vocabulary
+1225	水道		すいどう	water supply	N4	Vocabulary
+1226			ずいぶん	extremely	N4	Vocabulary
+1227	数学		すうがく	mathematics,arithmetic	N4	Vocabulary
+1228			スーツ	suit	N4	Vocabulary
+1229			スーツケース	suitcase	N4	Vocabulary
+1230	過ぎる		すぎる	to exceed	N4	Vocabulary
+1231			すく	to become empty	N4	Vocabulary
+1232			スクリーン	screen	N4	Vocabulary
+1233	凄い		すごい	terrific	N4	Vocabulary
+1234	進む		すすむ	to make progress	N4	Vocabulary
+1235			すっかり	completely	N4	Vocabulary
+1236			すっと	straight,all of a sudden	N4	Vocabulary
+1237			ステーキ	steak	N4	Vocabulary
+1238	捨てる		すてる	to throw away	N4	Vocabulary
+1239			ステレオ	stereo	N4	Vocabulary
+1240	砂		すな	sand	N4	Vocabulary
+1241			すばらしい	wonderful	N4	Vocabulary
+1242	滑る		すべる	to slide,to slip	N4	Vocabulary
+1243	隅		すみ	corner,nook	N4	Vocabulary
+1244	済む		すむ	to finish	N4	Vocabulary
+1245			すり	pickpocket	N4	Vocabulary
+1246			すると	then	N4	Vocabulary
+1247	生活		せいかつ・する	to live	N4	Vocabulary
+1248	生産		せいさん・する	to produce	N4	Vocabulary
+1249	政治		せいじ	politics,government	N4	Vocabulary
+1250	西洋		せいよう	western countries	N4	Vocabulary
+1251	世界		せかい	the world	N4	Vocabulary
+1252	席		せき	seat	N4	Vocabulary
+1253	説明		せつめい	explanation	N4	Vocabulary
+1254	背中		せなか	back of the body	N4	Vocabulary
+1255			ぜひ	without fail	N4	Vocabulary
+1256	世話		せわ・する	to look after	N4	Vocabulary
+1257	線		せん	line	N4	Vocabulary
+1258			ぜんぜん	not entirely (used in a negative sentence)	N4	Vocabulary
+1259	戦争		せんそう	war	N4	Vocabulary
+1260	先輩		せんぱい	senior	N4	Vocabulary
+1261			そう	really	N4	Vocabulary
+1262	相談		そうだん・する	to discuss	N4	Vocabulary
+1263	育てる		そだてる	to rear,to bring up	N4	Vocabulary
+1264	卒業		そつぎょう	graduation	N4	Vocabulary
+1265	祖父		そふ	grandfather	N4	Vocabulary
+1266			ソフト	soft	N4	Vocabulary
+1267	祖母		そぼ	grandmother	N4	Vocabulary
+1268			それで	because of that	N4	Vocabulary
+1269			それに	moreover	N4	Vocabulary
+1270			それほど	to that extent	N4	Vocabulary
+1271			そろそろ	gradually,soon	N4	Vocabulary
+1272			そんな	that sort of	N4	Vocabulary
+1273			そんなに	so much,like that	N4	Vocabulary
+1274	退院		たいいん・する	to leave hospital	N4	Vocabulary
+1275	大学生		だいがくせい	university student	N4	Vocabulary
+1276	大事		だいじ	important,valuable,serious matter	N4	Vocabulary
+1277	大体		だいたい	generally	N4	Vocabulary
+1278			たいてい	usually	N4	Vocabulary
+1279			タイプ	type,style	N4	Vocabulary
+1280	大分		だいぶ	greatly	N4	Vocabulary
+1281	台風		たいふう	typhoon	N4	Vocabulary
+1282	倒れる		たおれる	to break down	N4	Vocabulary
+1283			だから	so,therefore	N4	Vocabulary
+1284	確か		たしか	definite	N4	Vocabulary
+1285	足す		たす	to add a number	N4	Vocabulary
+1286	訪ねる		たずねる	to visit	N4	Vocabulary
+1287	尋ねる		たずねる	to ask	N4	Vocabulary
+1288	正しい		ただしい	correct	N4	Vocabulary
+1289	畳		たたみ	Japanese straw mat	N4	Vocabulary
+1290	立てる		たてる	to stand something up	N4	Vocabulary
+1291	建てる		たてる	to build	N4	Vocabulary
+1292	例えば		たとえば	for example	N4	Vocabulary
+1293	棚		たな	shelves	N4	Vocabulary
+1294	楽しみ		たのしみ	joy	N4	Vocabulary
+1295	楽む		たのしむ	to enjoy oneself	N4	Vocabulary
+1296			たまに	occasionally	N4	Vocabulary
+1297	為		ため	in order to	N4	Vocabulary
+1298			だめ	no good	N4	Vocabulary
+1299	足りる		たりる	to be enough	N4	Vocabulary
+1300	男性		だんせい	male	N4	Vocabulary
+1301	暖房		だんぼう	heating	N4	Vocabulary
+1302	血		ち	blood	N4	Vocabulary
+1303			チェック・する	to check	N4	Vocabulary
+1304	力		ちから	strength,power	N4	Vocabulary
+1305			ちっとも	not at all (used with a negative verb)	N4	Vocabulary
+1306			ちゃん	suffix for familiar female person	N4	Vocabulary
+1307	注意		ちゅうい	caution	N4	Vocabulary
+1308	中学校		ちゅうがっこう	junior high school,middle school	N4	Vocabulary
+1309	注射		ちゅうしゃ	injection	N4	Vocabulary
+1310	駐車場		ちゅうしゃじょう	parking lot	N4	Vocabulary
+1311	地理		ちり	geography	N4	Vocabulary
+1312	捕まえる		つかまえる	to seize	N4	Vocabulary
+1313			つき	moon	N4	Vocabulary
+1314	付く		つく	to be attached	N4	Vocabulary
+1315	漬ける		つける	to soak,to pickle	N4	Vocabulary
+1316	都合		つごう	circumstances,convenience	N4	Vocabulary
+1317	伝える		つたえる	to report	N4	Vocabulary
+1318	続く		つづく	to be continued	N4	Vocabulary
+1319	続ける		つづける	to continue	N4	Vocabulary
+1320	包む		つつむ	to wrap	N4	Vocabulary
+1321	妻		つま	(humble) wife	N4	Vocabulary
+1322			つもり	intention	N4	Vocabulary
+1323	釣る		つる	to fish	N4	Vocabulary
+1324	連れる		つれる	to lead	N4	Vocabulary
+1325	丁寧		ていねい	polite	N4	Vocabulary
+1326			テキスト	text,text book	N4	Vocabulary
+1327	適当		てきとう	suitability	N4	Vocabulary
+1328			できるだけ	as much as possible	N4	Vocabulary
+1329	手伝う		てつだう	to assist	N4	Vocabulary
+1330			テニス	tennis	N4	Vocabulary
+1331	手袋		てぶくろ	glove	N4	Vocabulary
+1332	寺		てら	temple	N4	Vocabulary
+1333	点		てん	point,dot	N4	Vocabulary
+1334	店員		てんいん	shop assistant	N4	Vocabulary
+1335	天気予報		てんきよほう	weather forecast	N4	Vocabulary
+1336	電灯		でんとう	electric light	N4	Vocabulary
+1337	電報		でんぽう	telegram	N4	Vocabulary
+1338	展覧会		てんらんかい	exhibition	N4	Vocabulary
+1339	都		と	metropolitan	N4	Vocabulary
+1340	道具		どうぐ	tool,means	N4	Vocabulary
+1341			とうとう	finally, after all	N4	Vocabulary
+1342	動物園		どうぶつえん	zoo	N4	Vocabulary
+1343	遠く		とおく	distant	N4	Vocabulary
+1344	通る		とおる	to go through	N4	Vocabulary
+1345	特に		とくに	particularly,especially	N4	Vocabulary
+1346	特別		とくべつ	special	N4	Vocabulary
+1347			とこや	barber	N4	Vocabulary
+1348	途中		とちゅう	on the way	N4	Vocabulary
+1349	特急		とっきゅう	limited express train (faster than an express train)	N4	Vocabulary
+1350	届ける		とどける	to reach	N4	Vocabulary
+1351	泊まる		とまる	to lodge at	N4	Vocabulary
+1352	止める		とめる	to stop something	N4	Vocabulary
+1353	取り替える		とりかえる	to exchange	N4	Vocabulary
+1354	泥棒		どろぼう	thief	N4	Vocabulary
+1355			どんどん	more and more	N4	Vocabulary
+1356	直す		なおす	to fix,to repair	N4	Vocabulary
+1357	直る		なおる	to be fixed,to be repaired	N4	Vocabulary
+1358	治る		なおる	to be cured,to heal	N4	Vocabulary
+1359	中々		なかなか	considerably	N4	Vocabulary
+1360	泣く		なく	to weep	N4	Vocabulary
+1361	無くなる		なくなる	to disappear,to get lost	N4	Vocabulary
+1362	亡くなる		なくなる	to die	N4	Vocabulary
+1363	投げる		なげる	to throw or cast away	N4	Vocabulary
+1364			なさる	(respectful) to do	N4	Vocabulary
+1365	鳴る		なる	to sound	N4	Vocabulary
+1366			なるべく	as much as possible	N4	Vocabulary
+1367			なるほど	now I understand	N4	Vocabulary
+1368	慣れる		なれる	to grow accustomed to	N4	Vocabulary
+1369			におい	a smell	N4	Vocabulary
+1370	苦い		にがい	bitter	N4	Vocabulary
+1371	二階建て		にかいだて	two storied	N4	Vocabulary
+1372	逃げる		にげる	to escape	N4	Vocabulary
+1373	日記		にっき	journal	N4	Vocabulary
+1374	入院		にゅういん・する	to hospitalise	N4	Vocabulary
+1375	入学		にゅうがく・する	to enter school or university	N4	Vocabulary
+1376	似る		にる	to be similar	N4	Vocabulary
+1377	人形		にんぎょう	doll, figure	N4	Vocabulary
+1378	盗む		ぬすむ	to steal	N4	Vocabulary
+1379	塗る		ぬる	to paint,to plaster	N4	Vocabulary
+1380			ぬれる	to get wet	N4	Vocabulary
+1381			ねだん	price	N4	Vocabulary
+1382	熱		ねつ	fever	N4	Vocabulary
+1383			ねっしん	enthusiasm	N4	Vocabulary
+1384	寝坊		ねぼう	sleeping in late	N4	Vocabulary
+1385	眠い		ねむい	sleepy	N4	Vocabulary
+1386	眠る		ねむる	to sleep	N4	Vocabulary
+1387	残る		のこる	to remain	N4	Vocabulary
+1388			のど	throat	N4	Vocabulary
+1389	乗り換える		のりかえる	to change between buses or trains	N4	Vocabulary
+1390	乗り物		のりもの	vehicle	N4	Vocabulary
+1391	葉		は	leaf	N4	Vocabulary
+1392	場合		ばあい	situation	N4	Vocabulary
+1393			パート	part time	N4	Vocabulary
+1394	倍		ばい	double	N4	Vocabulary
+1395	拝見		はいけん・する	(humble) to look at	N4	Vocabulary
+1396	歯医者		はいしゃ	dentist	N4	Vocabulary
+1397	運ぶ		はこぶ	to transport	N4	Vocabulary
+1398	始める		はじめる	to begin	N4	Vocabulary
+1399	場所		ばしょ	location	N4	Vocabulary
+1400			はず	it should be so	N4	Vocabulary
+1401	恥ずかしい		はずかしい	embarrassed	N4	Vocabulary
+1402			パソコン	personal computer	N4	Vocabulary
+1403	発音		はつおん	pronunciation	N4	Vocabulary
+1404			はっきり	clearly	N4	Vocabulary
+1405	花見		はなみ	cherry-blossom viewing	N4	Vocabulary
+1406	林		はやし	woods,forester	N4	Vocabulary
+1407	払う		はらう	to pay	N4	Vocabulary
+1408	番組		ばんぐみ	television or radio program	N4	Vocabulary
+1409	反対		はんたい	opposition	N4	Vocabulary
+1410			ハンドバッグ	handbag　	N4	Vocabulary
+1411	日		ひ	day, sun	N4	Vocabulary
+1412	火		ひ	fire	N4	Vocabulary
+1413			ピアノ	piano	N4	Vocabulary
+1414	冷える		ひえる	to grow cold	N4	Vocabulary
+1415	光		ひかり	light	N4	Vocabulary
+1416	光る		ひかる	to shine,to glitter	N4	Vocabulary
+1417	引き出し		ひきだし	drawer,drawing out	N4	Vocabulary
+1418	引き出す		ひきだす	to withdraw	N4	Vocabulary
+1419			ひげ	beard	N4	Vocabulary
+1420	飛行場		ひこうじょう	airport	N4	Vocabulary
+1421	久しぶり		ひさしぶり	after a long time	N4	Vocabulary
+1422	美術館		びじゅつかん	art gallery	N4	Vocabulary
+1423	非常に		ひじょうに	extremely	N4	Vocabulary
+1424			びっくり・する	to be surprised	N4	Vocabulary
+1425	引っ越す		ひっこす	to move house	N4	Vocabulary
+1426	必要		ひつよう	necessary	N4	Vocabulary
+1427			ひどい	awful	N4	Vocabulary
+1428	開く		ひらく	to open an event	N4	Vocabulary
+1429			ビル	building or bill	N4	Vocabulary
+1430	昼間		ひるま	daytime,during the day	N4	Vocabulary
+1431	昼休み		ひるやすみ	noon break	N4	Vocabulary
+1432	拾う		ひろう	to pick up,to gather	N4	Vocabulary
+1433			ファックス	fax	N4	Vocabulary
+1434	増える		ふえる	to increase	N4	Vocabulary
+1435	深い		ふかい	deep	N4	Vocabulary
+1436	複雑		ふくざつ	complexity,complication	N4	Vocabulary
+1437	復習		ふくしゅう	revision	N4	Vocabulary
+1438	部長		ぶちょう	head of a section	N4	Vocabulary
+1439	普通		ふつう	usually, or a train that stops at every station	N4	Vocabulary
+1440			ぶどう	grapes	N4	Vocabulary
+1441	太る		ふとる	to become fat	N4	Vocabulary
+1442	布団		ふとん	Japanese bedding, futon	N4	Vocabulary
+1443	舟		ふね	ship	N4	Vocabulary
+1444	不便		ふべん	inconvenience	N4	Vocabulary
+1445	踏む		ふむ	to step on	N4	Vocabulary
+1446	降り出す		ふりだす	to start to rain	N4	Vocabulary
+1447			プレゼント	present	N4	Vocabulary
+1448	文化		ぶんか	culture	N4	Vocabulary
+1449	文学		ぶんがく	literature	N4	Vocabulary
+1450	文法		ぶんぽう	grammar	N4	Vocabulary
+1451	別		べつ	different	N4	Vocabulary
+1452			ベル	bell	N4	Vocabulary
+1453	変		へん	strange	N4	Vocabulary
+1454	返事		へんじ	reply	N4	Vocabulary
+1455	貿易		ぼうえき	trade	N4	Vocabulary
+1456	放送		ほうそう・する	to broadcast	N4	Vocabulary
+1457	法律		ほうりつ	law	N4	Vocabulary
+1458	僕		ぼく	I (used by males)	N4	Vocabulary
+1459	星		ほし	star	N4	Vocabulary
+1460			ほど	extent	N4	Vocabulary
+1461			ほとんど	mostly	N4	Vocabulary
+1462			ほめる	to praise	N4	Vocabulary
+1463	翻訳		ほんやく	translation	N4	Vocabulary
+1464	参る		まいる	(humble) to go,to come	N4	Vocabulary
+1465	負ける		まける	to lose	N4	Vocabulary
+1466			まじめ	serious	N4	Vocabulary
+1467			まず	first of all	N4	Vocabulary
+1468			または	or,otherwise	N4	Vocabulary
+1469	間違える		まちがえる	to make a mistake	N4	Vocabulary
+1470	間に合う		まにあう	to be in time for	N4	Vocabulary
+1471	周り		まわり	surroundings	N4	Vocabulary
+1472	回る		まわる	to go around	N4	Vocabulary
+1473	漫画		まんが	comic	N4	Vocabulary
+1474	真中		まんなか	middle	N4	Vocabulary
+1475	見える		みえる	to be in sight	N4	Vocabulary
+1476	湖		みずうみ	lake	N4	Vocabulary
+1477	味噌		みそ	bean paste	N4	Vocabulary
+1478	見つかる		みつかる	to be discovered	N4	Vocabulary
+1479	見つける		みつける	to discover	N4	Vocabulary
+1480	皆		みな	everybody	N4	Vocabulary
+1481	港		みなと	harbour	N4	Vocabulary
+1482	向かう		むかう	to face	N4	Vocabulary
+1483	迎える		むかえる	to go out to meet	N4	Vocabulary
+1484	昔		むかし	olden days, former	N4	Vocabulary
+1485	虫		むし	insect	N4	Vocabulary
+1486	息子		むすこ	(humble) son	N4	Vocabulary
+1487	娘		むすめ	(humble) daughter	N4	Vocabulary
+1488	無理		むり	impossible	N4	Vocabulary
+1489	召し上がる		めしあがる	(polite) to eat	N4	Vocabulary
+1490	珍しい		めずらしい	rare	N4	Vocabulary
+1491	申し上げる		もうしあげる	(humble) to say,to tell	N4	Vocabulary
+1492	申す		もうす	(humble) to be called,to say	N4	Vocabulary
+1493			もうすぐ	soon	N4	Vocabulary
+1494			もし	if	N4	Vocabulary
+1495			もちろん	of course	N4	Vocabulary
+1496			もっとも	extremely	N4	Vocabulary
+1497	戻る		もどる	to turn back	N4	Vocabulary
+1498	木綿		もめん	cotton	N4	Vocabulary
+1499			もらう	to receive	N4	Vocabulary
+1500	森		もり	forest	N4	Vocabulary
+1501	焼く		やく	to bake,to grill	N4	Vocabulary
+1502	約束		やくそく	promise	N4	Vocabulary
+1503	役に立つ		やくにたつ	to be helpful	N4	Vocabulary
+1504	焼ける		やける	to burn,to be roasted	N4	Vocabulary
+1505	優しい		やさしい	kind	N4	Vocabulary
+1506	痩せる		やせる	to become thin	N4	Vocabulary
+1507			やっと	at last	N4	Vocabulary
+1508			やはり/やっぱり	as I thought,absolutely	N4	Vocabulary
+1509	止む		やむ	to stop	N4	Vocabulary
+1510	止める		やめる	to stop	N4	Vocabulary
+1511	柔らかい		やわらかい	soft	N4	Vocabulary
+1512	湯		ゆ	hot water	N4	Vocabulary
+1513	輸出		ゆしゅつ・する	to export	N4	Vocabulary
+1514	輸入		ゆにゅう・する	to import	N4	Vocabulary
+1515	指		ゆび	finger	N4	Vocabulary
+1516	指輪		ゆびわ	finger ring	N4	Vocabulary
+1517	夢		ゆめ	dream	N4	Vocabulary
+1518	揺れる		ゆれる	to shake,to sway	N4	Vocabulary
+1519	用		よう	use	N4	Vocabulary
+1520	用意		ようい	preparation	N4	Vocabulary
+1521	用事		ようじ	things to do	N4	Vocabulary
+1522	汚れる		よごれる	to get dirty	N4	Vocabulary
+1523	予習		よしゅう	preparation for a lesson	N4	Vocabulary
+1524	予定		よてい	arrangement	N4	Vocabulary
+1525	予約		よやく	reservation	N4	Vocabulary
+1526	寄る		よる	to visit	N4	Vocabulary
+1527	喜ぶ		よろこぶ	to be delighted	N4	Vocabulary
+1528			よろしい	(respectful) OK,all right	N4	Vocabulary
+1529	理由		りゆう	reason	N4	Vocabulary
+1530	利用		りよう	utilization	N4	Vocabulary
+1531	両方		りょうほう	both sides	N4	Vocabulary
+1532	旅館		りょかん	Japanese hotel	N4	Vocabulary
+1533	留守		るす	absence	N4	Vocabulary
+1534	冷房		れいぼう	air conditioning	N4	Vocabulary
+1535	歴史		れきし	history	N4	Vocabulary
+1536			レジ	register	N4	Vocabulary
+1537			レポート/リポート	report	N4	Vocabulary
+1538	連絡		れんらく	contact	N4	Vocabulary
+1539			ワープロ	word processor	N4	Vocabulary
+1540	沸かす		わかす	to boil,to heat	N4	Vocabulary
+1541	別れる		わかれる	to separate	N4	Vocabulary
+1542	沸く		わく	to boil, to grow hot,to get excited	N4	Vocabulary
+1543	訳		わけ	meaning,reason	N4	Vocabulary
+1544	忘れ物		わすれもの	lost article	N4	Vocabulary
+1545	笑う		わらう	to laugh,to smile	N4	Vocabulary
+1546	割合		わりあい	rate,ratio,percentage	N4	Vocabulary
+1547	割れる		われる	to break	N4	Vocabulary
+1548	泳ぎ方		およぎかた	way of swimming	N4	Vocabulary
+1549	政	セイ ショウ マ	まつりごと	politics, government	N3	Kanji
+1550	議			deliberation, consultation, debate, consideration	N3	Kanji
+1551	民	ミン タ		people, nation, subjects	N3	Kanji
+1552	連	レン -ヅ.	つら.なる つら.ねる つ.れる	take along, lead, join, connect, party, gang, clique	N3	Kanji
+1553	対	タイ ツイ ムカ.	あいて こた.える そろ.い つれあ.い なら.ぶ	vis-a-vis, opposite, even, equal, versus, anti-, compare	N3	Kanji
+1554	部	ブ -		section, bureau, dept, class, copy, part, portion, counter for copies of a newspaper or magazine	N3	Kanji
+1555	合	ゴウ ガッ カッ -ア.ワセ	あ.う -あ.う あ.い あい- -あ.い -あい あ.わす あ.わせる	fit, suit, join, 0.1	N3	Kanji
+1556	市	シ イ		market, city, town	N3	Kanji
+1557	内	ナイ ダイ ウ		inside, within, between, among, house, home	N3	Kanji
+1558	相	ソウ ショウ	あい	inter-, mutual, together, each other, minister of state, councillor, aspect, phase, physiognomy	N3	Kanji
+1559	定	テイ ジョウ サダ.	さだ.める さだ.まる	determine, fix, establish, decide	N3	Kanji
+1560	回	カイ エ	まわ.る -まわ.る -まわ.り まわ.す -まわ.す まわ.し- -まわ.し もとお.る か.える	-times, round, game, revolve, counter for occurrences	N3	Kanji
+1561	選	セン	えら.ぶ	elect, select, choose, prefer	N3	Kanji
+1562	米	ベイ マイ メエトル ヨ	こめ	rice, USA, metre	N3	Kanji
+1563	実	ジツ シツ ミチ.	み みの.る まこと まことに みの	reality, truth	N3	Kanji
+1564	関	カン	せき -ぜき かか.わる からくり かんぬき	connection, barrier, gateway, involve, concerning	N3	Kanji
+1565	決	ケツ	き.める -ぎ.め き.まる さ.く	decide, fix, agree upon, appoint	N3	Kanji
+1566	全	ゼン スベ.	まった.く	whole, entire, all, complete, fulfill	N3	Kanji
+1567	表	ヒョウ	おもて -おもて あらわ.す あらわ.れる あら.わす	surface, table, chart, diagram	N3	Kanji
+1568	戦	セン ワナナ.	いくさ たたか.う おのの.く そよぐ	war, battle, match	N3	Kanji
+1569	経	ケイ キョウ ノ	へ.る た.つ たていと はか.る	sutra, longitude, pass thru, expire, warp	N3	Kanji
+1570	最	サイ シュ ツ	もっと.も	utmost, most, extreme	N3	Kanji
+1571	現	ゲン アラワ.	あらわ.れる	present, existing, actual	N3	Kanji
+1572	調	チョウ トトノ.エ	しら.べる しら.べ ととの.う	tune, tone, meter, key (music), writing style, prepare, exorcise, investigate	N3	Kanji
+1573	化	カ ケ	ば.ける ば.かす ふ.ける け.する	change, take the form of, influence, enchant, delude, -ization	N3	Kanji
+1574	当	トウ マサ.ニベ	あ.たる あ.たり あ.てる あ.て まさ.に	hit, right, appropriate, himself	N3	Kanji
+1575	約	ヤク		promise, approximately, shrink	N3	Kanji
+1576	首	シュ ク		neck	N3	Kanji
+1577	法	ホウ ハッ ホッ フラン ノ		method, law, rule, principle, model, system	N3	Kanji
+1578	性	セイ ショウ	さが	sex, gender, nature	N3	Kanji
+1579	要	ヨウ イ.		need, main point, essence, pivot, key to	N3	Kanji
+1580	制	セイ		system, law, rule	N3	Kanji
+1581	治	ジ チ ナオ.	おさ.める おさ.まる なお.る	reign, be at peace, calm down, subdue, quell, govt, cure, heal, rule, conserve	N3	Kanji
+1582	務	ム ツト.メ		task, duties	N3	Kanji
+1583	成	セイ ジョウ -ナ.	な.る な.す	turn into, become, get, grow, elapse, reach	N3	Kanji
+1584	期	キ ゴ		period, time, date, term	N3	Kanji
+1585	取	シュ -ド.	と.る と.り と.り- とり	take, fetch, take up	N3	Kanji
+1586	都	ト ツ ミヤ		metropolis, capital	N3	Kanji
+1587	和	ワ オ カ ナゴ.ヤ	やわ.らぐ やわ.らげる なご.む	harmony, Japanese style, peace, soften, Japan	N3	Kanji
+1588	機	キ	はた	mechanism, opportunity, occasion, machine, airplane	N3	Kanji
+1589	平	ヘイ ビョウ ヒョウ	たい.ら -だいら ひら ひら	even, flat, peace	N3	Kanji
+1590	加	カ	くわ.える くわ.わる	add, addition, increase, join, include, Canada	N3	Kanji
+1591	受	ジュ ウ.カ	う.ける -う.け	accept, undergo, answer (phone), take, get, catch, receive	N3	Kanji
+1592	続	ゾク ショク コウ キョウ ツグ.ナ	つづ.く つづ.ける	continue, series, sequel	N3	Kanji
+1593	進	シン スス.メ	すす.む	advance, proceed, progress, promote	N3	Kanji
+1594	数	スウ ス サク ソク シュ ワズラワ.シ	かず かぞ.える しばしば せ.める	number, strength, fate, law, figures	N3	Kanji
+1595	記	キ シル.		scribe, account, narrative	N3	Kanji
+1596	初	ショ -ゾ.	はじ.め はじ.めて はつ はつ- うい- -そ.める	first time, beginning	N3	Kanji
+1597	指	シ -サ.	ゆび さ.す	finger, point to, indicate, put into, play (chess), measure (ruler)	N3	Kanji
+1598	権	ケン ゴン	おもり かり はか.る	authority, power, rights	N3	Kanji
+1599	支		しんよう じゅうまた	branch, support, sustain	N3	Kanji
+1600	産	サン ム.	う.む う.まれる うぶ-	products, bear, give birth, yield, childbirth, native, property	N3	Kanji
+1601	点	テン	つ.ける つ.く た.てる さ.す とぼ.す とも.す ぼち	spot, point, mark, speck, decimal point	N3	Kanji
+1602	報	ホウ	むく.いる	report, news, reward, retribution	N3	Kanji
+1603	済	サイ セイ ワタ.	す.む -ず.み -ずみ す.まない す.ます -す.ます すく.う な.す わたし	finish, come to an end, excusable, need not	N3	Kanji
+1604	活	カツ	い.きる い.かす い.ける	lively, resuscitation, being helped, living	N3	Kanji
+1605	原	ゲン ハ		meadow, original, primitive, field, plain, prairie, tundra, wilderness	N3	Kanji
+1606	共	キョウ	とも とも.に -ども	together, both, neither, all, and, alike, with	N3	Kanji
+1607	得	トク ウ.	え.る	gain, get, find, earn, acquire, can, may, able to, profit, advantage, benefit	N3	Kanji
+1608	解	カイ ゲ サト.	と.く と.かす と.ける ほど.く ほど.ける わか.る	unravel, notes, key, explanation, understanding, untie, undo, solve, answer, cancel, absolve, explain, minute	N3	Kanji
+1609	交	コウ コモゴ	まじ.わる まじ.える ま.じる まじ.る ま.ざる ま.ぜる -か.う か.わす かわ.す	mingle, mixing, association, coming & going	N3	Kanji
+1610	資			assets, resources, capital, funds, data, be conducive to, contribute to	N3	Kanji
+1611	予	ヨ シャ	あらかじ.め	beforehand, previous, myself, I	N3	Kanji
+1612	向	コウ ムカ.	む.く む.い -む.き む.ける -む.け む.かう む.かい む.こう む.こう- むこ	yonder, facing, beyond, confront, defy, tend toward, approach	N3	Kanji
+1613	際	サイ -ギ	きわ	occasion, side, edge, verge, dangerous, adventurous, indecent, time, when	N3	Kanji
+1614	勝	ショウ カ	か.つ -が.ち まさ.る すぐ.れる	victory, win, prevail, excel	N3	Kanji
+1615	面	メン ベン ツ	おも おもて	mask, face, features, surface	N3	Kanji
+1616	告	コク ツ.ゲ		revelation, tell, inform, announce	N3	Kanji
+1617	反	ハン ホン タン ホ -カエ.	そ.る そ.らす かえ.す かえ.る	anti-	N3	Kanji
+1618	判	ハン バン	わか.る	judgement, signature, stamp, seal	N3	Kanji
+1619	認	ニン	みと.める したた.める	acknowledge, witness, discern, recognize, appreciate, believe	N3	Kanji
+1620	参	サン シン ミ	まい.る まい- まじわる	nonplussed, three, going, coming, visiting, visit, be defeated, die, be madly in love	N3	Kanji
+1621	利	リ キ.		profit, advantage, benefit	N3	Kanji
+1622	組	ソ	く.む くみ -ぐみ	association, braid, plait, construct, assemble, unite, cooperate, grapple	N3	Kanji
+1623	信	シ		faith, truth, fidelity, trust	N3	Kanji
+1624	在	ザイ ア.		exist, outskirts, suburbs, located in	N3	Kanji
+1625	件	ケン	くだん	affair, case, matter, item	N3	Kanji
+1626	側	ソク	かわ がわ そば	side, lean, oppose, regret	N3	Kanji
+1627	任	ニン マカ.	まか.せる	responsibility, duty, term, entrust to, appoint	N3	Kanji
+1628	引	イン ヒ.ケ	ひ.く ひ.き ひ.き- -び.き	pull, tug, jerk, admit, install, quote, refer to	N3	Kanji
+1629	求	キュウ グ	もと.める	request, want, wish for, require, demand	N3	Kanji
+1630	所	ショ ト	ところ -ところ どころ	place	N3	Kanji
+1631	次	ジ シ ツ	つ.ぐ	next, order, sequence	N3	Kanji
+1632	昨	サク		yesterday, previous	N3	Kanji
+1633	論	ロン		argument, discourse	N3	Kanji
+1634	官	カン		bureaucrat, the government	N3	Kanji
+1635	増	ゾウ フ.ヤ	ま.す ま.し ふ.える	increase, add, augment, gain, promote	N3	Kanji
+1636	係	ケイ	かか.る かかり -がかり かか.わる	person in charge, connection, duty, concern oneself	N3	Kanji
+1637	感	カン		emotion, feeling, sensation	N3	Kanji
+1638	情	ジョウ セイ	なさ.け	feelings, emotion, passion, sympathy, circumstances, facts	N3	Kanji
+1639	投	トウ	な.げる -な.げ	throw, discard, abandon, launch into, join, invest in, hurl, give up, sell at a loss	N3	Kanji
+1640	示	ジ シ	しめ.す	show, indicate, point out, express, display	N3	Kanji
+1641	変	ヘン	か.わる か.わり か.える	unusual, change, strange	N3	Kanji
+1642	打	ダ ダアス ブ.	う.つ う.ち-	strike, hit, knock, pound, dozen	N3	Kanji
+1643	直	チョク ジキ ジカ ス.	ただ.ちに なお.す -なお.す なお.る なお.き	straightaway, honesty, frankness, fix, repair	N3	Kanji
+1644	両	リョウ フタ	てる	both, old Japanese coin, counter for vehicles, two	N3	Kanji
+1645	式	シ		style, ceremony, rite, function, method, system, form, expression	N3	Kanji
+1646	確	カク コウ	たし.か たし.かめる	assurance, firm, tight, hard, solid, confirm, clear, evident	N3	Kanji
+1647	果	カ ハ.	は.たす はた.す -は.たす は.てる -は.てる	fruit, reward, carry out, achieve, complete, end, finish, succeed	N3	Kanji
+1648	容	ヨウ イ.レ		contain, form, looks	N3	Kanji
+1649	必	ヒツ	かなら.ず	invariably, certain, inevitable	N3	Kanji
+1650	演	エン		performance, act, play, render, stage	N3	Kanji
+1651	歳	サイ セイ	とし とせ よわい	year-end, age, occasion, opportunity	N3	Kanji
+1652	争	ソウ	あらそ.う いか.でか	contend, dispute, argue	N3	Kanji
+1653	談	ダン		discuss, talk	N3	Kanji
+1654	能	ノウ ヨ.		ability, talent, skill, capacity	N3	Kanji
+1655	位	イ グラ	くらい	rank, grade, throne, crown, about, some	N3	Kanji
+1656	置	チ -オ.	お.く	placement, put, set, deposit, leave behind, keep, employ, pawn	N3	Kanji
+1657	流	リュウ ル -ナガ.	なが.れる なが.れ なが.す	current, a sink, flow, forfeit	N3	Kanji
+1658	格	カク コウ キャク ゴ		status, rank, capacity, character, case (law, grammar)	N3	Kanji
+1659	疑	ギ	うたが.う	doubt, distrust, be suspicious, question	N3	Kanji
+1660	過	カ	す.ぎる -す.ぎる -す.ぎ す.ごす あやま.つ あやま.ち	overdo, exceed, go beyond, error	N3	Kanji
+1661	局	キョク	つぼね	bureau, board, office, affair, conclusion, court lady, lady-in-waiting, her apartment	N3	Kanji
+1662	放	ホウ ホウ.	はな.す -っぱな.し はな.つ はな.れる こ.く	set free, release, fire, shoot, emit, banish, liberate	N3	Kanji
+1663	常	ジョウ	つね とこ	usual, ordinary, normal, regular	N3	Kanji
+1664	状	ジョウ		status quo, conditions, circumstances, form, appearance	N3	Kanji
+1665	球	キュウ タ		ball, sphere	N3	Kanji
+1666	職	ショク ソ		post, employment, work	N3	Kanji
+1667	与	ヨ トモ	あた.える あずか.る くみ.する	bestow, participate in, give, award, impart, provide, cause, gift, godsend	N3	Kanji
+1668	供	キョウ ク クウ グ	そな.える とも -ども	submit, offer, present, serve (meal), accompany	N3	Kanji
+1669	役	ヤク エ		duty, war, campaign, drafted labor, office, service, role	N3	Kanji
+1670	構	コウ カマ.	かま.える	posture, build, pretend	N3	Kanji
+1671	割	カツ	わ.る わり わ.り わ.れる さ.く	proportion, comparatively, divide, cut, separate, split	N3	Kanji
+1672	費	ヒ	つい.やす つい.える	expense, cost, spend, consume, waste	N3	Kanji
+1673	付	フ -ヅ	つ.ける -つ.ける -づ.ける つ.け つ.け- -つ.け -づ.け -づけ つ.く -づ.く つ.き -つ.き -つ	adhere, attach, refer to, append	N3	Kanji
+1674	由	ユ ユウ ユイ	よし よ.る	wherefore, a reason	N3	Kanji
+1675	説	セツ ゼイ ト.		rumor, opinion, theory	N3	Kanji
+1676	難	ナン -ニク.	かた.い -がた.い むずか.しい むづか.しい むつか.しい	difficult, impossible, trouble, accident, defect	N3	Kanji
+1677	優	ユウ ウ マサ.	やさ.しい すぐ.れる	tenderness, excel, surpass, actor, superiority, gentleness	N3	Kanji
+1678	夫	フ フウ ブ ソ.	おっと	husband, man	N3	Kanji
+1679	収	シュウ オサ.マ	おさ.める	income, obtain, reap, pay, supply, store	N3	Kanji
+1680	断	ダン	た.つ ことわ.る さだ.める	severance, decline, refuse, apologize, warn, dismiss, prohibit, decision, judgement, cutting	N3	Kanji
+1681	石	セキ シャク コク イ		stone	N3	Kanji
+1682	違	イ	ちが.う ちが.い ちが.える -ちが.える たが.う たが.える	difference, differ	N3	Kanji
+1683	消	ショウ	き.える け.す	extinguish, blow out, turn off, neutralize, cancel	N3	Kanji
+1684	神	シン ジン	かみ かん- こう	gods, mind, soul	N3	Kanji
+1685	番	バン ツガ.		turn, number in a series	N3	Kanji
+1686	規			standard, measure	N3	Kanji
+1687	術	ジュツ	すべ	art, technique, skill, means, trick, resources, magic	N3	Kanji
+1688	備	ビ ツブサ.	そな.える そな.わる	equip, provision, preparation	N3	Kanji
+1689	宅	タ		home, house, residence, our house, my husband	N3	Kanji
+1690	害	ガイ		harm, injury	N3	Kanji
+1691	配	ハイ	くば.る	distribute, spouse, exile, rationing	N3	Kanji
+1692	警	ケイ	いまし.める	admonish, commandment	N3	Kanji
+1693	育	イク ハグク.	そだ.つ そだ.ち そだ.てる	bring up, grow up, raise, rear	N3	Kanji
+1694	席	セキ	むしろ	seat, mat, occasion, place	N3	Kanji
+1695	訪	ホウ ト.	おとず.れる たず.ねる	call on, visit, look up, offer sympathy	N3	Kanji
+1696	乗	ジョウ ショウ ノ.セ	の.る -の.り	ride, power, multiplication, record, counter for vehicles, board, mount, join	N3	Kanji
+1697	残	ザン サン	のこ.る のこ.す そこな.う のこ.り	remainder, leftover, balance	N3	Kanji
+1698	想	ソウ ソ	おも.う	concept, think, idea, thought	N3	Kanji
+1699	声	セイ ショウ	こえ こわ-	voice	N3	Kanji
+1700	念	ネン		wish, sense, idea, thought, feeling, desire, attention	N3	Kanji
+1701	助	ジョ	たす.ける たす.かる す.ける すけ	help, rescue, assist	N3	Kanji
+1702	労	ロウ	ろう.する いたわ.る いた.ずき ねぎら つか.れる ねぎら.う	labor, thank for, reward for, toil, trouble	N3	Kanji
+1703	例	レイ	たと.える	example, custom, usage, precedent	N3	Kanji
+1704	然	ゼン ネン	しか しか.り しか.し さ	sort of thing, so, if so, in that case, well	N3	Kanji
+1705	限	ゲン	かぎ.る かぎ.り -かぎ.り	limit, restrict, to best of ability	N3	Kanji
+1706	追	ツイ オ.		chase, drive away, follow, pursue, meanwhile	N3	Kanji
+1707	商	ショウ アキナ.		make a deal, selling, dealing in, merchant	N3	Kanji
+1708	葉	ヨウ		leaf, plane, lobe, needle, blade, spear, counter for flat things, fragment, piece	N3	Kanji
+1709	伝	デン テン ツ	つた.わる つた.える つた.う つだ.う -づた.い	transmit, go along, walk along, follow, report, communicate, legend, tradition	N3	Kanji
+1710	働	ドウ リュク リキ ロク リョク	はたら.く	work, (kokuji)	N3	Kanji
+1711	形	ケイ ギョウ ナ	かた -がた かたち	shape, form, style	N3	Kanji
+1712	景	ケ		scenery, view	N3	Kanji
+1713	落	ラク オ.ト	お.ちる お.ち	fall, drop, come down	N3	Kanji
+1714	好	コウ イ.	この.む す.く よ.い	fond, pleasing, like something	N3	Kanji
+1715	退	タイ	しりぞ.く しりぞ.ける ひ.く の.く の.ける ど.く	retreat, withdraw, retire, resign, repel, expel, reject	N3	Kanji
+1716	頭	トウ ズ ト カブ	あたま かしら -がしら	head, counter for large animals	N3	Kanji
+1717	負	フ	ま.ける ま.かす お.う	defeat, negative, -, minus, bear, owe, assume a responsibility	N3	Kanji
+1718	渡	ト ワタ.	わた.る -わた.る	transit, ford, ferry, cross, import, deliver, diameter, migrate	N3	Kanji
+1719	失	シツ	うしな.う う.せる	lose, error, fault, disadvantage, loss	N3	Kanji
+1720	差	サ	さ.す さ.し	distinction, difference, variation, discrepancy, margin, balance	N3	Kanji
+1721	末	マツ バツ	すえ	end, close, tip, powder, posterity	N3	Kanji
+1722	守	シュ ス カ	まも.る まも.り もり -もり	guard, protect, defend, obey	N3	Kanji
+1723	若	ジャク ニャク ニャ モ.シク	わか.い わか- も.しくわ も.し	young, if, perhaps, possibly, low number, immature	N3	Kanji
+1724	種	シュ -グ	たね	species, kind, class, variety, seed	N3	Kanji
+1725	美	ビ ミ ウツク.シ		beauty, beautiful	N3	Kanji
+1726	命	メイ ミョウ	いのち	fate, command, decree, destiny, life, appoint	N3	Kanji
+1727	福	フ		blessing, fortune, luck, wealth	N3	Kanji
+1728	望	ボウ モウ モ	のぞ.む	ambition, full moon, hope, desire, aspire to, expect	N3	Kanji
+1729	非	ヒ	あら.ず	un-, mistake, negative, injustice, non-	N3	Kanji
+1730	観	カン	み.る しめ.す	outlook, look, appearance, condition, view	N3	Kanji
+1731	察	サツ		guess, presume, surmise, judge, understand	N3	Kanji
+1732	段	ダン タン		grade, steps, stairs	N3	Kanji
+1733	横	オウ	よこ	sideways, side, horizontal, width, woof	N3	Kanji
+1734	深	シン	ふか.い -ぶか.い ふか.まる ふか.める み-	deep, heighten, intensify, strengthen	N3	Kanji
+1735	申	シン	もう.す もう.し- さる	have the honor to, sign of the monkey, 3-5PM, ninth sign of Chinese zodiac	N3	Kanji
+1736	様	ヨウ ショウ	さま さん	Esq., way, manner, situation, polite suffix	N3	Kanji
+1737	財	ザイ サイ ゾ		property, money, wealth, assets	N3	Kanji
+1738	港	コウ	みなと	harbor	N3	Kanji
+1739	識	シ		discriminating, know, write	N3	Kanji
+1740	呼	コ ヨ.		call, call out to, invite	N3	Kanji
+1741	達	タツ ダ -タ		accomplished, reach, arrive, attain	N3	Kanji
+1742	良	リョウ -イ.	よ.い -よ.い い.い	good, pleasing, skilled	N3	Kanji
+1743	候	コウ	そうろう	climate, season, weather	N3	Kanji
+1744	程	テイ -ホ	ほど	extent, degree, law, formula, distance, limits, amount	N3	Kanji
+1745	満	マン バン ミ.タ	み.ちる み.つ	full, enough, pride, satisfy	N3	Kanji
+1746	敗	ハイ	やぶ.れる	failure, defeat, reversal	N3	Kanji
+1747	値	チ アタ	ね	price, cost, value	N3	Kanji
+1748	突	トツ カ	つ.く	stab, protruding, thrusting, thrust, pierce, prick	N3	Kanji
+1749	光	コウ ヒカ	ひか.る	ray, light	N3	Kanji
+1750	路	ロ ル	-じ みち	path, route, road, distance	N3	Kanji
+1751	科			department, course, section	N3	Kanji
+1752	積	セキ ツ.モ	つ.む -づ.み つ.もる	volume, product (x*y), acreage, contents, pile up, stack, load, amass	N3	Kanji
+1753	他	タ	ほか	other, another, the others	N3	Kanji
+1754	処	ショ	ところ -こ お.る	dispose, manage, deal with, sentence, condemn, act, behave, place	N3	Kanji
+1755	太	タイ タ フト.	ふと.い	plump, thick, big around	N3	Kanji
+1756	客	キャク カク		guest, visitor, customer, client	N3	Kanji
+1757	否	ヒ	いな いや	negate, no, noes, refuse, decline, deny	N3	Kanji
+1758	師			expert, teacher, master, army, war	N3	Kanji
+1759	登	トウ ト ドウ ショウ チョウ ア.ガ	のぼ.る	ascend, climb up	N3	Kanji
+1760	易	エキ イ	やさ.しい やす.い	easy, ready to, simple, fortune-telling, divination	N3	Kanji
+1761	速	ソク スミ.ヤ	はや.い はや- はや.める	quick, fast	N3	Kanji
+1762	存	ソン ゾ		suppose, be aware of, believe, feel	N3	Kanji
+1763	飛	ヒ -ト.バ	と.ぶ と.ばす	fly, skip (pages), scatter	N3	Kanji
+1764	殺	サツ サイ セツ	ころ.す -ごろ.し そ.ぐ	kill, murder, butcher, slice off, split, diminish, reduce, spoil	N3	Kanji
+1765	号	ゴウ	さけ.ぶ よびな	nickname, number, item, title, pseudonym, name, call	N3	Kanji
+1766	単	タン	ひとえ	simple, one, single, merely	N3	Kanji
+1767	座	ザ	すわ.る	squat, seat, cushion, gathering, sit	N3	Kanji
+1768	破	ハ ヤブ.レ	やぶ.る	rend, rip, tear, break, destroy, defeat, frustrate	N3	Kanji
+1769	除	ジョ ジ	のぞ.く -よ.け	exclude, division (x, 3), remove, abolish, cancel, except	N3	Kanji
+1770	完	カン		perfect, completion, end	N3	Kanji
+1771	降	コウ ゴ クダ.	お.りる お.ろす ふ.る ふ.り くだ.る	descend, precipitate, fall, surrender	N3	Kanji
+1772	責	セキ	せ.める	blame, condemn, censure	N3	Kanji
+1773	捕	ホ	と.らえる と.らわれる と.る とら.える とら.われる つか.まえる つか.まる	catch, capture	N3	Kanji
+1774	危	キ	あぶ.ない あや.うい あや.ぶむ	dangerous, fear, uneasy	N3	Kanji
+1775	給	キュウ -タマ.	たま.う たも.う	salary, wage, gift, allow, grant, bestow on	N3	Kanji
+1776	苦	ク	くる.しい -ぐる.しい くる.しむ くる.しめる にが.い にが.る	suffering, trial, worry, hardship, feel bitter, scowl	N3	Kanji
+1777	迎	ゲイ ムカ.エ		welcome, meet, greet	N3	Kanji
+1778	園	エン ソ		park, garden, yard, farm	N3	Kanji
+1779	具	グ ツブサ.	そな.える	tool, utensil, means, possess, ingredients, counter for armor, suits, sets of furniture	N3	Kanji
+1780	辞	ジ	や.める いな.む	resign, word, term, expression	N3	Kanji
+1781	因	イン チナ.	よ.る	cause, factor, be associated with, depend on, be limited to	N3	Kanji
+1782	馬	バ	うま うま-	horse	N3	Kanji
+1783	愛	アイ イト.シ		love, affection, favourite	N3	Kanji
+1784	富	フ フウ ト	と.む	wealth, enrich, abundant	N3	Kanji
+1785	彼	ヒ カ.	かれ かの	he, that, the	N3	Kanji
+1786	未	ミ ビ	いま.だ ま.だ ひつじ	un-, not yet, hitherto, still, even now, sign of the ram, 1-3PM, eighth sign of Chinese zodiac	N3	Kanji
+1787	舞	ブ	ま.う -ま.う まい	dance, flit, circle, wheel	N3	Kanji
+1788	亡	ボウ モウ	な.い な.き- ほろ.びる ほろ.ぶ ほろ.ぼす	deceased, the late, dying, perish	N3	Kanji
+1789	冷	レイ	つめ.たい ひ.える ひ.や ひ.ややか ひ.やす ひ.やかす さ.める さ.ます	cool, cold (beer, person), chill	N3	Kanji
+1790	適	テキ	かな.う	suitable, occasional, rare, qualified, capable	N3	Kanji
+1791	婦			lady, woman, wife, bride	N3	Kanji
+1792	寄	キ ヨ.セ	よ.る -よ.り	draw near, stop in, bring near, gather, collect, send, forward	N3	Kanji
+1793	込	コ.メ	-こ.む こ.む こ.み -こ.み	crowded, mixture, in bulk, included, (kokuji)	N3	Kanji
+1794	顔	ガン	かお	face, expression	N3	Kanji
+1795	類	ルイ	たぐ.い	sort, kind, variety, class, genus	N3	Kanji
+1796	余	ヨ アマ.	あま.る あま.り	too much, myself, surplus, other, remainder	N3	Kanji
+1797	王	オウ -ノ		king, rule, magnate	N3	Kanji
+1798	返	ヘン	かえ.す -かえ.す かえ.る -かえ.る	return, answer, fade, repay	N3	Kanji
+1799	妻	サイ ツ		wife, spouse	N3	Kanji
+1800	背	ハイ	せ せい そむ.く そむ.ける	stature, height, back, behind, disobey, defy, go back on, rebel	N3	Kanji
+1801	熱	ネツ アツ.		heat, temperature, fever, mania, passion	N3	Kanji
+1802	宿	シュク ヤド.	やど やど.る	inn, lodging, relay station, dwell, lodge, be pregnant, home, dwelling	N3	Kanji
+1803	薬	ヤク クス		medicine, chemical, enamel, gunpowder, benefit	N3	Kanji
+1804	険	ケン	けわ.しい	precipitous, inaccessible place, impregnable position, steep place, sharp eyes	N3	Kanji
+1805	頼	ライ タヨ.	たの.む たの.もしい	trust, request	N3	Kanji
+1806	覚	カク	おぼ.える さ.ます さ.める さと.る	memorize, learn, remember, awake, sober up	N3	Kanji
+1807	船	セン	ふね ふな	ship, boat	N3	Kanji
+1808	途			route, way, road	N3	Kanji
+1809	許	キョ	ゆる.す もと	permit, approve	N3	Kanji
+1810	抜	バツ ハツ ハイ ヌ.カ	ぬ.く -ぬ.く ぬ.き ぬ.ける ぬ.かす	slip out, extract, pull out, pilfer, quote, remove, omit	N3	Kanji
+1811	便	ベン ビン	たよ.り	convenience	N3	Kanji
+1812	留	リュウ ル ルウブ	と.める と.まる とど.める とど.まる	detain, fasten, halt, stop	N3	Kanji
+1813	罪	ザイ	つみ	guilt, sin, crime, fault, blame, offense	N3	Kanji
+1814	努	ド	つと.める	toil, diligent, as much as possible	N3	Kanji
+1815	精	セイ ショウ シヤ		refined, ghost, fairy, energy, vitality, semen, excellence, purity, skill	N3	Kanji
+1816	散	サン バ	ち.る ち.らす -ち.らす ち.らかす ち.らかる	scatter, disperse, spend, squander	N3	Kanji
+1817	静	セイ ジョウ シズ.メ	しず- しず.か しず.まる	quiet	N3	Kanji
+1818	婚	コン		marriage	N3	Kanji
+1819	喜	キ ヨロコ.バ	よろこ.ぶ	rejoice, take pleasure in	N3	Kanji
+1820	浮	フ ウ.カベ	う.く う.かれる う.かぶ む	floating, float, rise to surface	N3	Kanji
+1821	絶	ゼツ	た.える た.やす た.つ	discontinue, beyond, sever, cut off, abstain, interrupt, suppress	N3	Kanji
+1822	幸	コウ シアワ.	さいわ.い さち	happiness, blessing, fortune	N3	Kanji
+1823	押	オウ オサ.エ	お.す お.し- お.っ- お.さえる	push, stop, check, subdue, attach, seize, weight, shove, press, seal, do in spite of	N3	Kanji
+1824	倒	トウ	たお.れる -だお.れ たお.す	overthrow, fall, collapse, drop, break down	N3	Kanji
+1825	等	トウ -	ひと.しい など	etc., and so forth, class (first), quality, equal, similar	N3	Kanji
+1826	老	ロウ フ.ケ	お.いる	old man, old age, grow old	N3	Kanji
+1827	曲	キョク マ.ゲ	ま.がる	bend, music, melody, composition, pleasure, injustice, fault, curve, crooked, perverse, lean	N3	Kanji
+1828	払	フツ ヒツ ホツ -バラ.	はら.う -はら.い	pay, clear out, prune, banish, dispose of	N3	Kanji
+1829	庭	テイ ニ		courtyard, garden, yard	N3	Kanji
+1830	徒	ト ア	いたずら	junior, emptiness, vanity, futility, uselessness, ephemeral thing, gang, set, party, people	N3	Kanji
+1831	勤	キン ゴン	つと.める -づと.め つと.まる いそ.しむ	diligence, become employed, serve	N3	Kanji
+1832	遅	チ オソ.	おく.れる おく.らす	slow, late, back, later	N3	Kanji
+1833	居	キョ コ オ.	い.る -い	reside, to be, exist, live with	N3	Kanji
+1834	雑	ザツ ゾウ	まじ.える まじ.る	miscellaneous	N3	Kanji
+1835	招	ショウ	まね.く	beckon, invite, summon, engage	N3	Kanji
+1836	困	コン	こま.る	quandary, become distressed, annoyed	N3	Kanji
+1837	欠		あくび	lack, gap, fail	N3	Kanji
+1838	更	コウ	さら さら.に ふ.ける ふ.かす	grow late, night watch, sit up late, of course	N3	Kanji
+1839	刻	コク	きざ.む きざ.み	engrave, cut fine, chop, hash, mince, time, carving	N3	Kanji
+1840	賛	サン	たす.ける たた.える	approve, praise, title or inscription on picture, assist, agree with	N3	Kanji
+1841	抱	ホウ カカ.エ	だ.く いだ.く	embrace, hug, hold in arms	N3	Kanji
+1842	犯	ハン ボン	おか.す	crime, sin, offense	N3	Kanji
+1843	恐	キョウ	おそ.れる おそ.る おそ.ろしい こわ.い こわ.がる	fear, dread, awe	N3	Kanji
+1844	息	ソク	いき	breath, respiration, son, interest (on money)	N3	Kanji
+1845	遠	エン オン トオ.		distant, far	N3	Kanji
+1846	戻	レイ	もど.す もど.る	re-, return, revert, resume, restore, go backwards	N3	Kanji
+1847	願	ガン -ネガ	ねが.う	petition, request, vow, wish, hope	N3	Kanji
+1848	絵	カイ エ		picture, drawing, painting, sketch	N3	Kanji
+1849	越	エツ オツ -ゴ.	こ.す -こ.す -ご.し こ.える	surpass, cross over, move to, exceed, Vietnam	N3	Kanji
+1850	欲	ヨク	ほっ.する ほ.しい	longing, covetousness, greed, passion, desire, craving	N3	Kanji
+1851	痛	ツウ	いた.い いた.む いた.ましい いた.める	pain, hurt, damage, bruise	N3	Kanji
+1852	笑	ショウ エ.	わら.う	laugh	N3	Kanji
+1853	互	ゴ	たが.い かたみ.に	mutually, reciprocally, together	N3	Kanji
+1854	束	ソク	たば たば.ねる つか つか.ねる	bundle, sheaf, ream, tie in bundles, govern, manage, control	N3	Kanji
+1855	似	ジ ヒ.	に.る	becoming, resemble, counterfeit, imitate, suitable	N3	Kanji
+1856	列	レツ		file, row, rank, tier, column	N3	Kanji
+1857	探	タン	さぐ.る さが.す	grope, search, look for	N3	Kanji
+1858	逃	トウ	に.げる に.がす のが.す のが.れる	escape, flee, shirk, evade, set free	N3	Kanji
+1859	遊	ユウ ユ アソ.バ	あそ.ぶ	play	N3	Kanji
+1860	迷	メイ	まよ.う	astray, be perplexed, in doubt, lost, err, illusion	N3	Kanji
+1861	夢	ム ボウ	ゆめ ゆめ.みる くら.い	dream, vision, illusion	N3	Kanji
+1862	君	クン -ギ	きみ	old boy, name-suffix	N3	Kanji
+1863	閉	ヘイ タ.テ	と.じる と.ざす し.める し.まる	closed, shut	N3	Kanji
+1864	緒	ショ チョ イトグ	お	thong, beginning, inception, end, cord, strap	N3	Kanji
+1865	折	セツ オ.レ	お.る おり お.り -お.り	fold, break, fracture, bend, yield, submit	N3	Kanji
+1866	草	ソウ -グ	くさ くさ-	grass, weeds, herbs, pasture, write, draft	N3	Kanji
+1867	暮	ボ ク.ラ	く.れる	livelihood, make a living, spend time	N3	Kanji
+1868	酒	シュ	さけ さか	sake, alcohol	N3	Kanji
+1869	悲	ヒ	かな.しい かな.しむ	jail cell, grieve, sad, deplore, regret	N3	Kanji
+1870	晴	セイ ハ.ラ	は.れる は.れ は.れ- -ば.れ	clear up	N3	Kanji
+1871	掛	カイ ケイ -ガカ	か.ける -か.ける か.け -か.け -が.け か.かる -か.かる -が.かる か.かり -が.かり かかり	hang, suspend, depend, arrive at, tax, pour	N3	Kanji
+1872	到	トウ	いた.る	arrival, proceed, reach, attain, result in	N3	Kanji
+1873	寝	シン	ね.る ね.かす い.ぬ みたまや や.める	lie down, sleep, rest, bed, remain unsold	N3	Kanji
+1874	暗	アン	くら.い	darkness, disappear, shade, informal, grow dark, be blinded	N3	Kanji
+1875	盗	トウ	ぬす.む ぬす.み	steal, rob, pilfer	N3	Kanji
+1876	吸	キュウ	す.う	suck, imbibe, inhale, sip	N3	Kanji
+1877	陽	ヨウ		sunshine, yang principle, positive, male, heaven, daytime	N3	Kanji
+1878	御	ギョ ゴ	おん- お- み	honorable, manipulate, govern	N3	Kanji
+1879	歯	シ	よわい は よわ.い よわい.する	tooth, cog	N3	Kanji
+1880	忘	ボウ	わす.れる	forget	N3	Kanji
+1881	雪	セツ ユ		snow	N3	Kanji
+1882	吹	スイ フ.		blow, breathe, puff, emit, smoke	N3	Kanji
+1883	娘	ジョウ	むすめ こ	daughter, girl	N3	Kanji
+1884	誤	ゴ	あやま.る -あやま.る	mistake, err, do wrong, mislead	N3	Kanji
+1885	洗	セン アラ.		wash, inquire into, probe	N3	Kanji
+1886	慣	カン	な.れる な.らす	accustomed, get used to, become experienced	N3	Kanji
+1887	礼	レイ ラ		salute, bow, ceremony, thanks, remuneration	N3	Kanji
+1888	窓	ソウ ス	まど てんまど けむだし	window, pane	N3	Kanji
+1889	昔	セキ シャク	むかし	once upon a time, antiquity, old times	N3	Kanji
+1890	貧	ヒン ビン	まず.しい	poverty, poor	N3	Kanji
+1891	怒	ド ヌ	いか.る おこ.る	angry, be offended	N3	Kanji
+1892	泳	エイ	およ.ぐ	swim	N3	Kanji
+1893	祖			ancestor, pioneer, founder	N3	Kanji
+1894	杯	ハイ	さかずき	counter for cupfuls, wine glass, glass, toast	N3	Kanji
+1895	疲	ヒ	つか.れる -づか.れ つか.らす	exhausted, tire, weary	N3	Kanji
+1896	皆	カイ ミン	みな	all, everything	N3	Kanji
+1897	鳴	メイ ナ.ラ	な.く な.る	chirp, cry, bark, sound, ring, echo, honk	N3	Kanji
+1898	腹	フク	はら	abdomen, belly, stomach	N3	Kanji
+1899	煙	エン ケム.	けむ.る けむり	smoke	N3	Kanji
+1900	眠	ミン ネム.	ねむ.る	sleep, die, sleepy	N3	Kanji
+1901	怖	フ ホ	こわ.い こわ.がる お.じる おそ.れる	dreadful, be frightened, fearful	N3	Kanji
+1902	耳	ジ ミ		ear	N3	Kanji
+1903	頂	チョウ	いただ.く いただき	place on the head, receive, top of head, top, summit, peak	N3	Kanji
+1904	箱	ソウ	はこ	box, chest, case, bin, railway car	N3	Kanji
+1905	晩	バン		nightfall, night	N3	Kanji
+1906	寒	カン サム.		cold	N3	Kanji
+1907	髪	ハツ カ		hair of the head	N3	Kanji
+1908	忙	ボウ モウ	いそが.しい せわ.しい おそ.れる うれえるさま	busy, occupied, restless	N3	Kanji
+1909	才	サイ		genius, years old, cubic shaku	N3	Kanji
+1910	靴	カ	くつ	shoes	N3	Kanji
+1911	恥	チ	は.じる はじ は.じらう は.ずかしい	shame, dishonor	N3	Kanji
+1912	偶	グウ	たま	accidentally, even number, couple, man & wife, same kind	N3	Kanji
+1913	偉	イ エラ.		admirable, greatness, remarkable, conceited, famous, excellent	N3	Kanji
+1914	猫	ビョウ	ねこ	cat	N3	Kanji
+1915	幾	キ イク.	いく- いく.つ	how many, how much, how far, how long	N3	Kanji
+1916			あっ	Ah!,Oh!	N3	Vocabulary
+1917	愛		あい	love	N3	Vocabulary
+1918	挨拶		あいさつ	greeting,salutation	N3	Vocabulary
+1919	愛情		あいじょう	love,affection	N3	Vocabulary
+1920	合図		あいず	sign,signal	N3	Vocabulary
+1921			アイスクリーム	ice cream	N3	Vocabulary
+1922	愛する		あいする	to love	N3	Vocabulary
+1923	相手		あいて	companion,partner,company	N3	Vocabulary
+1924			あいにく	unfortunately,Sorry, but....	N3	Vocabulary
+1925			アイロン	(electric) iron	N3	Vocabulary
+1926			アウト	out	N3	Vocabulary
+1927	明かり		あかり	lamplight,light (in general),brightness	N3	Vocabulary
+1928	空き		あき	room,time to spare,emptiness	N3	Vocabulary
+1929	明らか		あきらか	obvious,evident,clear	N3	Vocabulary
+1930	諦める		あきらめる	to give up,to abandon	N3	Vocabulary
+1931	飽きる		あきる	to get tired of,to lose interest in,to have enough	N3	Vocabulary
+1932	握手		あくしゅ	handshake	N3	Vocabulary
+1933	悪魔		あくま	devil,demon,evil spirit	N3	Vocabulary
+1934	明ける		あける	to dawn,to become daylight	N3	Vocabulary
+1935			あした	tomorrow	N3	Vocabulary
+1936	預ける		あずける	to give into custody,to entrust,to deposit	N3	Vocabulary
+1937	汗		あせ	sweat,perspiration	N3	Vocabulary
+1938	与える		あたえる	to give,to present,to award	N3	Vocabulary
+1939	暖かい		あたたか(い)	warm,mild	N3	Vocabulary
+1940	辺り		あたり	vicinity,nearby	N3	Vocabulary
+1941	当たる		あたる	to be hit,to be successful,to be equivalent to	N3	Vocabulary
+1942			あちこち	here and there	N3	Vocabulary
+1943	扱う		あつかう	to handle,to deal with,to treat	N3	Vocabulary
+1944	集まり		あつまり	gathering,meeting,assembly,collection	N3	Vocabulary
+1945	当てる		あてる	to hit,to apply a patch	N3	Vocabulary
+1946	跡		あと	(1) trace,tracks,mark,sign,(2) remains,ruins,(3) scar	N3	Vocabulary
+1947			あと	(1) trace,tracks,(2) remains,ruins,(3) scar	N3	Vocabulary
+1948	穴		あな	hole	N3	Vocabulary
+1949	浴びる		あびる	to bathe,to bask in the sun,to shower	N3	Vocabulary
+1950	油		あぶら	oil	N3	Vocabulary
+1951	余り		あまり	not very (used as adverb),not much	N3	Vocabulary
+1952	誤り		あやまり	error	N3	Vocabulary
+1953	粗		あら	defect,flaw,blemish,weak point	N3	Vocabulary
+1954	嵐		あらし	storm,tempest	N3	Vocabulary
+1955	新た		あらた	new,fresh,novel	N3	Vocabulary
+1956			あらゆる	all,every	N3	Vocabulary
+1957	表す		あらわす	to express,to show,to reveal	N3	Vocabulary
+1958	現す		あらわす	to show,to indicate,to display	N3	Vocabulary
+1959	現れ		あらわれ	embodiment,materialization	N3	Vocabulary
+1960	現れる		あらわれる	(1) to appear,to come in sight,to become visible,(2) to express oneself	N3	Vocabulary
+1961			ありがとう	(conj,exp,int) Thank you	N3	Vocabulary
+1962	有る		ある	to be,to have	N3	Vocabulary
+1963	或		ある	a certain...,some...	N3	Vocabulary
+1964			あるいは	or,possibly	N3	Vocabulary
+1965			アルバム	album	N3	Vocabulary
+1966	泡		あわ	bubble,foam,froth,head on beer	N3	Vocabulary
+1967	合わせる		あわせる	to join together,to be opposite,to face,to unite	N3	Vocabulary
+1968	哀れ		あわれ	helpless,pity,sorrow,grief	N3	Vocabulary
+1969	案		あん	plan,suffix meaning draft	N3	Vocabulary
+1970	暗記		あんき	memorization,learning by heart	N3	Vocabulary
+1971	安定		あんてい	stability,equilibrium	N3	Vocabulary
+1972	案内		あんない	information,guidance,leading	N3	Vocabulary
+1973			あんなに	to that extent,to that degree	N3	Vocabulary
+1974			あんまり	not very,not much,remainder,rest	N3	Vocabulary
+1975	胃		い	stomach	N3	Vocabulary
+1976			いい	good	N3	Vocabulary
+1977			よい	good,nice,pleasant,ok	N3	Vocabulary
+1978	いえ		いえ	TODO same as いいえ?	N3	Vocabulary
+1979	委員		いいん	committee member	N3	Vocabulary
+1980	言う		ゆう	to say	N3	Vocabulary
+1981	意外		いがい	unexpected,surprising	N3	Vocabulary
+1982	行き		いき	going	N3	Vocabulary
+1983	行き		ゆき	going	N3	Vocabulary
+1984	息		いき	breath,tone	N3	Vocabulary
+1985	勢い		いきおい	force,vigor,energy,spirit	N3	Vocabulary
+1986	生き物		いきもの	living thing,animal	N3	Vocabulary
+1987	幾つ		いくつ	how many?,how old?	N3	Vocabulary
+1988	幾ら		いくら	how much?,how many?	N3	Vocabulary
+1989			いけない	must not do,bad,wrong,not good	N3	Vocabulary
+1990	医師		いし	doctor,physician	N3	Vocabulary
+1991	意思		いし	intention,purpose	N3	Vocabulary
+1992	意志		いし	will,volition	N3	Vocabulary
+1993	維持		いじ	maintenance,preservation	N3	Vocabulary
+1994	意識		いしき	consciousness,senses	N3	Vocabulary
+1995	異常		いじょう	strangeness,abnormality,disorder	N3	Vocabulary
+1996	椅子		いす	chair	N3	Vocabulary
+1997	泉		いずみ	spring,fountain	N3	Vocabulary
+1998			いずれ	where,which,who	N3	Vocabulary
+1999	以前		いぜん	ago,since,before,previous	N3	Vocabulary
+2000	板		いた	board,plank	N3	Vocabulary
+2001	偉大		いだい	greatness	N3	Vocabulary
+2002	抱く		いだく	(sl) to embrace,to hug,to harbour,to entertain	N3	Vocabulary
+2003			いたずら	tease,prank,trick,practical joke	N3	Vocabulary
+2004			いただきます	expression of gratitude before meals	N3	Vocabulary
+2005	頂く		いただく	to receive,to take food or drink (hum)	N3	Vocabulary
+2006	痛み		いたみ	pain,ache,sore,grief,distress	N3	Vocabulary
+2007	至る		いたる	to come,to arrive	N3	Vocabulary
+2008			いち	market,fair	N3	Vocabulary
+2009	位置		いち	place,situation,position,location	N3	Vocabulary
+2010	一時		いちじ	moment,time	N3	Vocabulary
+2011	一度に		いちどに	all at once	N3	Vocabulary
+2012	市場		いちば	(the) market (as a concept)	N3	Vocabulary
+2013	一番		いちばん	best,first,number one	N3	Vocabulary
+2014			いつか	sometime,someday,one day	N3	Vocabulary
+2015	一家		いっか	a house,a home,a family,a household	N3	Vocabulary
+2016	一種		いっしゅ	a species,a kind,a variety	N3	Vocabulary
+2017	一瞬		いっしゅん	a moment,an instant	N3	Vocabulary
+2018	一生		いっしょう	whole life,a lifetime,all through life	N3	Vocabulary
+2019	一層		いっそう	much more,still more,all the more	N3	Vocabulary
+2020	一体		いったい	(1) one object,one body,(2) what on earth?,really?,(3) generally	N3	Vocabulary
+2021	一致		いっち	(1) coincidence,agreement,(2) conformity	N3	Vocabulary
+2022			いつでも	(at) any time,always,at all times,never (neg)	N3	Vocabulary
+2023	一般		いっぱん	general,liberal,universal,ordinary,average	N3	Vocabulary
+2024	一方		いっぽう	(1) on the other hand,(2) meanwhile,(3) only,simple,in turn	N3	Vocabulary
+2025			いつまでも	forever,for good,eternally,as long as one likes,indefinitely	N3	Vocabulary
+2026	いつも		いつも	always,usually,every time,never (with neg. verb)	N3	Vocabulary
+2027	移動		いどう	removal,migration,movement	N3	Vocabulary
+2028	従兄弟		いとこ	cousin (male)	N3	Vocabulary
+2029	稲		いね	rice-plant	N3	Vocabulary
+2030	居眠り		いねむり	dozing,nodding off	N3	Vocabulary
+2031	命		いのち	command,decree,life,destiny	N3	Vocabulary
+2032	違反		いはん	violation (of law),transgression,infringement,breach	N3	Vocabulary
+2033	衣服		いふく	clothes	N3	Vocabulary
+2034	居間		いま	living room (western style)	N3	Vocabulary
+2035	今に		いまに	before long,even now	N3	Vocabulary
+2036	今にも		いまにも	at any time,soon	N3	Vocabulary
+2037	否		いや	no,the noes	N3	Vocabulary
+2038	以来		いらい	since,henceforth	N3	Vocabulary
+2039	依頼		いらい	(1) request,commission,dispatch,(2) dependence,trust	N3	Vocabulary
+2040			いらいら	getting nervous,irritation	N3	Vocabulary
+2041			いらっしゃい	welcome	N3	Vocabulary
+2042	医療		いりょう	medical care,medical treatment	N3	Vocabulary
+2043	岩		いわ	rock,crag	N3	Vocabulary
+2044	祝い		いわい	celebration,festival	N3	Vocabulary
+2045	祝う		いわう	to congratulate,to celebrate	N3	Vocabulary
+2046	言わば		いわば	so to speak	N3	Vocabulary
+2047			いわゆる	the so-called,so to speak	N3	Vocabulary
+2048			インク	ink	N3	Vocabulary
+2049	印刷		いんさつ	printing	N3	Vocabulary
+2050	印象		いんしょう	impression	N3	Vocabulary
+2051	引退		いんたい	retire	N3	Vocabulary
+2052	引用		いんよう	quotation,citation	N3	Vocabulary
+2053			ウイスキー	whisky	N3	Vocabulary
+2054	上		うわ	upper,outer,surface	N3	Vocabulary
+2055	魚		うお	fish	N3	Vocabulary
+2056			うがい	gargle,rinse mouth	N3	Vocabulary
+2057	伺う		うかがう	(hon) to visit,to ask,to inquire	N3	Vocabulary
+2058	受け取る		うけとる	to receive,to get,to accept,to take	N3	Vocabulary
+2059	動かす		うごかす	to move,to shift	N3	Vocabulary
+2060	兎		うさぎ	rabbit,hare,cony	N3	Vocabulary
+2061	牛		うし	cattle,cow	N3	Vocabulary
+2062	失う		うしなう	to lose,to part with	N3	Vocabulary
+2063	後		うしろ	afterwards,since then,in the future	N3	Vocabulary
+2064	嘘		うそ	lie,falsehood,incorrect fact,inappropriate	N3	Vocabulary
+2065	疑う		うたがう	to doubt,to distrust,to be suspicious of,to suspect	N3	Vocabulary
+2066	内		うち	inside	N3	Vocabulary
+2067	宇宙		うちゅう	universe,cosmos,space	N3	Vocabulary
+2068	撃つ		うつ	to attack,to defeat,to destroy	N3	Vocabulary
+2069	移す		うつす	to remove,to transfer,to infect	N3	Vocabulary
+2070	訴える		うったえる	to sue (a person),to resort to,to appeal to	N3	Vocabulary
+2071			うなる	to groan,to moan	N3	Vocabulary
+2072	奪う		うばう	to snatch away	N3	Vocabulary
+2073	馬		うま	(1) horse,(2) promoted bishop (shogi)	N3	Vocabulary
+2074	うまい		うまい	delicious	N3	Vocabulary
+2075	生まれ		うまれ	birth,birth-place	N3	Vocabulary
+2076	梅		うめ	plum,plum-tree,lowest (of a three-tier ranking system)	N3	Vocabulary
+2077	裏切る		うらぎる	to betray,to turn traitor to,to double-cross	N3	Vocabulary
+2078			うるさい	noisy,loud,fussy	N3	Vocabulary
+2079	嬉しい		うれしい	happy,glad,pleasant	N3	Vocabulary
+2080	売れる		うれる	to be sold	N3	Vocabulary
+2081	噂		うわさ	rumour,report,gossip,common talk	N3	Vocabulary
+2082	うん		（感）	fortune,luck	N3	Vocabulary
+2083	運		うん	fortune,luck	N3	Vocabulary
+2084	運転		うんてん	operation,motion,driving	N3	Vocabulary
+2085	運動		うんどう	motion,exercise	N3	Vocabulary
+2086	柄		え	handle,grip	N3	Vocabulary
+2087	永遠		えいえん	eternity,perpetuity,immortality,permanence	N3	Vocabulary
+2088	永久		えいきゅう	eternity,perpetuity,immortality	N3	Vocabulary
+2089	影響		えいきょう	influence,effect	N3	Vocabulary
+2090	営業		えいぎょう	business,trade,management	N3	Vocabulary
+2091	衛星		えいせい	satellite	N3	Vocabulary
+2092	栄養		えいよう	nutrition,nourishment	N3	Vocabulary
+2093	笑顔		えがお	smiling face	N3	Vocabulary
+2094	描く		えがく	to draw,to paint,to sketch,to depict,to describe	N3	Vocabulary
+2095	餌		えさ	feed,bait	N3	Vocabulary
+2096			エネルギー	(n) energy (de: Energie)	N3	Vocabulary
+2097	得る		える	to get,to gain,to win	N3	Vocabulary
+2098	得る		うる	to get,to gain,to win	N3	Vocabulary
+2099	円		えん	circle,money	N3	Vocabulary
+2100	延期		えんき	postponement,adjournment	N3	Vocabulary
+2101	演技		えんぎ	acting,performance	N3	Vocabulary
+2102	援助		えんじょ	assistance,aid,support	N3	Vocabulary
+2103			エンジン	engine	N3	Vocabulary
+2104	演説		えんぜつ	speech,address	N3	Vocabulary
+2105	演奏		えんそう	musical performance	N3	Vocabulary
+2106	遠慮		えんりょ	diffidence,restraint,reserve	N3	Vocabulary
+2107	御		お	honourable	N3	Vocabulary
+2108	老い		おい	old age,old person,the old,the aged	N3	Vocabulary
+2109	追い付く		おいつく	to overtake,to catch up (with)	N3	Vocabulary
+2110	王		おう	king,ruler,sovereign,monarch	N3	Vocabulary
+2111	追う		おう	to chase,to run after	N3	Vocabulary
+2112	王様		おうさま	king	N3	Vocabulary
+2113	王子		おうじ	prince	N3	Vocabulary
+2114	応じる		おうじる	to respond,to satisfy,to accept,to comply with,to apply for	N3	Vocabulary
+2115	横断		おうだん	crossing	N3	Vocabulary
+2116	終える		おえる	to finish	N3	Vocabulary
+2117	大いに		おおいに	very,much,greatly	N3	Vocabulary
+2118	覆う		おおう	to cover,to hide,to conceal,to wrap,to disguise	N3	Vocabulary
+2119			オーバー	(1) overcoat,(2) over	N3	Vocabulary
+2120	大家		おおや	rich family,distinguished family	N3	Vocabulary
+2121	丘		おか	hill,height,knoll,rising ground	N3	Vocabulary
+2122	沖		おき	open sea	N3	Vocabulary
+2123	奥		おく	interior,inner part	N3	Vocabulary
+2124	贈る		おくる	to send,to give to,to award to,to confer on	N3	Vocabulary
+2125	起こる		おこる	to occur,to happen	N3	Vocabulary
+2126	幼い		おさない	very young,childish	N3	Vocabulary
+2127	収める		おさめる	to obtain,to reap,to pay,to supply,to accept	N3	Vocabulary
+2128			おじいさん	grandfather,male senior-citizen	N3	Vocabulary
+2129			おしゃべり	chattering,talk,idle talk	N3	Vocabulary
+2130	汚染		おせん	pollution,contamination	N3	Vocabulary
+2131			おそらく	perhaps	N3	Vocabulary
+2132	恐れる		おそれる	to fear,to be afraid of	N3	Vocabulary
+2133	恐ろしい		おそろしい	terrible,dreadful	N3	Vocabulary
+2134	お互い		おたがい	mutual,reciprocal,each other	N3	Vocabulary
+2135	穏やか		おだやか	calm,gentle,quiet	N3	Vocabulary
+2136	男の人		おとこのひと	man	N3	Vocabulary
+2137	劣る		おとる	to fall behind,to be inferior to	N3	Vocabulary
+2138	お腹		おなか	stomach	N3	Vocabulary
+2139	鬼		おに	ogre,demon,it (i.e., in a game of tag)	N3	Vocabulary
+2140	帯		おび	band (e.g. conduction, valence)	N3	Vocabulary
+2141	お昼		おひる	lunch,noon	N3	Vocabulary
+2142			オフィス	office	N3	Vocabulary
+2143	溺れる		おぼれる	to be drowned,to indulge in	N3	Vocabulary
+2144			おまえ	(fam) you (sing),presence (of a high personage)	N3	Vocabulary
+2145			おめでとう	Congratulations!,an auspicious occasion!	N3	Vocabulary
+2146	お目に掛かる		おめにかかる		N3	Vocabulary
+2147	思い出		おもいで	memories,recollections,reminiscence	N3	Vocabulary
+2148	主に		おもに	mainly,primarily	N3	Vocabulary
+2149	思わず		おもわず	unintentional,spontaneous	N3	Vocabulary
+2150			おや	parents	N3	Vocabulary
+2151	泳ぎ		およぎ	swimming	N3	Vocabulary
+2152			およそ	about,roughly,as a rule,approximately	N3	Vocabulary
+2153	及ぼす		およぼす	to exert,to cause,to exercise	N3	Vocabulary
+2154	居る		おる	to be (animate),to be,to exist	N3	Vocabulary
+2155	下す		おろす	to lower,to let go down	N3	Vocabulary
+2156	降ろす		おろす	to take down,to launch,to drop	N3	Vocabulary
+2157	終		おわり	the end	N3	Vocabulary
+2158	音		おん	sound,note	N3	Vocabulary
+2159	恩		おん	favour,obligation,debt of gratitude	N3	Vocabulary
+2160	温暖		おんだん	warmth	N3	Vocabulary
+2161	温度		おんど	temperature	N3	Vocabulary
+2162	可		か	passable	N3	Vocabulary
+2163	課		か	counter for chapters (of a book)	N3	Vocabulary
+2164			カー	car	N3	Vocabulary
+2165			カード	card,curd	N3	Vocabulary
+2166	会		かい	meeting,assembly,party,association,club	N3	Vocabulary
+2167	回		かい	counter for occurrences	N3	Vocabulary
+2168	害		がい	injury,harm,evil influence,damage	N3	Vocabulary
+2169	会員		かいいん	member,the membership	N3	Vocabulary
+2170	絵画		かいが	picture	N3	Vocabulary
+2171	海外		かいがい	foreign,abroad,overseas	N3	Vocabulary
+2172	会計		かいけい	account,finance,accountant	N3	Vocabulary
+2173	解決		かいけつ	settlement,solution,resolution	N3	Vocabulary
+2174	会合		かいごう	meeting,assembly	N3	Vocabulary
+2175	外交		がいこう	diplomacy	N3	Vocabulary
+2176	開始		かいし	start,commencement,beginning	N3	Vocabulary
+2177	解釈		かいしゃく	explanation,interpretation	N3	Vocabulary
+2178	外出		がいしゅつ	outing,going out	N3	Vocabulary
+2179	改善		かいぜん	betterment,improvement	N3	Vocabulary
+2180	快適		かいてき	pleasant,agreeable,comfortable	N3	Vocabulary
+2181	回復		かいふく	recovery (from illness),improvement,rehabilitation,restoration	N3	Vocabulary
+2182	飼う		かう	to keep,to raise,to feed	N3	Vocabulary
+2183	替える		かえる	to exchange,to interchange,to substitute,to replace	N3	Vocabulary
+2184	換える		かえる	to exchange,to interchange,to substitute,to replace	N3	Vocabulary
+2185	香り		かおり	aroma,fragrance,scent,smell	N3	Vocabulary
+2186	画家		がか	painter,artist	N3	Vocabulary
+2187	抱える		かかえる	to hold or carry under or in the arms	N3	Vocabulary
+2188	価格		かかく	price,value,cost	N3	Vocabulary
+2189	化学		かがく	chemistry	N3	Vocabulary
+2190	輝く		かがやく	to shine,to glitter,to sparkle	N3	Vocabulary
+2191	係		かかり	official,duty,person in charge	N3	Vocabulary
+2192	掛かる		かかる	to take (e.g. time, money, etc),to hang	N3	Vocabulary
+2193	罹る		かかる	to suffer from	N3	Vocabulary
+2194	鍵		かぎ	key	N3	Vocabulary
+2195	限る		かぎる	to restrict,to limit,to confine	N3	Vocabulary
+2196	描く		かく	to draw,to paint,to sketch,to depict,to describe	N3	Vocabulary
+2197	家具		かぐ	furniture	N3	Vocabulary
+2198	学		がく	learning,scholarship,erudition,knowledge	N3	Vocabulary
+2199	額		がく	forehead,brow	N3	Vocabulary
+2200	覚悟		かくご	resolution,resignation,readiness,preparedness	N3	Vocabulary
+2201	確実		かくじつ	certainty,reliability,soundness	N3	Vocabulary
+2202	学者		がくしゃ	scholar	N3	Vocabulary
+2203	学習		がくしゅう	study,learning	N3	Vocabulary
+2204	隠す		かくす	to hide,to conceal	N3	Vocabulary
+2205	拡大		かくだい	magnification,enlargement	N3	Vocabulary
+2206	確認		かくにん	affirmation,confirmation	N3	Vocabulary
+2207	学問		がくもん	scholarship,study,learning	N3	Vocabulary
+2208	隠れる		かくれる	to hide,to be hidden,to conceal oneself,to disappear	N3	Vocabulary
+2209	影		かげ	shade,shadow,other side	N3	Vocabulary
+2210	陰		かげ	shade,shadow,other side	N3	Vocabulary
+2211	欠ける		かける	to be lacking	N3	Vocabulary
+2212	加減		かげん	addition and subtraction,allowance for	N3	Vocabulary
+2213	過去		かこ	the past,bygone days,the previous	N3	Vocabulary
+2214	籠		かご	basket,cage	N3	Vocabulary
+2215	囲む		かこむ	to surround,to encircle	N3	Vocabulary
+2216	火災		かさい	conflagration,fire	N3	Vocabulary
+2217	貸し		かし	loan,lending	N3	Vocabulary
+2218	菓子		かし	pastry	N3	Vocabulary
+2219	家事		かじ	housework,domestic chores	N3	Vocabulary
+2220	賢い		かしこい	wise,clever,smart	N3	Vocabulary
+2221	歌手		かしゅ	singer	N3	Vocabulary
+2222	数		かず	number,figure	N3	Vocabulary
+2223	稼ぐ		かせぐ	to earn income,to labor	N3	Vocabulary
+2224	数える		かぞえる	to count	N3	Vocabulary
+2225	型		かた	mold,model,style,shape,data-type	N3	Vocabulary
+2226	肩		かた	shoulder	N3	Vocabulary
+2227	硬い		かたい	solid,hard (esp. metal, stone),unpolished writing	N3	Vocabulary
+2228	方々		かたがた	persons,this and that,here and there,everywhere	N3	Vocabulary
+2229	刀		かたな	sword,saber,knife,engraving tool	N3	Vocabulary
+2230	語る		かたる	to talk,to tell,to recite	N3	Vocabulary
+2231	勝ち		かち	win,victory	N3	Vocabulary
+2232	価値		かち	value,worth,merit	N3	Vocabulary
+2233			がっかり	feel disappointed,be dejected,lose heart	N3	Vocabulary
+2234	活気		かっき	energy,liveliness	N3	Vocabulary
+2235	学期		がっき	term (school)	N3	Vocabulary
+2236	格好		かっこう	shape,form,posture,suitability	N3	Vocabulary
+2237	活動		かつどう	action,activity	N3	Vocabulary
+2238	活用		かつよう	conjugation,practical use	N3	Vocabulary
+2239	悲しむ		かなしむ	to be sad,to mourn for,to regret	N3	Vocabulary
+2240	必ずしも		かならずしも	(not) always,(not) necessarily,(not) all,(not) entirely	N3	Vocabulary
+2241			かなり	considerably,fairly,quite	N3	Vocabulary
+2242	金		かね	(1) gold,(2) gold general (shogi) (abbr)	N3	Vocabulary
+2243	金持ち		かねもち	rich man	N3	Vocabulary
+2244	可能		かのう	possible,practicable,feasible	N3	Vocabulary
+2245	株		かぶ	share,stock,stump (of tree)	N3	Vocabulary
+2246	被る		かぶる	to suffer	N3	Vocabulary
+2247	構う		かまう	to mind,to care about,to be concerned about	N3	Vocabulary
+2248	我慢		がまん	patience,endurance,perseverance	N3	Vocabulary
+2249	上		かみ	(1) first volume,(2) superior quality,(3) governmental	N3	Vocabulary
+2250	神		かみ	god	N3	Vocabulary
+2251	雷		かみなり	thunder	N3	Vocabulary
+2252	髪の毛		かみのけ	hair (head)	N3	Vocabulary
+2253	科目		かもく	(school) subject,curriculum,course	N3	Vocabulary
+2254			かもしれない	may,might,perhaps,may be,possibly	N3	Vocabulary
+2255	火曜		かよう	(abbr) Tuesday	N3	Vocabulary
+2256	空		から	sky	N3	Vocabulary
+2257	柄		がら	hilt (of a sword),haft (of a dagger),handgrip	N3	Vocabulary
+2258	刈る		かる	to cut (hair),to mow (grass),to harvest	N3	Vocabulary
+2259	彼等		かれら	they (usually male)	N3	Vocabulary
+2260	川		かわ	river	N3	Vocabulary
+2261	河		かわ	river,stream	N3	Vocabulary
+2262	皮		かわ	skin,hide,leather,fur,pelt,bark,shell	N3	Vocabulary
+2263	革		かわ	leather	N3	Vocabulary
+2264			かわいそう	poor,pitiable,pathetic	N3	Vocabulary
+2265			かわいらしい	lovely,sweet	N3	Vocabulary
+2266	缶		かん	can,tin	N3	Vocabulary
+2267	勘		かん	perception,intuition,the sixth sense	N3	Vocabulary
+2268	考え		かんがえ	thinking,thought,ideas,intention	N3	Vocabulary
+2269	感覚		かんかく	sense,sensation	N3	Vocabulary
+2270	観客		かんきゃく	audience,spectator(s)	N3	Vocabulary
+2271	環境		かんきょう	environment,circumstance	N3	Vocabulary
+2272	歓迎		かんげい	welcome,reception	N3	Vocabulary
+2273	観光		かんこう	sightseeing	N3	Vocabulary
+2274	観察		かんさつ	observation,survey	N3	Vocabulary
+2275	感じ		かんじ	feeling,sense,impression	N3	Vocabulary
+2276	感謝		かんしゃ	thanks,gratitude	N3	Vocabulary
+2277	患者		かんじゃ	a patient	N3	Vocabulary
+2278	勘定		かんじょう	calculation,counting,consideration	N3	Vocabulary
+2279	感情		かんじょう	emotion(s),feeling(s),sentiment	N3	Vocabulary
+2280	感じる		かんじる	to feel,to sense,to experience	N3	Vocabulary
+2281	感心		かんしん	admiration,Well done!	N3	Vocabulary
+2282	関心		かんしん	concern,interest	N3	Vocabulary
+2283	関する		かんする	to concern,to be related	N3	Vocabulary
+2284	完成		かんせい	(1) complete,completion,(2) perfection,accomplishment	N3	Vocabulary
+2285	完全		かんぜん	perfection,completeness	N3	Vocabulary
+2286	感動		かんどう	being deeply moved,excitement,impression,deep emotion	N3	Vocabulary
+2287	監督		かんとく	supervision,control,superintendence	N3	Vocabulary
+2288	管理		かんり	control,management (e.g. of a business)	N3	Vocabulary
+2289	完了		かんりょう	completion,conclusion	N3	Vocabulary
+2290	関連		かんれん	relation,connection,relevance	N3	Vocabulary
+2291	議員		ぎいん	member of the Diet, congress or parliament	N3	Vocabulary
+2292	記憶		きおく	memory,recollection,remembrance	N3	Vocabulary
+2293	気温		きおん	temperature	N3	Vocabulary
+2294	機械		きかい	machine,mechanism	N3	Vocabulary
+2295	議会		ぎかい	Diet,congress,parliament	N3	Vocabulary
+2296	期間		きかん	period,term	N3	Vocabulary
+2297	機関		きかん	organ,mechanism,facility,engine	N3	Vocabulary
+2298	企業		きぎょう	enterprise,undertaking	N3	Vocabulary
+2299	効く		きく	to be effective	N3	Vocabulary
+2300	機嫌		きげん	humour,temper,mood	N3	Vocabulary
+2301	気候		きこう	climate	N3	Vocabulary
+2302	岸		きし	bank,coast,shore	N3	Vocabulary
+2303	生地		きじ	birthplace	N3	Vocabulary
+2304	記事		きじ	article,news story,report,account	N3	Vocabulary
+2305	技師		ぎし	engineer,technician	N3	Vocabulary
+2306	記者		きしゃ	reporter	N3	Vocabulary
+2307	傷		きず	wound,injury,hurt,cut	N3	Vocabulary
+2308	期待		きたい	expectation,anticipation,hope	N3	Vocabulary
+2309	帰宅		きたく	returning home	N3	Vocabulary
+2310	貴重		きちょう	precious,valuable	N3	Vocabulary
+2311	議長		ぎちょう	chairman	N3	Vocabulary
+2312			きちんと	precisely,accurately	N3	Vocabulary
+2313			きつい	tight,close,intense	N3	Vocabulary
+2314	気付く		きづく	to notice,to recognize,to become aware of	N3	Vocabulary
+2315	気に入る		きにいる	to be pleased with,to suit	N3	Vocabulary
+2316	記入		きにゅう	entry,filling in of forms	N3	Vocabulary
+2317	記念		きねん	commemoration,memory	N3	Vocabulary
+2318	機能		きのう	function,faculty	N3	Vocabulary
+2319	気の毒		きのどく	pitiful,a pity	N3	Vocabulary
+2320	寄付		きふ	contribution,donation	N3	Vocabulary
+2321	希望		きぼう	hope,wish,aspiration	N3	Vocabulary
+2322	基本		きほん	foundation,basis,standard	N3	Vocabulary
+2323	決まり		きまり	settlement,conclusion,regulation,rule	N3	Vocabulary
+2324	気味		きみ	-like,-looking,-looked	N3	Vocabulary
+2325	奇妙		きみょう	strange,queer,curious	N3	Vocabulary
+2326	義務		ぎむ	duty,obligation,responsibility	N3	Vocabulary
+2327	疑問		ぎもん	question,problem,doubt,guess	N3	Vocabulary
+2328	逆		ぎゃく	reverse,opposite	N3	Vocabulary
+2329			キャプテン	captain	N3	Vocabulary
+2330			キャンプ	camp	N3	Vocabulary
+2331	九		きゅう	nine	N3	Vocabulary
+2332	旧		きゅう	ex-	N3	Vocabulary
+2333	級		きゅう	class, grade, rank,school class, grade	N3	Vocabulary
+2334	球		きゅう	globe,sphere,ball	N3	Vocabulary
+2335	休暇		きゅうか	holiday,day off,furlough	N3	Vocabulary
+2336	休憩		きゅうけい	rest,break,recess,intermission	N3	Vocabulary
+2337	急激		きゅうげき	sudden,precipitous,radical	N3	Vocabulary
+2338	吸収		きゅうしゅう	absorption,suction,attraction	N3	Vocabulary
+2339	救助		きゅうじょ	relief,aid,rescue	N3	Vocabulary
+2340	急速		きゅうそく	rapid (e.g. progress)	N3	Vocabulary
+2341	急に		きゅうに		N3	Vocabulary
+2342	給料		きゅうりょう	salary,wages	N3	Vocabulary
+2343	器用		きよう	skillful,handy	N3	Vocabulary
+2344	教科書		きょうかしょ	text book	N3	Vocabulary
+2345	競技		きょうぎ	game,match,contest	N3	Vocabulary
+2346	行儀		ぎょうぎ	manners	N3	Vocabulary
+2347	供給		きょうきゅう	supply,provision	N3	Vocabulary
+2348	教師		きょうし	teacher (classroom)	N3	Vocabulary
+2349	教授		きょうじゅ	teaching,instruction,professor	N3	Vocabulary
+2350	強調		きょうちょう	emphasis,stress,stressed point	N3	Vocabulary
+2351	共通		きょうつう	commonness,community	N3	Vocabulary
+2352	共同		きょうどう	cooperation,association,collaboration,joint	N3	Vocabulary
+2353	恐怖		きょうふ	be afraid,dread,dismay,terror	N3	Vocabulary
+2354	協力		きょうりょく	cooperation,collaboration	N3	Vocabulary
+2355	強力		きょうりょく	herculean strength,mountain carrier-guide	N3	Vocabulary
+2356	許可		きょか	permission,approval	N3	Vocabulary
+2357	局		きょく	court lady,lady in waiting	N3	Vocabulary
+2358	巨大		きょだい	huge,gigantic,enormous	N3	Vocabulary
+2359	嫌う		きらう	to hate,to dislike,to loathe	N3	Vocabulary
+2360	霧		きり	fog,mist	N3	Vocabulary
+2361	切れ		きれ	cloth,piece,cut,chop	N3	Vocabulary
+2362	切れる		きれる	(1) to cut well,to be sharp,(2) to break (off)	N3	Vocabulary
+2363			キロ	(abbr) kilo-,kilogram,kilometre,10^3	N3	Vocabulary
+2364	記録		きろく	record,minutes,document	N3	Vocabulary
+2365	議論		ぎろん	argument,discussion,dispute	N3	Vocabulary
+2366	金		きん	(1) gold,(2) gold general (shogi) (abbr)	N3	Vocabulary
+2367	銀		ぎん	(1) silver,silver coin,silver paint	N3	Vocabulary
+2368	禁煙		きんえん	No Smoking!	N3	Vocabulary
+2369	金額		きんがく	amount of money	N3	Vocabulary
+2370	金庫		きんこ	safe,vault,treasury,provider of funds	N3	Vocabulary
+2371	禁止		きんし	prohibition,ban	N3	Vocabulary
+2372	金銭		きんせん	money,cash	N3	Vocabulary
+2373	金属		きんぞく	metal	N3	Vocabulary
+2374	近代		きんだい	present day	N3	Vocabulary
+2375	緊張		きんちょう	tension,mental strain,nervousness	N3	Vocabulary
+2376	筋肉		きんにく	muscle,sinew	N3	Vocabulary
+2377	金融		きんゆう	monetary circulation,credit situation	N3	Vocabulary
+2378	金曜		きんよう	(abbr) Friday	N3	Vocabulary
+2379	九		く	nine	N3	Vocabulary
+2380	句		く	sentence	N3	Vocabulary
+2381	食う		くう	(male) (vulg) to eat	N3	Vocabulary
+2382	偶然		ぐうぜん	(by) chance,unexpectedly,suddenly	N3	Vocabulary
+2383	臭い		くさい	odour,scent,smell,stench	N3	Vocabulary
+2384	鎖		くさり	chain	N3	Vocabulary
+2385	腐る		くさる	to rot,to go bad	N3	Vocabulary
+2386	癖		くせ	a habit (often a bad habit),peculiarity	N3	Vocabulary
+2387	管		くだ	pipe,tube	N3	Vocabulary
+2388	具体		ぐたい	concrete,tangible,material	N3	Vocabulary
+2389	下さる		くださる	(hon) to give,to confer	N3	Vocabulary
+2390	下り		くだり	down-train (going away from Tokyo)	N3	Vocabulary
+2391	苦痛		くつう	pain,agony	N3	Vocabulary
+2392			ぐっすり	sound asleep,fast asleep	N3	Vocabulary
+2393	区別		くべつ	distinction,differentiation,classification	N3	Vocabulary
+2394	組		くみ	class,group,team,set	N3	Vocabulary
+2395	組合		くみあい	association,union	N3	Vocabulary
+2396	組む		くむ	to put together	N3	Vocabulary
+2397	曇		くもり	cloudiness,cloudy weather,shadow	N3	Vocabulary
+2398	位		くらい	grade,rank,about	N3	Vocabulary
+2399	暮らし		くらし	living,livelihood,subsistence,circumstances	N3	Vocabulary
+2400			クラシック	classic(s)	N3	Vocabulary
+2401	暮らす		くらす	to live,to get along	N3	Vocabulary
+2402			グラス	(1) glass,(2) grass	N3	Vocabulary
+2403			グランド	gland,grand,(electrical) ground	N3	Vocabulary
+2404			クリーム	cream	N3	Vocabulary
+2405	繰り返す		くりかえす	to repeat,to do something over again	N3	Vocabulary
+2406			クリスマス	Christmas	N3	Vocabulary
+2407	狂う		くるう	to go mad,to get out of order	N3	Vocabulary
+2408			グループ	group	N3	Vocabulary
+2409	苦しい		くるしい	painful,difficult	N3	Vocabulary
+2410	苦しむ		くるしむ	to suffer,to groan,to be worried	N3	Vocabulary
+2411	暮れ		くれ	year end,sunset,nightfall,end	N3	Vocabulary
+2412	苦労		くろう	troubles,hardships	N3	Vocabulary
+2413	加える		くわえる	to append,to sum up,to add (up)	N3	Vocabulary
+2414	詳しい		くわしい	knowing very well,detailed,full,accurate	N3	Vocabulary
+2415	加わる		くわわる	to join in,to accede to,to increase,to gain in (influence)	N3	Vocabulary
+2416	訓		くん	native Japanese reading of a Chinese character	N3	Vocabulary
+2417	軍		ぐん	army,force,troops	N3	Vocabulary
+2418	軍隊		ぐんたい	army,troops	N3	Vocabulary
+2419	訓練		くんれん	practice,training	N3	Vocabulary
+2420	下		げ	under,below,beneath	N3	Vocabulary
+2421	計		けい	plan	N3	Vocabulary
+2422	敬意		けいい	respect,honour	N3	Vocabulary
+2423	経営		けいえい	management,administration	N3	Vocabulary
+2424	計画		けいかく	plan,project,schedule,scheme,program	N3	Vocabulary
+2425	景気		けいき	condition,state,business (condition)	N3	Vocabulary
+2426	経験		けいけん	experience	N3	Vocabulary
+2427	傾向		けいこう	tendency,trend,inclination	N3	Vocabulary
+2428	警告		けいこく	warning,advice	N3	Vocabulary
+2429	計算		けいさん	calculation,reckoning	N3	Vocabulary
+2430	掲示		けいじ	notice,bulletin	N3	Vocabulary
+2431	刑事		けいじ	criminal case,(police) detective	N3	Vocabulary
+2432	芸術		げいじゅつ	(fine) art,the arts	N3	Vocabulary
+2433	契約		けいやく	contract,compact,agreement	N3	Vocabulary
+2434	経由		けいゆ	go by the way,via	N3	Vocabulary
+2435			ケース	case	N3	Vocabulary
+2436			ゲーム	game	N3	Vocabulary
+2437	怪我		けが	injury (to animate object),hurt	N3	Vocabulary
+2438	劇		げき	drama,play	N3	Vocabulary
+2439	劇場		げきじょう	theatre,playhouse	N3	Vocabulary
+2440	化粧		けしょう	make-up (cosmetic)	N3	Vocabulary
+2441			けち	stinginess,miser,miserliness	N3	Vocabulary
+2442	結果		けっか	result,consequence	N3	Vocabulary
+2443	欠陥		けっかん	defect,fault,deficiency	N3	Vocabulary
+2444	結局		けっきょく	after all,eventually	N3	Vocabulary
+2445	決心		けっしん	determination,resolution	N3	Vocabulary
+2446	欠席		けっせき	absence,non-attendance	N3	Vocabulary
+2447	決定		けってい	decision,determination	N3	Vocabulary
+2448	欠点		けってん	faults,defect,weakness	N3	Vocabulary
+2449	月曜		げつよう	Monday	N3	Vocabulary
+2450	結論		けつろん	conclusion	N3	Vocabulary
+2451	煙		けむり	smoke,fumes	N3	Vocabulary
+2452	券		けん	ticket,coupon,bond,certificate	N3	Vocabulary
+2453	県		けん	prefecture	N3	Vocabulary
+2454	軒		けん	eaves	N3	Vocabulary
+2455	喧嘩		けんか	quarrel,(drunken) brawl,failure	N3	Vocabulary
+2456	見解		けんかい	opinion,point of view	N3	Vocabulary
+2457	限界		げんかい	limit,bound	N3	Vocabulary
+2458	現金		げんきん	cash,ready money,mercenary,self-interested	N3	Vocabulary
+2459	言語		げんご	language	N3	Vocabulary
+2460	健康		けんこう	health,sound,wholesome	N3	Vocabulary
+2461	検査		けんさ	inspection (e.g. customs, factory),examination	N3	Vocabulary
+2462	現在		げんざい	present,up to now,nowadays,modern times,current	N3	Vocabulary
+2463	現実		げんじつ	reality	N3	Vocabulary
+2464	現象		げんしょう	phenomenon	N3	Vocabulary
+2465	現状		げんじょう	present condition,existing state,status quo	N3	Vocabulary
+2466	建設		けんせつ	construction,establishment	N3	Vocabulary
+2467	現代		げんだい	nowadays,modern times,present-day	N3	Vocabulary
+2468	建築		けんちく	construction,architecture	N3	Vocabulary
+2469	見当		けんとう	be found,aim,estimate,guess,approx	N3	Vocabulary
+2470	検討		けんとう	consideration,examination,investigation,study,scrutiny	N3	Vocabulary
+2471	現場		げんば	actual spot,scene,scene of the crime	N3	Vocabulary
+2472	憲法		けんぽう	constitution	N3	Vocabulary
+2473	権利		けんり	right,privilege	N3	Vocabulary
+2474	後		ご	afterwards,since then,in the future	N3	Vocabulary
+2475	語		ご	language,word	N3	Vocabulary
+2476	恋		こい	love,tender passion	N3	Vocabulary
+2477	濃い		こい	thick (as of color, liquid),dense,strong	N3	Vocabulary
+2478	恋人		こいびと	lover,sweetheart	N3	Vocabulary
+2479	幸運		こううん	good luck,fortune	N3	Vocabulary
+2480	講演		こうえん	lecture,address	N3	Vocabulary
+2481	効果		こうか	effect,effectiveness,efficacy,result	N3	Vocabulary
+2482	硬貨		こうか	coin	N3	Vocabulary
+2483	高価		こうか	high price	N3	Vocabulary
+2484	豪華		ごうか	wonderful,gorgeous,splendor,pomp,extravagance	N3	Vocabulary
+2485	合格		ごうかく	success,passing (e.g. exam),eligibility	N3	Vocabulary
+2486	交換		こうかん	exchange,interchange,reciprocity	N3	Vocabulary
+2487	航空		こうくう	aviation,flying	N3	Vocabulary
+2488	光景		こうけい	scene,spectacle	N3	Vocabulary
+2489	合計		ごうけい	sum total,total amount	N3	Vocabulary
+2490	攻撃		こうげき	attack,strike,offensive,criticism,censure	N3	Vocabulary
+2491	貢献		こうけん	contribution,services	N3	Vocabulary
+2492	広告		こうこく	advertisement	N3	Vocabulary
+2493	交際		こうさい	company,friendship,association,society,acquaintance	N3	Vocabulary
+2494	後者		こうしゃ	the latter	N3	Vocabulary
+2495	工場		こうば	factory,plant,mill,workshop	N3	Vocabulary
+2496	構成		こうせい	organization,composition	N3	Vocabulary
+2497	高速		こうそく	high speed,high gear	N3	Vocabulary
+2498	行動		こうどう	action,conduct,behaviour,mobilization	N3	Vocabulary
+2499	強盗		ごうとう	robbery,burglary	N3	Vocabulary
+2500	幸福		こうふく	happiness,blessedness	N3	Vocabulary
+2501	公平		こうへい	fairness,impartial,justice	N3	Vocabulary
+2502	候補		こうほ	candidacy	N3	Vocabulary
+2503	考慮		こうりょ	consideration,taking into account	N3	Vocabulary
+2504	越える		こえる	to exceed,to cross over,to cross	N3	Vocabulary
+2505			コーチ	coach	N3	Vocabulary
+2506			コード	code,cord,chord	N3	Vocabulary
+2507	氷		こおり	ice,hail	N3	Vocabulary
+2508	凍る		こおる	to freeze,to be frozen over,to congeal	N3	Vocabulary
+2509			ゴール	goal	N3	Vocabulary
+2510	誤解		ごかい	misunderstanding	N3	Vocabulary
+2511	語学		ごがく	language study	N3	Vocabulary
+2512	呼吸		こきゅう	breath,respiration	N3	Vocabulary
+2513	故郷		こきょう	home town,birthplace,old village,historic village	N3	Vocabulary
+2514	極		ごく	quite,very	N3	Vocabulary
+2515	国語		こくご	national language	N3	Vocabulary
+2516	黒板		こくばん	blackboard	N3	Vocabulary
+2517	克服		こくふく	subjugation,conquest	N3	Vocabulary
+2518	国民		こくみん	national,people,citizen	N3	Vocabulary
+2519	穀物		こくもつ	grain,cereal,corn	N3	Vocabulary
+2520	ここ		ここ	here	N3	Vocabulary
+2521	腰		こし	hip	N3	Vocabulary
+2522	故障		こしょう	break-down,failure,accident,out of order	N3	Vocabulary
+2523	個人		こじん	individual,private person,personal,private	N3	Vocabulary
+2524	越す		こす	to go over (e.g. with audience)	N3	Vocabulary
+2525	国家		こっか	state,country,nation	N3	Vocabulary
+2526	国会		こっかい	National Diet,parliament,congress	N3	Vocabulary
+2527	国境		こっきょう	national or state border	N3	Vocabulary
+2528	骨折		こっせつ	bone fracture	N3	Vocabulary
+2529	小包		こづつみ	parcel,package	N3	Vocabulary
+2530	事		こと	thing,matter,fact,circumstances	N3	Vocabulary
+2531	異なる		ことなる	to differ,to vary,to disagree	N3	Vocabulary
+2532	諺		ことわざ	proverb,maxim	N3	Vocabulary
+2533	断る		ことわる	to refuse,to decline,to dismiss	N3	Vocabulary
+2534	粉		こな	flour,meal,powder	N3	Vocabulary
+2535	この		この	this	N3	Vocabulary
+2536	好み		このみ	liking,taste,choice	N3	Vocabulary
+2537	好む		このむ	to like,to prefer	N3	Vocabulary
+2538			コピー	(1) a (photo)copy,(2) blurb on a book jacket	N3	Vocabulary
+2539	塵		ごみ	dust,dirt	N3	Vocabulary
+2540	小麦		こむぎ	wheat	N3	Vocabulary
+2541			ごめんなさい	I beg your pardon,excuse me	N3	Vocabulary
+2542	小屋		こや	hut,cabin,shed,(animal) pen	N3	Vocabulary
+2543			これら	these	N3	Vocabulary
+2544	頃		ころ	time,about,toward,approximately (time)	N3	Vocabulary
+2545	殺す		ころす	to kill	N3	Vocabulary
+2546	転ぶ		ころぶ	to fall down,to fall over	N3	Vocabulary
+2547	今回		こんかい	now,this time,lately	N3	Vocabulary
+2548	今後		こんご	from now on,hereafter	N3	Vocabulary
+2549	混雑		こんざつ	confusion,congestion	N3	Vocabulary
+2550			こんなに	so,like this,in this way	N3	Vocabulary
+2551	困難		こんなん	difficulty,distress	N3	Vocabulary
+2552	今日		こんにち	today,this day	N3	Vocabulary
+2553			こんにちは	hello,good day (daytime greeting, id)	N3	Vocabulary
+2554			コンピューター	computer	N3	Vocabulary
+2555	婚約		こんやく	engagement,betrothal	N3	Vocabulary
+2556	混乱		こんらん	disorder,chaos,confusion,mayhem	N3	Vocabulary
+2557	差		さ	difference,variation	N3	Vocabulary
+2558			サービス	(1) service,support system,(2) goods or services without charge	N3	Vocabulary
+2559	際		さい	on the occasion of,circumstances	N3	Vocabulary
+2560	最高		さいこう	highest,supreme,the most	N3	Vocabulary
+2561	財産		ざいさん	property,fortune,assets	N3	Vocabulary
+2562	最終		さいしゅう	last,final,closing	N3	Vocabulary
+2563	最中		さいちゅう	in the middle of	N3	Vocabulary
+2564	最低		さいてい	least,lowest,worst	N3	Vocabulary
+2565	才能		さいのう	talent,ability	N3	Vocabulary
+2566	裁判		さいばん	trial,judgement	N3	Vocabulary
+2567	材料		ざいりょう	ingredients,material	N3	Vocabulary
+2568	幸い		さいわい	happiness,blessedness	N3	Vocabulary
+2569			サイン	(1) autograph,(2) sign,(3) sine	N3	Vocabulary
+2570	境		さかい	border,boundary,mental state	N3	Vocabulary
+2571	逆らう		さからう	to go against,to oppose,to disobey,to defy	N3	Vocabulary
+2572	盛り		さかり	helping,serving	N3	Vocabulary
+2573	作業		さぎょう	work,operation,manufacturing,fatigue duty	N3	Vocabulary
+2574	昨		さく	last (year),yesterday	N3	Vocabulary
+2575	作品		さくひん	work,opus,performance,production	N3	Vocabulary
+2576	作物		さくもつ	produce (e.g. agricultural),crops	N3	Vocabulary
+2577	桜		さくら	cherry blossom,cherry tree	N3	Vocabulary
+2578	酒		さけ	alcohol,sake	N3	Vocabulary
+2579	叫ぶ		さけぶ	to shout,to cry	N3	Vocabulary
+2580	避ける		さける	(1) to avoid (physical contact ),(2) to ward off,to avert	N3	Vocabulary
+2581	支える		ささえる	to be blocked,to choke,to be obstructed	N3	Vocabulary
+2582	指す		さす	to point,to put up umbrella,to play	N3	Vocabulary
+2583	座席		ざせき	seat	N3	Vocabulary
+2584	誘う		さそう	(1) to invite,to ask,(2) to tempt,to lure,to induce	N3	Vocabulary
+2585	札		さつ	(1) token,label,(2) ticket,(3) charm	N3	Vocabulary
+2586	作家		さっか	author,writer,novelist,artist	N3	Vocabulary
+2587	作曲		さっきょく	composition,setting (of music)	N3	Vocabulary
+2588			ざっと	roughly,in round numbers	N3	Vocabulary
+2589			さっぱり	feeling refreshed,feeling relieved,neat,trimmed	N3	Vocabulary
+2590			さて	well,now,then	N3	Vocabulary
+2591	砂漠		さばく	desert	N3	Vocabulary
+2592	差別		さべつ	discrimination,distinction,differentiation	N3	Vocabulary
+2593	作法		さほう	manners,etiquette,propriety	N3	Vocabulary
+2594	様々		さまざま	varied,various	N3	Vocabulary
+2595	覚ます		さます	to awaken	N3	Vocabulary
+2596	覚める		さめる	to wake,to wake up	N3	Vocabulary
+2597	左右		さゆう	(1) left and right,(2) influence,control,domination	N3	Vocabulary
+2598	皿		さら	plate,dish	N3	Vocabulary
+2599	更に		さらに	furthermore,again,after all,more and more,moreover	N3	Vocabulary
+2600	去る		さる	to leave,to go away	N3	Vocabulary
+2601	猿		さる	monkey	N3	Vocabulary
+2602	騒ぎ		さわぎ	uproar,disturbance	N3	Vocabulary
+2603	参加		さんか	participation	N3	Vocabulary
+2604	参考		さんこう	reference,consultation	N3	Vocabulary
+2605	賛成		Uӣ[い	approval,agreement,support,favour	N3	Vocabulary
+2606	酸素		さんそ	oxygen	N3	Vocabulary
+2607	散歩		さんぽ	walk,stroll	N3	Vocabulary
+2608	四		し	four	N3	Vocabulary
+2609	氏		し	family name,lineage,birth	N3	Vocabulary
+2610	詩		し	poem,verse of poetry	N3	Vocabulary
+2611	幸せ		しあわせ	happiness,good fortune,luck,blessing	N3	Vocabulary
+2612			ジーンズ	jeans	N3	Vocabulary
+2613	ジェット機		ジェットき	jet aeroplane	N3	Vocabulary
+2614	直に		じかに	immediately,readily,directly	N3	Vocabulary
+2615			しかも	moreover,furthermore,nevertheless,and yet	N3	Vocabulary
+2616	叱る		しかる	to scold	N3	Vocabulary
+2617	式		しき	equation,formula,ceremony	N3	Vocabulary
+2618	直		じき	earnestly,immediately,exactly	N3	Vocabulary
+2619	時期		じき	time,season,period	N3	Vocabulary
+2620	支給		しきゅう	payment,allowance	N3	Vocabulary
+2621			しきりに	frequently,repeatedly,incessantly,eagerly	N3	Vocabulary
+2622	刺激		しげき	stimulus,impetus,incentive	N3	Vocabulary
+2623	資源		しげん	resources	N3	Vocabulary
+2624	事件		じけん	event,affair,incident	N3	Vocabulary
+2625	時刻		じこく	instant,time,moment	N3	Vocabulary
+2626	自殺		じさつ	suicide	N3	Vocabulary
+2627	事実		じじつ	fact,truth,reality	N3	Vocabulary
+2628	支出		ししゅつ	expenditure,expenses	N3	Vocabulary
+2629	事情		じじょう	circumstances,consideration,conditions,situation,reasons	N3	Vocabulary
+2630	詩人		しじん	poet	N3	Vocabulary
+2631	自身		じしん	by oneself,personally	N3	Vocabulary
+2632	沈む		しずむ	to sink,to feel depressed	N3	Vocabulary
+2633	自然		しぜん	nature,spontaneous	N3	Vocabulary
+2634	思想		しそう	thought,idea	N3	Vocabulary
+2635	舌		した	tongue	N3	Vocabulary
+2636	次第		しだい	(1) order,precedence,(2) circumstances,(3) immediate(ly)	N3	Vocabulary
+2637	事態		じたい	situation,present state of affairs	N3	Vocabulary
+2638	従う		したがう	to abide (by the rules),to obey,to follow,to accompany	N3	Vocabulary
+2639	したがって		したがって	therefore,consequently,in accordance with	N3	Vocabulary
+2640	支度		したく	preparation	N3	Vocabulary
+2641	親しい		したしい	intimate,close (e.g. friend)	N3	Vocabulary
+2642	七		しち	seven	N3	Vocabulary
+2643	質		しつ	quality,nature (of person)	N3	Vocabulary
+2644	失業		しつぎょう	unemployment	N3	Vocabulary
+2645	実験		じっけん	experiment	N3	Vocabulary
+2646	実現		じつげん	implementation,materialization,realization	N3	Vocabulary
+2647	実行		じっこう	practice,performance,execution (e.g. program),realization	N3	Vocabulary
+2648	実際		じっさい	practical,actual condition,status quo	N3	Vocabulary
+2649	実施		じっし	enforcement,enact,put into practice,carry out,operation	N3	Vocabulary
+2650			じっと	fixedly,firmly,patiently,quietly	N3	Vocabulary
+2651	実に		じつに	indeed,truly,surely	N3	Vocabulary
+2652	実は		じつは	as a matter of fact,by the way	N3	Vocabulary
+2653	失望		しつぼう	disappointment,despair	N3	Vocabulary
+2654	支店		してん	branch store (office)	N3	Vocabulary
+2655	指導		しどう	leadership,guidance,coaching	N3	Vocabulary
+2656	自動		じどう	automatic,self-motion	N3	Vocabulary
+2657	品		しな	thing,article,goods,dignity,article (goods),counter for meal courses	N3	Vocabulary
+2658	支配		しはい	rule,control,direction	N3	Vocabulary
+2659	芝居		しばい	play,drama	N3	Vocabulary
+2660			しばしば	often,again and again,frequently	N3	Vocabulary
+2661	芝生		しばふ	lawn	N3	Vocabulary
+2662	支払		しはらい	payment	N3	Vocabulary
+2663	支払う		しはらう	to pay	N3	Vocabulary
+2664	死亡		しぼう	death,mortality	N3	Vocabulary
+2665	資本		しほん	funds,capital	N3	Vocabulary
+2666	しまい		（終わり）	sisters	N3	Vocabulary
+2667	姉妹		しまい	sisters	N3	Vocabulary
+2668	しまう		（終わる）	to finish,to close,to do something completely	N3	Vocabulary
+2669	しまった		（感）	Damn it!	N3	Vocabulary
+2670	自慢		じまん	pride,boast	N3	Vocabulary
+2671	事務		じむ	business,office work	N3	Vocabulary
+2672	示す		しめす	to denote,to show,to point out,to indicate	N3	Vocabulary
+2673	占める		しめる	(1) to comprise,to account for,to make up (of),(2) to hold,to occupy	N3	Vocabulary
+2674	下		しも	under,below,beneath	N3	Vocabulary
+2675	霜		しも	frost	N3	Vocabulary
+2676			じゃあ	well,well then	N3	Vocabulary
+2677	借金		しゃっきん	debt,loan,liabilities	N3	Vocabulary
+2678			しゃべる	to talk,to chat,to chatter	N3	Vocabulary
+2679	邪魔		じゃま	hindrance,intrusion	N3	Vocabulary
+2680	週		しゅう	week	N3	Vocabulary
+2681	州		しゅう	sandbank	N3	Vocabulary
+2682	十		じゅう	10,ten	N3	Vocabulary
+2683	銃		じゅう	gun	N3	Vocabulary
+2684	周囲		しゅうい	surroundings,circumference,environs	N3	Vocabulary
+2685	収穫		しゅうかく	harvest,crop,ingathering	N3	Vocabulary
+2686	週間		しゅうかん	week,weekly	N3	Vocabulary
+2687	宗教		しゅうきょう	religion	N3	Vocabulary
+2688	重視		じゅうし	importance,stress,serious consideration	N3	Vocabulary
+2689	就職		しゅうしょく	finding employment,inauguration	N3	Vocabulary
+2690			ジュース	juice,soft drink,deuce	N3	Vocabulary
+2691	修正		しゅうせい	amendment,correction,revision,modification	N3	Vocabulary
+2692	渋滞		じゅうたい	congestion (e.g. traffic),delay,stagnation	N3	Vocabulary
+2693	重大		じゅうだい	serious,important,grave,weighty	N3	Vocabulary
+2694	住宅		じゅうたく	resident,housing	N3	Vocabulary
+2695	集団		しゅうだん	group,mass	N3	Vocabulary
+2696	集中		しゅうちゅう	concentration,focusing the mind	N3	Vocabulary
+2697	収入		しゅうにゅう	income,receipts,revenue	N3	Vocabulary
+2698	住民		じゅうみん	citizens,inhabitants,residents,population	N3	Vocabulary
+2699	重要		じゅうよう	important,momentous,essential,principal,major	N3	Vocabulary
+2700	修理		しゅうり	repairing,mending	N3	Vocabulary
+2701	主義		しゅぎ	doctrine,rule,principle	N3	Vocabulary
+2702	宿泊		しゅくはく	lodging	N3	Vocabulary
+2703	手術		しゅじゅつ	surgical operation	N3	Vocabulary
+2704	首相		しゅしょう	Prime Minister	N3	Vocabulary
+2705	手段		しゅだん	means,way,measure	N3	Vocabulary
+2706	主張		しゅちょう	claim,request,insistence,assertion	N3	Vocabulary
+2707	出身		しゅっしん	graduate from,come from	N3	Vocabulary
+2708	出席		しゅっせき	attendance,presence	N3	Vocabulary
+2709	出発		しゅっぱつ	departure	N3	Vocabulary
+2710	出版		しゅっぱん	publication	N3	Vocabulary
+2711	首都		しゅと	capital city	N3	Vocabulary
+2712	主婦		しゅふ	housewife,mistress	N3	Vocabulary
+2713	主要		しゅよう	chief,main,principal,major	N3	Vocabulary
+2714	需要		じゅよう	demand,request	N3	Vocabulary
+2715	種類		しゅるい	variety,kind,type	N3	Vocabulary
+2716	順		じゅん	order,turn	N3	Vocabulary
+2717	瞬間		しゅんかん	moment,second,instant	N3	Vocabulary
+2718	順調		じゅんちょう	favourable,doing well,O.K.,all right	N3	Vocabulary
+2719	順番		じゅんばん	turn (in line),order of things	N3	Vocabulary
+2720	準備		じゅんび	preparation,arrangements,provision,reserve	N3	Vocabulary
+2721	使用		しよう	use,application,employment,utilization	N3	Vocabulary
+2722	小		しょう		N3	Vocabulary
+2723	章		しょう	(1) chapter,section,(2) medal	N3	Vocabulary
+2724	賞		しょう	prize,award	N3	Vocabulary
+2725	上		じょう	(1) first volume,(2) superior quality,(3) governmental	N3	Vocabulary
+2726	障害		しょうがい	obstacle,impediment (fault),damage	N3	Vocabulary
+2727	奨学金		しょうがくきん	scholarship	N3	Vocabulary
+2728	乗客		じょうきゃく	passenger	N3	Vocabulary
+2729	上京		じょうきょう	proceeding to the capital (Tokyo)	N3	Vocabulary
+2730	状況		じょうきょう	state of affairs,situation,circumstances	N3	Vocabulary
+2731	条件		じょうけん	conditions,terms	N3	Vocabulary
+2732	正午		しょうご	noon,mid-day	N3	Vocabulary
+2733	正直		しょうじき	honesty,integrity,frankness	N3	Vocabulary
+2734	常識		じょうしき	common sense	N3	Vocabulary
+2735	少女		しょうじょ	daughter,young lady,virgin,maiden,little girl	N3	Vocabulary
+2736	少々		しょうしょう	just a minute,small quantity	N3	Vocabulary
+2737	症状		しょうじょう	symptoms,condition	N3	Vocabulary
+2738	生じる		しょうじる	to produce,to yield,to result from,to arise,to be generated	N3	Vocabulary
+2739	招待		しょうたい	invitation	N3	Vocabulary
+2740	状態		じょうたい	condition,situation,circumstances,state	N3	Vocabulary
+2741	上達		じょうたつ	improvement,advance,progress	N3	Vocabulary
+2742	冗談		じょうだん	jest,joke	N3	Vocabulary
+2743	承知		しょうち	consent,acceptance,assent,admitting	N3	Vocabulary
+2744	上等		じょうとう	superiority,first class,very good	N3	Vocabulary
+2745	衝突		しょうとつ	collision,conflict	N3	Vocabulary
+2746	商人		しょうにん	trader,shopkeeper,merchant	N3	Vocabulary
+2747	承認		しょうにん	recognition,acknowledgement,approval,consent,agreement	N3	Vocabulary
+2748	少年		しょうねん	boys,juveniles	N3	Vocabulary
+2749	商売		しょうばい	trade,business,commerce,transaction,occupation	N3	Vocabulary
+2750	消費		しょうひ	consumption,expenditure	N3	Vocabulary
+2751	商品		しょうひん	commodity,article of commerce,goods,stock,merchandise	N3	Vocabulary
+2752	消防		しょうぼう	fire fighting,fire department	N3	Vocabulary
+2753	情報		じょうほう	information,(military) intelligence	N3	Vocabulary
+2754	証明		しょうめい	proof,verification	N3	Vocabulary
+2755	女王		じょおう	queen	N3	Vocabulary
+2756	職		しょく	employment	N3	Vocabulary
+2757	職業		しょくぎょう	occupation,business	N3	Vocabulary
+2758	食事		しょくじ	meal	N3	Vocabulary
+2759	食卓		しょくたく	dining table	N3	Vocabulary
+2760	食品		しょくひん	commodity,foodstuff	N3	Vocabulary
+2761	植物		しょくぶつ	plant,vegetation	N3	Vocabulary
+2762	食物		しょくもつ	food,foodstuff	N3	Vocabulary
+2763	食欲		しょくよく	appetite (for food)	N3	Vocabulary
+2764	食料		しょくりょう	food	N3	Vocabulary
+2765	食糧		しょくりょう	provisions,rations	N3	Vocabulary
+2766	書斎		しょさい	study	N3	Vocabulary
+2767	女子		じょし	woman,girl	N3	Vocabulary
+2768	助手		じょしゅ	helper,helpmeet,assistant,tutor	N3	Vocabulary
+2769	徐々に		じょじょに	slowly,little by little,gradually,steadily,quietly	N3	Vocabulary
+2770	署名		しょめい	signature	N3	Vocabulary
+2771	書物		しょもつ	books	N3	Vocabulary
+2772	女優		じょゆう	actress	N3	Vocabulary
+2773	処理		しょり	processing,dealing with,treatment,disposition,disposal	N3	Vocabulary
+2774	書類		しょるい	documents,official papers	N3	Vocabulary
+2775	知らせ		しらせ	notice	N3	Vocabulary
+2776	尻		しり	buttocks,bottom	N3	Vocabulary
+2777	印		しるし	(1) mark,(2) symbol,(3) evidence	N3	Vocabulary
+2778	城		しろ	castle	N3	Vocabulary
+2779	進学		しんがく	going on to university	N3	Vocabulary
+2780	神経		しんけい	nerve,sensitivity	N3	Vocabulary
+2781	真剣		しんけん	seriousness,earnestness	N3	Vocabulary
+2782	信仰		しんこう	(religious) faith,belief,creed	N3	Vocabulary
+2783	信号		しんごう	traffic lights,signal,semaphore	N3	Vocabulary
+2784	人工		じんこう	artificial,manmade,human work,human skill,artificiality	N3	Vocabulary
+2785	深刻		しんこく	serious	N3	Vocabulary
+2786	診察		しんさつ	medical examination	N3	Vocabulary
+2787	人種		じんしゅ	race (of people)	N3	Vocabulary
+2788	信じる		しんじる	to believe,to place trust in	N3	Vocabulary
+2789	人生		じんせい	(human) life (i.e. conception to death)	N3	Vocabulary
+2790	親戚		しんせき	relative	N3	Vocabulary
+2791	新鮮		しんせん	fresh	N3	Vocabulary
+2792	心臓		しんぞう	heart	N3	Vocabulary
+2793	身体		しんたい	the body	N3	Vocabulary
+2794	身長		しんちょう	height (of body),stature	N3	Vocabulary
+2795	慎重		しんちょう	discretion,prudence	N3	Vocabulary
+2796	心配		しんぱい	worry,concern,anxiety,care	N3	Vocabulary
+2797	審判		しんぱん	refereeing,trial,judgement,umpire,referee	N3	Vocabulary
+2798	人物		じんぶつ	character,personality,person,man,personage,talented man	N3	Vocabulary
+2799	進歩		しんぽ	progress,development	N3	Vocabulary
+2800	親友		しんゆう	close friend,buddy	N3	Vocabulary
+2801	信用		しんよう	confidence,dependence,credit,faith	N3	Vocabulary
+2802	信頼		しんらい	reliance,trust,confidence	N3	Vocabulary
+2803	心理		しんり	mentality	N3	Vocabulary
+2804	人類		じんるい	mankind,humanity	N3	Vocabulary
+2805	巣		す	nest,rookery,breeding place,beehive,cobweb	N3	Vocabulary
+2806	図		ず	figure (e.g. Fig 1),drawing,picture,illustration	N3	Vocabulary
+2807	水準		すいじゅん	(1) water level,(2) level,standard	N3	Vocabulary
+2808	推薦		すいせん	recommendation	N3	Vocabulary
+2809			スイッチ	switch	N3	Vocabulary
+2810	随分		ずいぶん	extremely	N3	Vocabulary
+2811	睡眠		すいみん	sleep	N3	Vocabulary
+2812	数		すう	number,figure	N3	Vocabulary
+2813	数字		すうじ	numeral,figure	N3	Vocabulary
+2814			スープ	(Western) soup	N3	Vocabulary
+2815	末		すえ	the end of,powder	N3	Vocabulary
+2816	姿		すがた	figure,shape,appearance	N3	Vocabulary
+2817			スキー	skiing	N3	Vocabulary
+2818	空く		すく	(1) to open,to become empty,(2) to be less crowded	N3	Vocabulary
+2819	救う		すくう	to rescue from,to help out of	N3	Vocabulary
+2820	優れる		すぐれる	to surpass,to outstrip,to excel	N3	Vocabulary
+2821			スケート	skate(s),skating	N3	Vocabulary
+2822			すごい	terrible,dreadful,terrific,amazing,great	N3	Vocabulary
+2823	少しも		すこしも	anything of,not one bit	N3	Vocabulary
+2824	過ごす		すごす	to pass,to spend,to go through,to tide over	N3	Vocabulary
+2825	筋		すじ	muscle,string,line	N3	Vocabulary
+2826	進める		すすめる	to advance,to promote,to hasten	N3	Vocabulary
+2827	勧める		すすめる	to recommend,to advise,to encourage,to offer (wine)	N3	Vocabulary
+2828			スター	star	N3	Vocabulary
+2829			スタイル	style	N3	Vocabulary
+2830			スタンド	stand	N3	Vocabulary
+2831	頭痛		ずつう	headache	N3	Vocabulary
+2832			ずっと	consecutively,throughout,a lot	N3	Vocabulary
+2833			すてき	lovely,dreamy,beautiful,great	N3	Vocabulary
+2834	既に		すでに	already,too late	N3	Vocabulary
+2835			すなわち	that is,namely,i.e.	N3	Vocabulary
+2836	素晴らしい		すばらしい	wonderful,splendid,magnificent	N3	Vocabulary
+2837			スピーチ	speech	N3	Vocabulary
+2838	全て		すべて	all,the whole,entirely,in general,wholly	N3	Vocabulary
+2839	済ませる		すませる	to be finished	N3	Vocabulary
+2840	角		すみ	horn	N3	Vocabulary
+2841	すみません		（感）	sorry,excuse me	N3	Vocabulary
+2842	為る		する	to change,to be of use,to reach to	N3	Vocabulary
+2843	すると		すると	thereupon,hereupon	N3	Vocabulary
+2844	鋭い		するどい	pointed,sharp	N3	Vocabulary
+2845	背		せい	height,stature	N3	Vocabulary
+2846	正		せい	(logical) true,regular	N3	Vocabulary
+2847	生		せい	(1) draft (beer),(2) raw,unprocessed	N3	Vocabulary
+2848	性		せい	sex,gender	N3	Vocabulary
+2849	所為		せい	cause,reason,fault	N3	Vocabulary
+2850	税		ぜい		N3	Vocabulary
+2851	性格		せいかく	character,personality	N3	Vocabulary
+2852	正確		せいかく	accurate,punctuality,exactness,authenticity,veracity	N3	Vocabulary
+2853	世紀		せいき	century,era	N3	Vocabulary
+2854	請求		せいきゅう	claim,demand,application,request	N3	Vocabulary
+2855	税金		ぜいきん	tax,duty	N3	Vocabulary
+2856	清潔		せいけつ	clean	N3	Vocabulary
+2857	制限		せいげん	restriction,restraint,limitation	N3	Vocabulary
+2858	成功		せいこう	success,hit	N3	Vocabulary
+2859	生産		せいさん	production,manufacture	N3	Vocabulary
+2860	正式		せいしき	due form,official,formality	N3	Vocabulary
+2861	精神		せいしん	mind,soul,heart,spirit,intention	N3	Vocabulary
+2862	成人		せいじん	adult	N3	Vocabulary
+2863	精々		せいぜい	at the most,at best,to the utmost,as much (far) as possible	N3	Vocabulary
+2864	成績		せいせき	results,record	N3	Vocabulary
+2865	製造		せいぞう	manufacture,production	N3	Vocabulary
+2866	贅沢		ぜいたく	luxury,extravagance	N3	Vocabulary
+2867	成長		せいちょう	growth,grow to adulthood	N3	Vocabulary
+2868	制度		せいど	system,institution,organization	N3	Vocabulary
+2869	青年		せいねん	youth,young man	N3	Vocabulary
+2870	製品		せいひん	manufactured goods,finished goods	N3	Vocabulary
+2871	政府		せいふ	government,administration	N3	Vocabulary
+2872	生物		せいぶつ	raw food	N3	Vocabulary
+2873	生命		せいめい	life,existence	N3	Vocabulary
+2874	整理		せいり	sorting,arrangement,adjustment,regulation	N3	Vocabulary
+2875	咳		せき	cough	N3	Vocabulary
+2876	石炭		せきたん	coal	N3	Vocabulary
+2877	責任		せきにん	duty,responsibility	N3	Vocabulary
+2878	石油		せきゆ	oil,petroleum,kerosene	N3	Vocabulary
+2879	世間		せけん	world,society	N3	Vocabulary
+2880	説		せつ	theory	N3	Vocabulary
+2881	積極的		せっきょくてき	positive,active,proactive	N3	Vocabulary
+2882	設計		せっけい	plan,design	N3	Vocabulary
+2883	絶対		ぜったい	absolute,unconditional,absoluteness	N3	Vocabulary
+2884			セット	set	N3	Vocabulary
+2885	設備		せつび	equipment,device,facilities,installation	N3	Vocabulary
+2886	絶滅		ぜつめつ	destruction,extinction	N3	Vocabulary
+2887	節約		せつやく	economising,saving	N3	Vocabulary
+2888	是非		ぜひ	certainly,without fail	N3	Vocabulary
+2889	責める		せめる	to condemn,to blame,to criticize	N3	Vocabulary
+2890	世話		せわ	looking after,help,aid,assistance	N3	Vocabulary
+2891	善		ぜん	good,goodness,right,virtue	N3	Vocabulary
+2892	全		ぜん	all,whole,entire,complete,overall,pan	N3	Vocabulary
+2893	全員		ぜんいん	all members (unanimity),all hands,the whole crew	N3	Vocabulary
+2894	専攻		せんこう	major subject,special study	N3	Vocabulary
+2895	全国		ぜんこく	country-wide,nation-wide,whole country,national	N3	Vocabulary
+2896	先日		せんじつ	the other day,a few days ago	N3	Vocabulary
+2897	前者		ぜんしゃ	the former	N3	Vocabulary
+2898	選手		せんしゅ	(1) player (in game),(2) team	N3	Vocabulary
+2899	前進		ぜんしん	advance,drive,progress	N3	Vocabulary
+2900	全然		ぜんぜん	(1) wholly,entirely,completely,(2) not at all (with neg. verb)	N3	Vocabulary
+2901			センター	a center	N3	Vocabulary
+2902	全体		ぜんたい	whole,entirety,whatever (is the matter)	N3	Vocabulary
+2903	選択		せんたく	selection,choice	N3	Vocabulary
+2904	そう		そう	so	N3	Vocabulary
+2905	象		ぞう	elephant	N3	Vocabulary
+2906	騒音		そうおん	noise	N3	Vocabulary
+2907	増加		ぞうか	increase,addition	N3	Vocabulary
+2908	操作		そうさ	operation,management,processing	N3	Vocabulary
+2909	掃除		そうじ	cleaning,sweeping	N3	Vocabulary
+2910	想像		そうぞう	imagination,guess	N3	Vocabulary
+2911	相続		そうぞく	succession,inheritance	N3	Vocabulary
+2912	相談		そうだん	consultation,discussion	N3	Vocabulary
+2913	装置		そうち	equipment,installation,apparatus	N3	Vocabulary
+2914	相当		そうとう	suitable,fair,tolerable,proper	N3	Vocabulary
+2915	速度		そくど	speed,velocity,rate	N3	Vocabulary
+2916	そこ		そこ	bottom,sole	N3	Vocabulary
+2917	底		そこ	bottom,sole	N3	Vocabulary
+2918			そこで	so (conj),accordingly,now,then,thereupon	N3	Vocabulary
+2919	組織		そしき	(1) organization,(2) structure,construction,(3) tissue,(4) system	N3	Vocabulary
+2920			そして	and	N3	Vocabulary
+2921	注ぐ		そそぐ	to pour (into),to irrigate,to pay,to fill,to feed (e.g. a fire)	N3	Vocabulary
+2922	育つ		そだつ	to raise (child),to be brought up,to grow (up)	N3	Vocabulary
+2923			そっくり	all,altogether,entirely,be just like,the splitting image of	N3	Vocabulary
+2924			そっと	face of the earth	N3	Vocabulary
+2925	袖		そで	sleeve	N3	Vocabulary
+2926	備える		そなえる	to furnish,to provide for,to equip,to install	N3	Vocabulary
+2927	その		その	the,that	N3	Vocabulary
+2928			そのうち	eventually,sooner or later,of the previously mentioned	N3	Vocabulary
+2929			そのまま	without change,as it is (i.e. now)	N3	Vocabulary
+2930	側		そば	side,edge,third person	N3	Vocabulary
+2931			ソファー	sofa,couch	N3	Vocabulary
+2932	粗末		そまつ	crude,rough,plain,humble	N3	Vocabulary
+2933	それ		（接。感）	it,that	N3	Vocabulary
+2934			それぞれ	each,every,either,respectively,severally	N3	Vocabulary
+2935			それでも	but (still),and yet,nevertheless,even so,notwithstanding	N3	Vocabulary
+2936			それと		N3	Vocabulary
+2937			それとも	or,or else	N3	Vocabulary
+2938	損		そん	loss,disadvantage	N3	Vocabulary
+2939	損害		そんがい	damage,injury,loss	N3	Vocabulary
+2940	尊敬		そんけい	respect,esteem,reverence,honour	N3	Vocabulary
+2941	存在		そんざい	existence,being	N3	Vocabulary
+2942	尊重		そんちょう	respect,esteem,regard	N3	Vocabulary
+2943	田		た	rice field	N3	Vocabulary
+2944	他		た	other (esp. places and things)	N3	Vocabulary
+2945	対		たい	pair,couple,set	N3	Vocabulary
+2946	大		だい		N3	Vocabulary
+2947	台		だい	stand,rack,table,support	N3	Vocabulary
+2948	題		だい	title,subject,theme,topic	N3	Vocabulary
+2949	体育		たいいく	physical education,gymnastics,athletics	N3	Vocabulary
+2950	体温		たいおん	temperature (body)	N3	Vocabulary
+2951	大会		たいかい	convention,tournament,mass meeting,rally	N3	Vocabulary
+2952	大気		たいき	atmosphere	N3	Vocabulary
+2953	代金		だいきん	price,payment,cost,charge	N3	Vocabulary
+2954	退屈		たいくつ	tedium,boredom	N3	Vocabulary
+2955	滞在		たいざい	stay,sojourn	N3	Vocabulary
+2956	大使		たいし	ambassador	N3	Vocabulary
+2957	大した		たいした	considerable,great,important,significant,a big deal	N3	Vocabulary
+2958	対象		たいしょう	target,object (of worship, study, etc),subject (of taxation, etc)	N3	Vocabulary
+2959	大臣		だいじん	cabinet minister	N3	Vocabulary
+2960	対する		たいする	to face,to confront,to oppose	N3	Vocabulary
+2961	大戦		たいせん	great war,great battle	N3	Vocabulary
+2962	大抵		たいてい	usually,generally	N3	Vocabulary
+2963	態度		たいど	attitude,manner	N3	Vocabulary
+2964	大統領		だいとうりょう	president,chief executive	N3	Vocabulary
+2965	大半		たいはん	majority,mostly,generally	N3	Vocabulary
+2966	代表		だいひょう	representative,representation,delegation,type,example,model	N3	Vocabulary
+2967	大部分		だいぶぶん	most part,greater part,majority	N3	Vocabulary
+2968			タイプライター	typewriter	N3	Vocabulary
+2969	大変		たいへん	awful,dreadful,terrible,very	N3	Vocabulary
+2970	逮捕		たいほ	arrest,apprehension,capture	N3	Vocabulary
+2971			ダイヤ	(1) dyer,(2) diagram,(3) (railway) schedule,(4) diamond	N3	Vocabulary
+2972	太陽		たいよう	sun,solar	N3	Vocabulary
+2973	平ら		たいら	flatness,level,smooth,calm,plain	N3	Vocabulary
+2974	代理		だいり	representation,agency,proxy,deputy,agent	N3	Vocabulary
+2975	大陸		たいりく	continent	N3	Vocabulary
+2976	倒す		たおす	to throw down,to beat,to bring down,to blow down	N3	Vocabulary
+2977			タオル	(hand) towel	N3	Vocabulary
+2978	だが		だが		N3	Vocabulary
+2979	互い		たがい	mutual,reciprocal	N3	Vocabulary
+2980	宝		たから	treasure	N3	Vocabulary
+2981	だから		だから	so,therefore	N3	Vocabulary
+2982	宅		たく	house,home,husband	N3	Vocabulary
+2983			だけど	however	N3	Vocabulary
+2984	確かめる		たしかめる	to ascertain	N3	Vocabulary
+2985	多少		たしょう	more or less,somewhat,a little,some	N3	Vocabulary
+2986	助ける		たすける	to help,to save,to rescue	N3	Vocabulary
+2987			ただ	free of charge,mere,only	N3	Vocabulary
+2988	唯		ただ	free of charge,mere,sole,only,usual,common	N3	Vocabulary
+2989	戦い		たたかい	battle,fight,struggle,conflict	N3	Vocabulary
+2990	戦う		たたかう	to fight,to battle,to combat	N3	Vocabulary
+2991	叩く		たたく	to strike,to clap,to dust,to beat	N3	Vocabulary
+2992	直ちに		ただちに	at once,immediately,directly,in person	N3	Vocabulary
+2993	立ち上がる		たちあがる	to stand up	N3	Vocabulary
+2994	立場		たちば	standpoint,position,situation	N3	Vocabulary
+2995	経つ		たつ	to pass,to lapse	N3	Vocabulary
+2996	達する		たっする	to reach,to get to	N3	Vocabulary
+2997	唯		たった	free of charge,mere,sole,only,usual,common	N3	Vocabulary
+2998			だって	but,because,even,also,too	N3	Vocabulary
+2999			たっぷり	full,in plenty,ample	N3	Vocabulary
+3000	縦		たて	length,height	N3	Vocabulary
+3001			たとえ	simile,metaphor,allegory	N3	Vocabulary
+3002	谷		たに	valley	N3	Vocabulary
+3003	他人		たにん	another person,unrelated person,outsider,stranger	N3	Vocabulary
+3004	種		たね	(1) seed,(2) material,(3) cause,source	N3	Vocabulary
+3005	束		たば	handbreadth,bundle	N3	Vocabulary
+3006	度		たび	counter for occurrences	N3	Vocabulary
+3007	旅		たび	travel,trip,journey	N3	Vocabulary
+3008			たびたび	often,repeatedly,frequently	N3	Vocabulary
+3009	多分		たぶん	perhaps,probably	N3	Vocabulary
+3010	玉		たま	ball,sphere,coin	N3	Vocabulary
+3011	球		たま	globe,sphere,ball	N3	Vocabulary
+3012	弾		たま	bullet,shot,shell	N3	Vocabulary
+3013	偶		たま	even number,couple,man and wife,friend	N3	Vocabulary
+3014	偶々		たまたま	casually,unexpectedly,accidentally,by chance	N3	Vocabulary
+3015			たまらない	intolerable,unbearable,unendurable	N3	Vocabulary
+3016	黙る		だまる	to be silent	N3	Vocabulary
+3017	駄目		だめ	useless,no good,hopeless	N3	Vocabulary
+3018	試し		ためし	trial,test	N3	Vocabulary
+3019	試す		ためす	to attempt,to test	N3	Vocabulary
+3020	便り		たより	news,tidings,information,correspondence,letter	N3	Vocabulary
+3021	頼る		たよる	to rely on,to have recourse to,to depend on	N3	Vocabulary
+3022	誰か		だれか	someone,somebody	N3	Vocabulary
+3023	段		だん	step,stair,flight of steps,grade,rank,level	N3	Vocabulary
+3024	単位		たんい	unit,denomination,credit (in school)	N3	Vocabulary
+3025	単語		たんご	word,vocabulary,(usually) single-character word	N3	Vocabulary
+3026	男子		だんし	youth,young man	N3	Vocabulary
+3027	単純		たんじゅん	simplicity	N3	Vocabulary
+3028	誕生		たんじょう	birth	N3	Vocabulary
+3029			ダンス	dance	N3	Vocabulary
+3030	団体		だんたい	organization,association	N3	Vocabulary
+3031	担当		たんとう	(in) charge	N3	Vocabulary
+3032	単なる		たんなる	mere,simple,sheer	N3	Vocabulary
+3033	単に		たんに	simply,merely,only,solely	N3	Vocabulary
+3034	地		ち	earth	N3	Vocabulary
+3035	地位		ちい	(social) position,status	N3	Vocabulary
+3036	地域		ちいき	area,region	N3	Vocabulary
+3037			チーズ	cheese	N3	Vocabulary
+3038			チーム	team	N3	Vocabulary
+3039	知恵		ちえ	wisdom,wit,sagacity,sense,intelligence,advice	N3	Vocabulary
+3040	地下		ちか	basement,underground	N3	Vocabulary
+3041	違い		ちがい	difference,discrepancy	N3	Vocabulary
+3042	違いない		ちがいない	(phrase) sure,no mistaking it,for certain	N3	Vocabulary
+3043	近頃		ちかごろ	lately,recently,nowadays	N3	Vocabulary
+3044	地球		ちきゅう	the earth	N3	Vocabulary
+3045	地区		ちく	district,section,sector	N3	Vocabulary
+3046	遅刻		ちこく	lateness,late coming	N3	Vocabulary
+3047	知事		ちじ	prefectural governor	N3	Vocabulary
+3048	知識		ちしき	knowledge,information	N3	Vocabulary
+3049	父親		ちちおや	father	N3	Vocabulary
+3050	知能		ちのう	intelligence,brains	N3	Vocabulary
+3051	地平線		ちへいせん	horizon	N3	Vocabulary
+3052	地方		ちほう	area,locality,district,region,the coast	N3	Vocabulary
+3053	茶		ちゃ	tea	N3	Vocabulary
+3054			チャンス	chance,opportunity	N3	Vocabulary
+3055			ちゃんと	perfectly,properly,exactly	N3	Vocabulary
+3056	中		ちゅう	inside,middle,among	N3	Vocabulary
+3057	注		ちゅう	annotation,explanatory note	N3	Vocabulary
+3058	中央		ちゅうおう	centre,central,center,middle	N3	Vocabulary
+3059	中学		ちゅうがく	middle school,junior high school	N3	Vocabulary
+3060	中古		ちゅうこ	(1) used,second-hand,old	N3	Vocabulary
+3061	中止		ちゅうし	suspension,stoppage,discontinuance,interruption	N3	Vocabulary
+3062	駐車		ちゅうしゃ	parking (e.g. car)	N3	Vocabulary
+3063	昼食		ちゅうしょく	lunch,midday meal	N3	Vocabulary
+3064	中心		ちゅうしん	center,core,heart,pivot,emphasis,balance	N3	Vocabulary
+3065	注目		ちゅうもく	notice,attention,observation	N3	Vocabulary
+3066	注文		ちゅうもん	order,request	N3	Vocabulary
+3067	長期		ちょうき	long time period	N3	Vocabulary
+3068	調査		ちょうさ	investigation,examination,inquiry,survey	N3	Vocabulary
+3069	調子		ちょうし	tune,tone,key	N3	Vocabulary
+3070	頂上		ちょうじょう	top,summit,peak	N3	Vocabulary
+3071			ちょうだい	(1) please do for me (preceded by -te),(2) reception,being given,get	N3	Vocabulary
+3072	貯金		ちょきん	(bank) savings	N3	Vocabulary
+3073	直接		ちょくせつ	direct,immediate,personal,firsthand	N3	Vocabulary
+3074	著者		ちょしゃ	author,writer	N3	Vocabulary
+3075	遂に		ついに	finally,at last	N3	Vocabulary
+3076	通過		つうか	passage through,passing	N3	Vocabulary
+3077	通学		つうがく	commuting to school	N3	Vocabulary
+3078	通行		つうこう	passage,passing	N3	Vocabulary
+3079	通じる		つうじる	to run to,to lead to,to communicate,to understand	N3	Vocabulary
+3080	通信		つうしん	correspondence,communication,news,signal	N3	Vocabulary
+3081	捕まる		つかまる	to be caught,to be arrested	N3	Vocabulary
+3082	掴む		つかむ	to seize,to catch,to grasp	N3	Vocabulary
+3083	疲れ		つかれ	tiredness,fatigue	N3	Vocabulary
+3084	月		つき	moon,month	N3	Vocabulary
+3085	付き合い		つきあい	association,socializing,fellowship	N3	Vocabulary
+3086	次々		つぎつぎ	in succession,one by one	N3	Vocabulary
+3087	就く		つく	to settle in (place),to take (seat, position),to study (under teacher)	N3	Vocabulary
+3088	注ぐ		つぐ	to pour (into),to irrigate,to pay	N3	Vocabulary
+3089	付ける		つける	to attach,to join,to add,to append	N3	Vocabulary
+3090	土		つち	earth,soil	N3	Vocabulary
+3091	続き		つづき	sequel,continuation	N3	Vocabulary
+3092	包み		つつみ	bundle,package,parcel,bale	N3	Vocabulary
+3093	勤め		つとめ	(1) service,duty,business,responsibility,task,(2) Buddhist religious services	N3	Vocabulary
+3094	務め		つとめ	(1) service,duty,(2) Buddhist religious services	N3	Vocabulary
+3095	繋ぐ		つなぐ	to tie,to fasten,to connect,to transfer (phone call)	N3	Vocabulary
+3096	常に		つねに	always,constantly	N3	Vocabulary
+3097	翼		つばさ	wings	N3	Vocabulary
+3098			つまり	in short,in brief,in other words	N3	Vocabulary
+3099	罪		つみ	crime,fault,indiscretion	N3	Vocabulary
+3100	詰める		つめる	to pack,to shorten,to work out (details)	N3	Vocabulary
+3101	積もる		つもる	to pile up	N3	Vocabulary
+3102	梅雨		つゆ	rainy season,rain during the rainy season	N3	Vocabulary
+3103	辛い		つらい	painful,heart-breaking	N3	Vocabulary
+3104	釣		つり		N3	Vocabulary
+3105	連れ		つれ	companion,company	N3	Vocabulary
+3106			で	outflow,coming (going) out,graduate (of)	N3	Vocabulary
+3107	出会い		であい	meeting,rendezvous,encounter	N3	Vocabulary
+3108	出会う		であう	to meet by chance,to come across,to happen to encounter	N3	Vocabulary
+3109	提案		ていあん	proposal,proposition,suggestion	N3	Vocabulary
+3110	定期		ていき	fixed term	N3	Vocabulary
+3111	抵抗		ていこう	electrical resistance,resistance,opposition	N3	Vocabulary
+3112	提出		ていしゅつ	presentation,submission,filing	N3	Vocabulary
+3113	程度		ていど	degree,amount,grade,standard,of the order of (following a number)	N3	Vocabulary
+3114	停留所		ていりゅうじょ	bus or tram stop	N3	Vocabulary
+3115			デート	date,go on a date	N3	Vocabulary
+3116	敵		てき	enemy,rival	N3	Vocabulary
+3117	出来事		できごと	incident,affair,happening,event	N3	Vocabulary
+3118	適する		てきする	to fit,to suit	N3	Vocabulary
+3119	適切		てきせつ	pertinent,appropriate,adequate,relevance	N3	Vocabulary
+3120	適度		てきど	moderate	N3	Vocabulary
+3121	適用		てきよう	applying	N3	Vocabulary
+3122	できる		（可能。出現。発生）	to be able to,to be ready,to occur	N3	Vocabulary
+3123	出来るだけ		できるだけ	if at all possible	N3	Vocabulary
+3124			できれば		N3	Vocabulary
+3125	手品		てじな	sleight of hand,conjuring trick,magic,juggling	N3	Vocabulary
+3126			ですから	therefore	N3	Vocabulary
+3127	鉄		てつ	iron	N3	Vocabulary
+3128	哲学		てつがく	philosophy	N3	Vocabulary
+3129	手伝い		てつだい	help,helper,assistant	N3	Vocabulary
+3130	徹底		てってい	thoroughness,completeness	N3	Vocabulary
+3131	鉄道		てつどう	railroad	N3	Vocabulary
+3132	徹夜		てつや	all night,all night vigil,sleepless night	N3	Vocabulary
+3133	では		では	chance of going out,opportunity (to succeed),moment of departure,beginning of work	N3	Vocabulary
+3134	手間		てま	time,labour	N3	Vocabulary
+3135	でも		でも	but,however	N3	Vocabulary
+3136			デモ	(abbr) demo,demonstration	N3	Vocabulary
+3137	典型		てんけい	type,pattern,archetypal	N3	Vocabulary
+3138	天候		てんこう	weather	N3	Vocabulary
+3139	電子		でんし	electron	N3	Vocabulary
+3140			テント	tent	N3	Vocabulary
+3141	伝統		でんとう	tradition,convention	N3	Vocabulary
+3142	天然		てんねん	nature,spontaneity	N3	Vocabulary
+3143	度		ど	counter for occurrences	N3	Vocabulary
+3144	問い		とい	question,query	N3	Vocabulary
+3145	党		とう	party (political)	N3	Vocabulary
+3146	塔		とう	tower,pagoda	N3	Vocabulary
+3147	どう		（接。副）	child,servant,foolishness	N3	Vocabulary
+3148	答案		とうあん	examination paper,examination script	N3	Vocabulary
+3149	同一		どういつ	identity,sameness,similarity	N3	Vocabulary
+3150			どうか	copper coin	N3	Vocabulary
+3151	当時		とうじ	at that time,in those days	N3	Vocabulary
+3152	動詞		どうし	verb	N3	Vocabulary
+3153	同時		どうじ	simultaneous(ly),concurrent,same time,synchronous	N3	Vocabulary
+3154			どうしても	by all means,at any cost,no matter what	N3	Vocabulary
+3155	到着		とうちゃく	arrival	N3	Vocabulary
+3156	道徳		どうとく	morals	N3	Vocabulary
+3157	投票		とうひょう	voting,poll	N3	Vocabulary
+3158	同様		どうよう	identical,equal to,same (kind),like	N3	Vocabulary
+3159	同僚		どうりょう	coworker,colleague,associate	N3	Vocabulary
+3160	道路		どうろ	road,highway	N3	Vocabulary
+3161	十		とお	10,ten	N3	Vocabulary
+3162	通す		とおす	to let pass,to overlook,to continue	N3	Vocabulary
+3163	通り		とおり	in accordance with ~,following ~,~ Street,~ Avenue	N3	Vocabulary
+3164	通り過ぎる		とおりすぎる	to pass,to pass through	N3	Vocabulary
+3165	都会		とかい	city	N3	Vocabulary
+3166	時		とき	(1) time,hour,(2) occasion,moment	N3	Vocabulary
+3167	解く		とく	to unfasten	N3	Vocabulary
+3168	毒		どく	poison,toxicant	N3	Vocabulary
+3169	得意		とくい	pride,triumph,prosperity	N3	Vocabulary
+3170	読書		どくしょ	reading	N3	Vocabulary
+3171	独身		どくしん	bachelorhood,single,unmarried,celibate	N3	Vocabulary
+3172	特徴		とくちょう	feature,characteristic	N3	Vocabulary
+3173	独特		どくとく	peculiarity,uniqueness,characteristic	N3	Vocabulary
+3174	独立		どくりつ	independence (e.g. Ind. Day),self-support	N3	Vocabulary
+3175	解ける		とける	to come untied,to come apart	N3	Vocabulary
+3176			どこか	somewhere,anywhere	N3	Vocabulary
+3177			ところが	however,while,even if	N3	Vocabulary
+3178			ところで	by the way,even if,no matter what	N3	Vocabulary
+3179	登山		とざん	mountain-climbing	N3	Vocabulary
+3180	都市		とし	town,city,municipal,urban	N3	Vocabulary
+3181	年月		としつき	months and years	N3	Vocabulary
+3182	図書		としょ	books	N3	Vocabulary
+3183	年寄		としより	old people,the aged	N3	Vocabulary
+3184	閉じる		とじる	to close (e.g. book, eyes),to shut	N3	Vocabulary
+3185	途端		とたん	just (now, at the moment, etc.)	N3	Vocabulary
+3186	土地		とち	plot of land,lot,soil	N3	Vocabulary
+3187	突然		とつぜん	abruptly,suddenly,unexpectedly,all at once	N3	Vocabulary
+3188			トップ	top	N3	Vocabulary
+3189	届く		とどく	to reach	N3	Vocabulary
+3190			とにかく	anyhow,at any rate,anyway,somehow or other,generally speaking,in any case	N3	Vocabulary
+3191	飛ばす		とばす	to skip over,to omit	N3	Vocabulary
+3192	飛び出す		とびだす	to jump out,to rush out,to fly out	N3	Vocabulary
+3193	留める		とめる	to fasten,to turn off,to detain	N3	Vocabulary
+3194	友		とも	friend,companion,pal	N3	Vocabulary
+3195	共に		ともに	sharing with,participate in	N3	Vocabulary
+3196	土曜		どよう	Saturday	N3	Vocabulary
+3197	虎		とら	tiger	N3	Vocabulary
+3198			ドライブ	drive,trip by car,driving	N3	Vocabulary
+3199			トラック	(1) truck,(2) (running) track	N3	Vocabulary
+3200			ドラマ	drama	N3	Vocabulary
+3201			トランプ	playing cards (lit: trump)	N3	Vocabulary
+3202	取り上げる		とりあげる	to take up,to pick up,to disqualify,to confiscate,to deprive	N3	Vocabulary
+3203	努力		どりょく	great effort,exertion,endeavour,effort	N3	Vocabulary
+3204	どれ		どれ	well,now,let me see,which (of three or more)	N3	Vocabulary
+3205			ドレス	dress	N3	Vocabulary
+3206	取れる		とれる	to come off,to be taken off,to be removed	N3	Vocabulary
+3207	泥		どろ	mud	N3	Vocabulary
+3208	とん		（1000	ton	N3	Vocabulary
+3209			とんでもない	unexpected,offensive,What a thing to say!,No way!	N3	Vocabulary
+3210			どんな	what,what kind of	N3	Vocabulary
+3211			どんなに	how,how much	N3	Vocabulary
+3212			トンネル	tunnel	N3	Vocabulary
+3213	名		な	name,reputation	N3	Vocabulary
+3214	内容		ないよう	subject,contents,matter,substance,detail,import	N3	Vocabulary
+3215			なお	straight,mischief,ordinary,common	N3	Vocabulary
+3216	仲		なか	relation,relationship	N3	Vocabulary
+3217	流す		ながす	to drain,to float,to shed (blood, tears),to cruise (e.g. taxi)	N3	Vocabulary
+3218			なかなか	very,considerably,easily	N3	Vocabulary
+3219	半ば		なかば	middle,half,semi,halfway,partly	N3	Vocabulary
+3220	仲間		なかま	company,fellow,colleague,associate	N3	Vocabulary
+3221	眺め		ながめ	scene,view,prospect,outlook	N3	Vocabulary
+3222	眺める		ながめる	to view,to gaze at	N3	Vocabulary
+3223	流れ		ながれ	stream,current	N3	Vocabulary
+3224	流れる		ながれる	to stream,to flow,to run (ink),to be washed away	N3	Vocabulary
+3225	無し		なし	without	N3	Vocabulary
+3226			なぜなら	because	N3	Vocabulary
+3227	謎		なぞ	riddle,puzzle,enigma	N3	Vocabulary
+3228	納得		なっとく	consent,assent,understanding	N3	Vocabulary
+3229	等		など	et cetera,etc.,and the like	N3	Vocabulary
+3230	七		なな	seven	N3	Vocabulary
+3231	何		なに	what	N3	Vocabulary
+3232	何		なん	what	N3	Vocabulary
+3233	何か		なにか	something	N3	Vocabulary
+3234			なにも	nothing	N3	Vocabulary
+3235	鍋		なべ	saucepan,pot	N3	Vocabulary
+3236	生		なま	(1) draft (beer),(2) raw,unprocessed	N3	Vocabulary
+3237	怠ける		なまける	to be idle,to neglect	N3	Vocabulary
+3238	波		なみ	wave	N3	Vocabulary
+3239	涙		なみだ	tear	N3	Vocabulary
+3240	悩む		なやむ	to be worried,to be troubled	N3	Vocabulary
+3241	為る		なる	to change,to be of use,to reach to	N3	Vocabulary
+3242	成る		なる	to become	N3	Vocabulary
+3243	縄		なわ	rope,hemp	N3	Vocabulary
+3244	何で		なんで	Why?,What for?	N3	Vocabulary
+3245	何でも		なんでも	by all means,everything	N3	Vocabulary
+3246	何とか		なんとか	somehow,anyhow,one way or another	N3	Vocabulary
+3247	似合う		にあう	to suit,to match,to become,to be like	N3	Vocabulary
+3248	匂い		におい	odour,scent,smell,stench	N3	Vocabulary
+3249	苦手		にがて	poor (at),weak (in),dislike (of)	N3	Vocabulary
+3250	握る		にぎる	to grasp,to seize,to mould sushi	N3	Vocabulary
+3251	日		にち	sun,sunshine,day	N3	Vocabulary
+3252	日常		にちじょう	ordinary,regular,everyday,usual	N3	Vocabulary
+3253	日曜		にちよう	Sunday	N3	Vocabulary
+3254	日光		にっこう	sunlight	N3	Vocabulary
+3255	日中		にっちゅう	daytime,broad daylight	N3	Vocabulary
+3256			にっこり	smile sweetly,smile,grin	N3	Vocabulary
+3257	日本		にっぽん	Japan	N3	Vocabulary
+3258	日本		にほん	Japan	N3	Vocabulary
+3259	入院		にゅういん	hospitalization	N3	Vocabulary
+3260	入学		にゅうがく	entry to school or university,matriculation	N3	Vocabulary
+3261	入場		にゅうじょう	entrance,admission,entering	N3	Vocabulary
+3262	人気		にんき	sign of life	N3	Vocabulary
+3263	人間		にんげん	human being,man,person	N3	Vocabulary
+3264	抜く		ぬく	to extract,to omit,to surpass,to draw out,to unplug	N3	Vocabulary
+3265	抜ける		ぬける	to come out,to fall out,to be omitted	N3	Vocabulary
+3266	布		ぬの	cloth	N3	Vocabulary
+3267	濡れる		ぬれる	to get wet	N3	Vocabulary
+3268	ね		（感）	value,price,cost,worth,merit	N3	Vocabulary
+3269	根		ね	root	N3	Vocabulary
+3270	値		ね	value,price,cost	N3	Vocabulary
+3271	願い		ねがい	desire,wish,request	N3	Vocabulary
+3272	願う		ねがう	to desire,to wish,to request	N3	Vocabulary
+3273	鼠		ねずみ	(1) mouse,rat,(2) dark gray,slate color	N3	Vocabulary
+3274	値段		ねだん	price,cost	N3	Vocabulary
+3275	熱心		ねっしん	zeal,enthusiasm	N3	Vocabulary
+3276	熱帯		ねったい	tropics	N3	Vocabulary
+3277	熱中		ねっちゅう	nuts!,enthusiasm,zeal,mania	N3	Vocabulary
+3278	年間		ねんかん	year	N3	Vocabulary
+3279	年月		ねんげつ	months and years	N3	Vocabulary
+3280	年中		ねんじゅう	whole year,always,everyday	N3	Vocabulary
+3281	年代		ねんだい	age,era,period,date	N3	Vocabulary
+3282	年齢		ねんれい	age,years	N3	Vocabulary
+3283	野		の	field	N3	Vocabulary
+3284	能		のう	being skilled in,nicely,properly	N3	Vocabulary
+3285	農家		のうか	farmer,farm family	N3	Vocabulary
+3286	農業		のうぎょう	agriculture	N3	Vocabulary
+3287	農民		のうみん	farmers,peasants	N3	Vocabulary
+3288	能力		のうりょく	ability,faculty	N3	Vocabulary
+3289	ノー		（no）		N3	Vocabulary
+3290	軒		のき	eaves	N3	Vocabulary
+3291	残す		のこす	to leave (behind, over),to bequeath,to save,to reserve	N3	Vocabulary
+3292	残り		のこり	remnant,residue,remaining,left-over	N3	Vocabulary
+3293	乗せる		のせる	to place on (something),to take on board,to give a ride	N3	Vocabulary
+3294	除く		のぞく	to remove,to exclude,to except	N3	Vocabulary
+3295	望み		のぞみ	wish,desire,(a) hope	N3	Vocabulary
+3296	望む		のぞむ	to desire,to wish for,to see,to command (a view of)	N3	Vocabulary
+3297	後		のち	afterwards,since then,in the future	N3	Vocabulary
+3298			ノック	(1) knock,(2) fungo (baseball)	N3	Vocabulary
+3299	喉		のど	throat	N3	Vocabulary
+3300	伸ばす		のばす	to lengthen,to stretch,to reach out,to grow (beard)	N3	Vocabulary
+3301	伸びる		のびる	to stretch,to extend,to make progress,to grow (beard, body height)	N3	Vocabulary
+3302	述べる		のべる	to state,to express,to mention	N3	Vocabulary
+3303	昇る		のぼる	to arise,to ascend,to go up	N3	Vocabulary
+3304			のんびり	carefree,at leisure	N3	Vocabulary
+3305	場		ば	place,field (physics)	N3	Vocabulary
+3306	はあ		（感）		N3	Vocabulary
+3307			パーセント	percent	N3	Vocabulary
+3308	はい		（感）	wear,put on (sword)	N3	Vocabulary
+3309	灰		はい	ash	N3	Vocabulary
+3310	梅雨		ばいう	rainy season,rain during the rainy season	N3	Vocabulary
+3311			バイオリン	violin	N3	Vocabulary
+3312			ハイキング	hiking	N3	Vocabulary
+3313	配達		はいたつ	delivery,distribution	N3	Vocabulary
+3314			パイプ	(1) pipe,tube,(2) channels, official or otherwise	N3	Vocabulary
+3315	俳優		はいゆう	actor,actress,player,performer	N3	Vocabulary
+3316			パイロット	pilot	N3	Vocabulary
+3317	墓		はか	grave,tomb	N3	Vocabulary
+3318	馬鹿		ばか	fool,idiot,trivial matter,folly	N3	Vocabulary
+3319	博士		はかせ	doctorate,PhD	N3	Vocabulary
+3320	計る		はかる	to measure,to weigh,to survey	N3	Vocabulary
+3321	履く		はく	to wear,to put on (lower body)	N3	Vocabulary
+3322	吐く		はく	(1) to breathe,(2) to tell (lies),(3) to vomit,to disgorge	N3	Vocabulary
+3323	拍手		はくしゅ	clapping hands,applause	N3	Vocabulary
+3324	莫大		ばくだい	enormous,vast	N3	Vocabulary
+3325	爆発		ばくはつ	explosion,detonation,eruption	N3	Vocabulary
+3326	博物館		はくぶつかん	museum	N3	Vocabulary
+3327	激しい		はげしい	violent,vehement,intense	N3	Vocabulary
+3328			はさみ	scissors	N3	Vocabulary
+3329	破産		はさん	(personal) bankruptcy	N3	Vocabulary
+3330	端		はし	end (e.g. of street),edge,tip,margin,point	N3	Vocabulary
+3331	始まり		はじまり	origin,beginning	N3	Vocabulary
+3332			パス	path,pass (in games)	N3	Vocabulary
+3333	外す		はずす	to unfasten,to remove	N3	Vocabulary
+3334			パスポート	passport	N3	Vocabulary
+3335	旗		はた	flag	N3	Vocabulary
+3336	肌		はだ	skin	N3	Vocabulary
+3337	裸		はだか	naked,nude	N3	Vocabulary
+3338	畑		はたけ	field	N3	Vocabulary
+3339	二十		はたち	20 years old,20th year	N3	Vocabulary
+3340	働き		はたらき	work,labor	N3	Vocabulary
+3341			バッグ	bag,bug	N3	Vocabulary
+3342	発見		はっけん	discovery,detection,finding	N3	Vocabulary
+3343	発行		はっこう	issue (publications)	N3	Vocabulary
+3344	発車		はっしゃ	departure of a vehicle	N3	Vocabulary
+3345	罰する		ばっする	to punish,to penalize	N3	Vocabulary
+3346	発達		はったつ	development,growth	N3	Vocabulary
+3347			ばったり	with a clash (thud),with a bang,plump,flop	N3	Vocabulary
+3348	発展		はってん	development,growth	N3	Vocabulary
+3349	発表		はっぴょう	announcement,publication	N3	Vocabulary
+3350	発明		はつめい	invention	N3	Vocabulary
+3351	話し合う		はなしあう	to discuss,to talk together	N3	Vocabulary
+3352	離す		はなす	to part,divide,separate	N3	Vocabulary
+3353	放す		はなす	to separate,to set free	N3	Vocabulary
+3354	離れる		はなれる	to be separated from,to leave,to go away,to be a long way off	N3	Vocabulary
+3355	羽		はね	counter for birds,counter for rabbits	N3	Vocabulary
+3356	幅		はば	width,breadth	N3	Vocabulary
+3357	母親		ははおや	mother	N3	Vocabulary
+3358	省く		はぶく	to omit,to eliminate,to curtail,to economize	N3	Vocabulary
+3359	場面		ばめん	scene,setting (e.g. of novel)	N3	Vocabulary
+3360	腹		はら	abdomen,belly,stomach	N3	Vocabulary
+3361	原		はら	field,plain,prairie,tundra,moor,wilderness	N3	Vocabulary
+3362	針		はり	needle,hand (e.g. clock)	N3	Vocabulary
+3363	張る		はる	to stick,to paste	N3	Vocabulary
+3364	番		ばん		N3	Vocabulary
+3365			バン	bun,van (caravan),VAN (value-added network)	N3	Vocabulary
+3366	範囲		はんい	extent,scope,sphere,range	N3	Vocabulary
+3367	反抗		はんこう	opposition,resistance	N3	Vocabulary
+3368	犯罪		はんざい	crime	N3	Vocabulary
+3369			ハンサム	handsome	N3	Vocabulary
+3370	判断		はんだん	judgement,decision	N3	Vocabulary
+3371	犯人		はんにん	offender,criminal	N3	Vocabulary
+3372	販売		はんばい	sale,selling,marketing	N3	Vocabulary
+3373	灯		ひ	light	N3	Vocabulary
+3374			ビール	beer	N3	Vocabulary
+3375	被害		ひがい	damage	N3	Vocabulary
+3376	比較		ひかく	comparison	N3	Vocabulary
+3377	轢く		ひく	to run somebody over (with vehicle),to knock someone down	N3	Vocabulary
+3378			ピクニック	picnic	N3	Vocabulary
+3379	悲劇		ひげき	tragedy	N3	Vocabulary
+3380	飛行		ひこう	aviation	N3	Vocabulary
+3381	膝		ひざ	knee,lap	N3	Vocabulary
+3382	非常		ひじょう	emergency,extraordinary,unusual	N3	Vocabulary
+3383	美人		びじん	beautiful person (woman)	N3	Vocabulary
+3384	額		ひたい	forehead,brow	N3	Vocabulary
+3385			びっくり	be surprised,be amazed,be frightened,astonishment	N3	Vocabulary
+3386	日付		ひづけ	date,dating	N3	Vocabulary
+3387	必死		ひっし	inevitable death,desperation,frantic,inevitable result	N3	Vocabulary
+3388			ぴったり	exactly,neatly,sharp	N3	Vocabulary
+3389	引っ張る		ひっぱる	(1) to pull,to draw,to stretch,to drag,(2) to pull the ball (baseball)	N3	Vocabulary
+3390	否定		ひてい	negation,denial,repudiation	N3	Vocabulary
+3391			ビデオ	video	N3	Vocabulary
+3392	一言		ひとこと	single word	N3	Vocabulary
+3393	人込み		ひとごみ	crowd of people	N3	Vocabulary
+3394	等しい		ひとしい	equal	N3	Vocabulary
+3395	独り		ひとり	alone,unmarried	N3	Vocabulary
+3396	一人一人		ひとりひとり	one by one,each,one at a time	N3	Vocabulary
+3397	批判		ひはん	criticism,judgement,comment	N3	Vocabulary
+3398	批評		ひひょう	criticism,review,commentary	N3	Vocabulary
+3399	秘密		ひみつ	secret,secrecy	N3	Vocabulary
+3400	微妙		びみょう	delicate,subtle	N3	Vocabulary
+3401	紐		ひも	(1) string,cord,(2) pimp	N3	Vocabulary
+3402	費用		ひよう	cost,expense	N3	Vocabulary
+3403	表		ひょう	table (e.g. Tab 1),chart,list	N3	Vocabulary
+3404	秒		びょう	second (60th min)	N3	Vocabulary
+3405	評価		ひょうか	valuation,estimation,assessment,evaluation	N3	Vocabulary
+3406	表現		ひょうげん	expression,presentation,representation (math)	N3	Vocabulary
+3407	表情		ひょうじょう	facial expression	N3	Vocabulary
+3408	平等		びょうどう	equality (a),impartiality,evenness	N3	Vocabulary
+3409	評判		ひょうばん	fame,reputation,popularity,arrant	N3	Vocabulary
+3410	表面		ひょうめん	surface,outside,face,appearance	N3	Vocabulary
+3411	広がる		ひろがる	to spread (out),to extend,to stretch,to reach to,to get around	N3	Vocabulary
+3412	品		ひん	thing,article,goods,dignity,article (goods),counter for meal courses	N3	Vocabulary
+3413	瓶		びん	bottle	N3	Vocabulary
+3414	便		びん	way,means	N3	Vocabulary
+3415			ピン	pin	N3	Vocabulary
+3416	不		ふ	un,non,negative prefix	N3	Vocabulary
+3417	不		ぶ	un,non,negative prefix	N3	Vocabulary
+3418	無		ぶ	nothing,naught,nil,zero	N3	Vocabulary
+3419	分		ぶ	dividing,part	N3	Vocabulary
+3420	不安		ふあん	anxiety,uneasiness,insecurity,suspense	N3	Vocabulary
+3421	風景		ふうけい	scenery	N3	Vocabulary
+3422	夫婦		ふうふ	married couple,husband and wife	N3	Vocabulary
+3423	笛		ふえ	flute,pipe	N3	Vocabulary
+3424	不可		ふか	wrong,bad,improper,unjustifiable,inadvisable	N3	Vocabulary
+3425	武器		ぶき	weapon,arms,ordinance	N3	Vocabulary
+3426	服装		ふくそう	garments	N3	Vocabulary
+3427	含む		ふくむ	to hold in the mouth,to bear in mind	N3	Vocabulary
+3428	袋		ふくろ	bag,sack	N3	Vocabulary
+3429	不幸		ふこう	unhappiness,sorrow,misfortune,disaster,accident,death	N3	Vocabulary
+3430	節		ふし	tune,tone,knot,knob,point	N3	Vocabulary
+3431	無事		ぶじ	safety,peace,quietness	N3	Vocabulary
+3432	不思議		ふしぎ	mystery,curiosity	N3	Vocabulary
+3433	不自由		ふじゆう	discomfort,disability,inconvenience,destitution	N3	Vocabulary
+3434	夫人		ふじん	wife,Mrs,madam	N3	Vocabulary
+3435	婦人		ふじん	woman,female	N3	Vocabulary
+3436	不正		ふせい	injustice,unfairness	N3	Vocabulary
+3437	防ぐ		ふせぐ	to defend (against),to protect,to prevent	N3	Vocabulary
+3438	不足		ふそく	insufficiency,shortage,deficiency,lack,dearth	N3	Vocabulary
+3439	舞台		ぶたい	stage (theatre)	N3	Vocabulary
+3440	双子		ふたご	twins,a twin	N3	Vocabulary
+3441	再び		ふたたび	again,once more,a second time	N3	Vocabulary
+3442	普段		ふだん	usually,habitually,ordinarily,always	N3	Vocabulary
+3443	縁		ふち	a means, e.g. of living	N3	Vocabulary
+3444	打つ		ぶつ	to hit,to strike	N3	Vocabulary
+3445	物価		ぶっか	prices of commodities,prices (in general)	N3	Vocabulary
+3446	物質		ぶっしつ	material,substance	N3	Vocabulary
+3447	物理		ぶつり	physics	N3	Vocabulary
+3448	筆		ふで	writing brush	N3	Vocabulary
+3449	ふと		（副）	suddenly,casually,accidentally,incidentally,unexpectedly,unintentionally	N3	Vocabulary
+3450	船		ふね	ship,boat,watercraft,shipping,vessel,steamship	N3	Vocabulary
+3451	部分		ぶぶん	portion,section,part	N3	Vocabulary
+3452	不平		ふへい	complaint,discontent,dissatisfaction	N3	Vocabulary
+3453	不満		ふまん	dissatisfaction,displeasure,discontent,complaints,unhappiness	N3	Vocabulary
+3454			プラス	plus	N3	Vocabulary
+3455			プラン	plan	N3	Vocabulary
+3456	不利		ふり	disadvantage,handicap,unfavorable,drawback	N3	Vocabulary
+3457	振る		ふる	(1) to wave,to shake,to swing,(2) to sprinkle,(3) to cast (actor),to allocate (work)	N3	Vocabulary
+3458	震える		ふるえる	to shiver,to shake,to quake	N3	Vocabulary
+3459			ブレーキ	a brake	N3	Vocabulary
+3460	触れる		ふれる	to touch,to be touched,to touch on a subject,to feel,to violate (law, copyright, etc.),to perceive,t	N3	Vocabulary
+3461	風呂		ふろ	bath	N3	Vocabulary
+3462			プロ	professional	N3	Vocabulary
+3463	分		ぶん	dividing,part,segment	N3	Vocabulary
+3464	文		ぶん	sentence	N3	Vocabulary
+3465	雰囲気		ふんいき	atmosphere (e.g. musical),mood,ambience	N3	Vocabulary
+3466	分析		ぶんせき	analysis	N3	Vocabulary
+3467	文明		ぶんめい	civilization,culture	N3	Vocabulary
+3468	分野		ぶんや	field,sphere,realm,division,branch	N3	Vocabulary
+3469	塀		へい	wall,fence	N3	Vocabulary
+3470	平均		へいきん	equilibrium,balance,average,mean	N3	Vocabulary
+3471	平和		へいわ	peace,harmony	N3	Vocabulary
+3472	別に		べつに	(not) particularly,nothing	N3	Vocabulary
+3473	減らす		へらす	to abate,to decrease,to diminish,to shorten	N3	Vocabulary
+3474	減る		へる	to decrease (in size or number),to diminish,to abate	N3	Vocabulary
+3475			ベルト	Belt for western clothes	N3	Vocabulary
+3476	変化		へんか	goblin,ghost,apparition,bugbear	N3	Vocabulary
+3477			ペンキ	(n) paint (nl: pek)	N3	Vocabulary
+3478	勉強		べんきょう	study,diligence,discount,reduction	N3	Vocabulary
+3479	変更		へんこう	change,modification,alteration	N3	Vocabulary
+3480			ベンチ	bench	N3	Vocabulary
+3481	弁当		べんとう	box lunch	N3	Vocabulary
+3482	方		ほう	side	N3	Vocabulary
+3483	法		ほう	Act (law: the X Act)	N3	Vocabulary
+3484	棒		ぼう	pole,rod,stick	N3	Vocabulary
+3485	冒険		ぼうけん	risk,venture,adventure	N3	Vocabulary
+3486	方向		ほうこう	direction,course,way	N3	Vocabulary
+3487	報告		ほうこく	report,information	N3	Vocabulary
+3488	宝石		ほうせき	gem,jewel	N3	Vocabulary
+3489	放送		ほうそう	broadcast,broadcasting	N3	Vocabulary
+3490	豊富		ほうふ	abundance,wealth,plenty,bounty	N3	Vocabulary
+3491	方法		ほうほう	method,manner,way,means,technique	N3	Vocabulary
+3492	方々		ほうぼう	persons,this and that,here and there,everywhere	N3	Vocabulary
+3493	訪問		ほうもん	call,visit	N3	Vocabulary
+3494	吠える		ほえる	to bark,to bay,to howl,to bellow,to roar,to cry	N3	Vocabulary
+3495			ボーイ	boy	N3	Vocabulary
+3496			ボート	rowing boat	N3	Vocabulary
+3497			ホーム	(1) platform,(2) home	N3	Vocabulary
+3498			ボール	ball,bowl	N3	Vocabulary
+3499	他		ほか	other (esp. places and things)	N3	Vocabulary
+3500	外		ほか	other place,the rest	N3	Vocabulary
+3501	誇り		ほこり	pride	N3	Vocabulary
+3502	埃		ほこり	dust	N3	Vocabulary
+3503	保証		ほしょう	guarantee,security,assurance,pledge,warranty	N3	Vocabulary
+3504	保存		ほぞん	preservation,conservation,storage,maintenance	N3	Vocabulary
+3505	程		ほど	degree,extent,bounds,limit	N3	Vocabulary
+3506	歩道		ほどう	footpath,walkway,sidewalk	N3	Vocabulary
+3507	仏		ほとけ	Buddha,merciful person,Buddhist image,the dead	N3	Vocabulary
+3508	骨		ほね	bone	N3	Vocabulary
+3509	炎		ほのお	flame	N3	Vocabulary
+3510	頬		ほほ	cheek (of face)	N3	Vocabulary
+3511	頬		ほお	cheek (of face)	N3	Vocabulary
+3512			ほぼ	almost,roughly,approximately	N3	Vocabulary
+3513	微笑む		ほほえむ	to smile	N3	Vocabulary
+3514	褒める		ほめる	to praise,to admire,to speak well	N3	Vocabulary
+3515	濠		ほり	moat	N3	Vocabulary
+3516	本当		ほんと	truth,reality	N3	Vocabulary
+3517	本当		ほんとう	truth,reality	N3	Vocabulary
+3518	本人		ほんにん	the person himself	N3	Vocabulary
+3519	本物		ほんもの	genuine article	N3	Vocabulary
+3520			ぼんやり	absent-minded,block-head,dim,faint,vague	N3	Vocabulary
+3521	間		ま	space,room,time,pause	N3	Vocabulary
+3522			まあ	(female) you might say	N3	Vocabulary
+3523			マーケット	market	N3	Vocabulary
+3524			マイク	mike	N3	Vocabulary
+3525	迷子		まいご	lost (stray) child	N3	Vocabulary
+3526	任せる		まかせる	to entrust to another,to leave to	N3	Vocabulary
+3527	幕		まく	curtain,bunting,act (in play)	N3	Vocabulary
+3528	負け		まけ	defeat,loss,losing (a game)	N3	Vocabulary
+3529	孫		まご	grandchild	N3	Vocabulary
+3530			まさか	by no means	N3	Vocabulary
+3531			まさに	correctly,surely	N3	Vocabulary
+3532	真面目		まじめ	diligent,serious,honest	N3	Vocabulary
+3533	増す		ます	to increase,to grow	N3	Vocabulary
+3534	先ず		まず	first (of all),to start with,about,almost,hardly (with neg. verb)	N3	Vocabulary
+3535	貧しい		まずしい	poor,needy	N3	Vocabulary
+3536			マスター	proprietor,manager,barowner,master (e.g. arts, science)	N3	Vocabulary
+3537			ますます	increasingly,more and more	N3	Vocabulary
+3538	又		また	again,and	N3	Vocabulary
+3539	未だ		まだ	yet,still,more,besides	N3	Vocabulary
+3540	街		まち	(1) town,(2) street,road	N3	Vocabulary
+3541	間違い		まちがい	mistake	N3	Vocabulary
+3542	松		まつ	(1) pine tree,(2) highest (of a three-tier ranking system)	N3	Vocabulary
+3543	真っ赤		まっか	deep red,flushed (of face)	N3	Vocabulary
+3544	真っ直ぐ		まっすぐ	straight (ahead),direct,upright	N3	Vocabulary
+3545	全く		まったく	really,truly,entirely,completely	N3	Vocabulary
+3546	祭		まつり	festival,feast	N3	Vocabulary
+3547	学ぶ		まなぶ	to study (in depth),to learn,to take lessons in	N3	Vocabulary
+3548	真似		まね	mimicry,imitation,behavior,pretense	N3	Vocabulary
+3549	招く		まねく	to invite	N3	Vocabulary
+3550			ママ	Mama	N3	Vocabulary
+3551	豆		まめ	beans,peas	N3	Vocabulary
+3552	守る		まもる	to protect,to obey,to guard,to abide (by the rules)	N3	Vocabulary
+3553	丸		まる	circle,full (month),perfection,purity,suffix for ship names	N3	Vocabulary
+3554	円		まる	circle,money	N3	Vocabulary
+3555	丸い		まるい	round,circular,spherical	N3	Vocabulary
+3556			まるで	quite,entirely,completely	N3	Vocabulary
+3557	回す		まわす	to turn,to revolve	N3	Vocabulary
+3558	回り		まわり	circumference,surroundings,circulation	N3	Vocabulary
+3559	万一		まんいち	by some chance,by some possibility,if by any chance,10E4:1 odds	N3	Vocabulary
+3560	満足		まんぞく	satisfaction	N3	Vocabulary
+3561	身		み	body,main part,oneself,sword	N3	Vocabulary
+3562	実		み	fruit,nut,seed,content,good result	N3	Vocabulary
+3563	見送り		みおくり	seeing one off,farewell,escort	N3	Vocabulary
+3564	味方		みかた	friend,ally,supporter	N3	Vocabulary
+3565	見事		みごと	splendid,magnificent,beautiful,admirable	N3	Vocabulary
+3566			ミス	miss (mistake, error, failure),Miss	N3	Vocabulary
+3567	満ちる		みちる	to be full,to rise (tide),to mature,to expire	N3	Vocabulary
+3568	密		みつ		N3	Vocabulary
+3569	認める		みとめる	to recognize,to appreciate,to approve,to admit,to notice	N3	Vocabulary
+3570	皆		みんな	all,everyone,everybody	N3	Vocabulary
+3571	見舞い		みまい	enquiry,expression of sympathy,expression of concern	N3	Vocabulary
+3572	土産		みやげ	present,souvenir	N3	Vocabulary
+3573	都		みやこ	capital	N3	Vocabulary
+3574	妙		みょう	strange,unusual	N3	Vocabulary
+3575	明後日		みょうごにち	day after tomorrow	N3	Vocabulary
+3576	未来		みらい	future (life, tense)	N3	Vocabulary
+3577	魅力		みりょく	charm,fascination,glamour	N3	Vocabulary
+3578	見る		みる	to see,to watch	N3	Vocabulary
+3579			ミルク	milk	N3	Vocabulary
+3580	無		む	nothing,naught,nil,zero	N3	Vocabulary
+3581	向かい		むかい	facing,opposite,across the street,other side	N3	Vocabulary
+3582	迎え		むかえ	meeting,person sent to pick up an arrival	N3	Vocabulary
+3583	向く		むく	to face	N3	Vocabulary
+3584	向ける		むける	to turn towards,to point	N3	Vocabulary
+3585	無視		むし	disregard,ignore	N3	Vocabulary
+3586	虫歯		むしば	cavity,tooth decay,decayed tooth,caries	N3	Vocabulary
+3587	寧ろ		むしろ	rather,better,instead	N3	Vocabulary
+3588	結ぶ		むすぶ	to tie,to bind,to link	N3	Vocabulary
+3589	無駄		むだ	futility,uselessness	N3	Vocabulary
+3590	夢中		むちゅう	daze,(in a) trance,ecstasy,delirium,engrossment	N3	Vocabulary
+3591	胸		むね	breast,chest	N3	Vocabulary
+3592	無料		むりょう	free,no charge	N3	Vocabulary
+3593	芽		め	sprout	N3	Vocabulary
+3594	明確		めいかく	clear up,clarify,define	N3	Vocabulary
+3595	命じる		めいじる	to order,to command,to appoint	N3	Vocabulary
+3596	名人		めいじん	master,expert	N3	Vocabulary
+3597	命令		めいれい	order,command,decree,directive,(software) instruction	N3	Vocabulary
+3598	迷惑		めいわく	trouble,bother,annoyance	N3	Vocabulary
+3599	飯		めし	(sl) meals,food	N3	Vocabulary
+3600	滅多に		めったに	rarely (with neg. verb),seldom	N3	Vocabulary
+3601			メモ	memorandum	N3	Vocabulary
+3602	面		めん	face,mug,surface,facial features,mask,face guard,side or facet,corner,page	N3	Vocabulary
+3603	綿		めん	cotton,padding	N3	Vocabulary
+3604	免許		めんきょ	license,permit,licence,certificate	N3	Vocabulary
+3605	面倒		めんどう	trouble,difficulty,care,attention	N3	Vocabulary
+3606			メンバー	member	N3	Vocabulary
+3607	申し込む		もうしこむ	to apply for,to make an application	N3	Vocabulary
+3608	申し訳		もうしわけ	apology,excuse	N3	Vocabulary
+3609	毛布		もうふ	blanket	N3	Vocabulary
+3610	燃える		もえる	to burn	N3	Vocabulary
+3611	目的		もくてき	purpose,goal,aim,objective,intention	N3	Vocabulary
+3612	目標		もくひょう	mark,objective,target	N3	Vocabulary
+3613	木曜		もくよう	Thursday	N3	Vocabulary
+3614	文字		もじ	letter (of alphabet),character	N3	Vocabulary
+3615	文字		もんじ	letter (of alphabet),character	N3	Vocabulary
+3616			もしも	if	N3	Vocabulary
+3617	持ち上げる		もちあげる	to raise,to lift up,to flatter	N3	Vocabulary
+3618	用いる		もちいる	to use,to make use of	N3	Vocabulary
+3619	勿論		もちろん	of course,certainly,naturally	N3	Vocabulary
+3620	最も		もっとも	most,extremely	N3	Vocabulary
+3621	尤も		もっとも	quite right,plausible,natural,but then,although	N3	Vocabulary
+3622	元		もと	(1) origin,original,(2) former	N3	Vocabulary
+3623	基		もと	basis	N3	Vocabulary
+3624	素		もと	prime	N3	Vocabulary
+3625	戻す		もどす	to restore,to put back,to return	N3	Vocabulary
+3626	基づく		もとづく	to be grounded on,to be based on,to be due to,to originate from	N3	Vocabulary
+3627	求める		もとめる	to seek,to request,to demand,to want,to wish for,to search for,to pursue (pleasure),to hunt (a job),	N3	Vocabulary
+3628	者		もの	person	N3	Vocabulary
+3629	物音		ものおと	sounds	N3	Vocabulary
+3630	物語		ものがたり	tale,story,legend	N3	Vocabulary
+3631	物事		ものごと	things,everything	N3	Vocabulary
+3632	模様		もよう	pattern,figure,design	N3	Vocabulary
+3633	貰う		もらう	to receive	N3	Vocabulary
+3634	文句		もんく	phrase,complaint	N3	Vocabulary
+3635			やがて	before long,soon,at length	N3	Vocabulary
+3636	役		やく	use,service,role,position	N3	Vocabulary
+3637	約		やく	approximately,about,some	N3	Vocabulary
+3638	訳		やく	meaning,reason,circumstances,can be deduced,situation	N3	Vocabulary
+3639	役割		やくわり	part,assigning (allotment of) parts,role,duties	N3	Vocabulary
+3640	家賃		やちん	rent	N3	Vocabulary
+3641	厄介		やっかい	trouble,burden,care,bother	N3	Vocabulary
+3642	宿		やど	inn,lodging	N3	Vocabulary
+3643	雇う		やとう	to employ,to hire	N3	Vocabulary
+3644	屋根		やね	roof	N3	Vocabulary
+3645			やはり	also,as I thought,still,in spite of,absolutely,of course	N3	Vocabulary
+3646	破る		やぶる	to tear,to violate,to defeat,to smash,to destroy	N3	Vocabulary
+3647	辞める		やめる	to retire	N3	Vocabulary
+3648			やや	a little,partially,somewhat,a short time,a while	N3	Vocabulary
+3649	唯一		ゆいいつ	only,sole,unique	N3	Vocabulary
+3650	勇気		ゆうき	courage,bravery,valour,nerve,boldness	N3	Vocabulary
+3651	有効		ゆうこう	validity,availability,effectiveness	N3	Vocabulary
+3652	優秀		ゆうしゅう	superiority,excellence	N3	Vocabulary
+3653	優勝		ゆうしょう	overall victory,championship	N3	Vocabulary
+3654	友情		ゆうじょう	friendship,fellowship	N3	Vocabulary
+3655	友人		ゆうじん	friend	N3	Vocabulary
+3656	有能		ゆうのう	able,capable,efficient,skill	N3	Vocabulary
+3657	郵便		ゆうびん	mail,postal service	N3	Vocabulary
+3658	夕べ		ゆうべ	evening	N3	Vocabulary
+3659			ユーモア	humor	N3	Vocabulary
+3660	有利		ゆうり	advantageous,better,profitable,lucrative	N3	Vocabulary
+3661	床		ゆか	floor	N3	Vocabulary
+3662	愉快		ゆかい	pleasant,happy	N3	Vocabulary
+3663	輸出		ゆしゅつ	export	N3	Vocabulary
+3664	譲る		ゆずる	to turn over,to assign,to hand over	N3	Vocabulary
+3665	豊か		ゆたか	abundant,wealthy,plentiful,rich	N3	Vocabulary
+3666			ゆっくり	slowly,at ease	N3	Vocabulary
+3667	輸入		ゆにゅう	importation,import,introduction	N3	Vocabulary
+3668	許す		ゆるす	to permit,to allow,to approve	N3	Vocabulary
+3669	夜		よ	evening,night	N3	Vocabulary
+3670	夜明け		よあけ	dawn,daybreak	N3	Vocabulary
+3671	様		よう	way,manner,kind	N3	Vocabulary
+3672	酔う		よう	to get drunk,to become intoxicated	N3	Vocabulary
+3673	容易		ようい	easy,simple,plain	N3	Vocabulary
+3674	陽気		ようき	season,weather,cheerfulness	N3	Vocabulary
+3675	要求		ようきゅう	request,demand,requisition	N3	Vocabulary
+3676	用心		ようじん	care,precaution,guarding,caution	N3	Vocabulary
+3677	様子		ようす	aspect,state,appearance	N3	Vocabulary
+3678	要するに		ようするに	in a word,after all,the point is ..,in short ..	N3	Vocabulary
+3679	要素		ようそ	element	N3	Vocabulary
+3680	要点		ようてん	gist,main point	N3	Vocabulary
+3681	曜日		ようび	day of the week	N3	Vocabulary
+3682			ヨーロッパ	Europe	N3	Vocabulary
+3683	予期		よき	expectation,assume will happen,forecast	N3	Vocabulary
+3684	横切る		よこぎる	to cross (e.g. arms),to traverse	N3	Vocabulary
+3685	予算		よさん	estimate,budget	N3	Vocabulary
+3686	止す		よす	to cease,to abolish,to resign,to give up	N3	Vocabulary
+3687	予測		よそく	prediction,estimation	N3	Vocabulary
+3688			ヨット	yacht	N3	Vocabulary
+3689	夜中		よなか	midnight,dead of night	N3	Vocabulary
+3690	世の中		よのなか	society,the world,the times	N3	Vocabulary
+3691	余分		よぶん	extra,excess,surplus	N3	Vocabulary
+3692	予報		よほう	forecast,prediction	N3	Vocabulary
+3693	予防		よぼう	prevention,precaution,protection against	N3	Vocabulary
+3694	読み		よみ	reading	N3	Vocabulary
+3695	嫁		よめ	bride,daughter-in-law	N3	Vocabulary
+3696	余裕		よゆう	surplus,composure,margin,room,time,allowance,scope,rope	N3	Vocabulary
+3697			より	twist,ply	N3	Vocabulary
+3698			よると	according to	N3	Vocabulary
+3699	喜び		よろこび	(a) joy,(a) delight,rapture,pleasure,gratification,rejoicing,congratulations,felicitations	N3	Vocabulary
+3700	宜しい		よろしい	(hon) good,OK,all right,fine,very well,will do,may,can	N3	Vocabulary
+3701	よろしく		（感）	well,properly,suitably,best regards,please remember me	N3	Vocabulary
+3702	四		よん	four	N3	Vocabulary
+3703	来		らい	,for (10 days),next (year)	N3	Vocabulary
+3704			ライター	lighter,rider,writer	N3	Vocabulary
+3705	楽		らく	comfort,ease	N3	Vocabulary
+3706			ラケット	paddle,racket	N3	Vocabulary
+3707	利益		りえき	profits,gains,(political, economic) interest	N3	Vocabulary
+3708	理解		りかい	understanding,comprehension	N3	Vocabulary
+3709	陸		りく	six (used in legal documents)	N3	Vocabulary
+3710	利口		りこう	clever,shrewd,bright,sharp,wise,intelligent	N3	Vocabulary
+3711	離婚		りこん	divorce	N3	Vocabulary
+3712	理想		りそう	ideal	N3	Vocabulary
+3713	率		りつ	rate,ratio,proportion,percentage	N3	Vocabulary
+3714	立派		りっぱ	splendid,fine,handsome,elegant,imposing,prominent,legal,legitimate	N3	Vocabulary
+3715	留学		りゅうがく	studying abroad	N3	Vocabulary
+3716	流行		りゅうこう	fashionable,fad,in vogue,prevailing	N3	Vocabulary
+3717	量		りょう	quantity,amount,volume,portion (of food)	N3	Vocabulary
+3718	両替		りょうがえ	change,money exchange	N3	Vocabulary
+3719	料金		りょうきん	fee,charge,fare	N3	Vocabulary
+3720	例		れい	instance,example,case	N3	Vocabulary
+3721	礼		れい	expression of gratitude	N3	Vocabulary
+3722	礼儀		れいぎ	manners,courtesy,etiquette	N3	Vocabulary
+3723	冷静		れいせい	calm,composure,coolness,serenity	N3	Vocabulary
+3724	列		れつ	queue,line,row	N3	Vocabulary
+3725	列車		れっしゃ	train (ordinary)	N3	Vocabulary
+3726			レポート	report,paper	N3	Vocabulary
+3727	練習		れんしゅう	practice	N3	Vocabulary
+3728	連想		れんそう	association (of ideas),suggestion	N3	Vocabulary
+3729	連続		れんぞく	serial,consecutive,continuity,continuing	N3	Vocabulary
+3730	老人		ろうじん	the aged,old person	N3	Vocabulary
+3731	労働		ろうどう	manual labor,toil,work	N3	Vocabulary
+3732			ロケット	locket,rocket	N3	Vocabulary
+3733	論じる		ろんじる	to argue,to discuss,to debate	N3	Vocabulary
+3734	論争		ろんそう	controversy,dispute	N3	Vocabulary
+3735	論文		ろんぶん	thesis,essay,treatise,paper	N3	Vocabulary
+3736	輪		わ	ring,hoop,circle	N3	Vocabulary
+3737			ワイン	wine	N3	Vocabulary
+3738			わがまま	selfishness,egoism,wilfulness,disobedience,whim	N3	Vocabulary
+3739	別れ		わかれ	parting,separation,farewell	N3	Vocabulary
+3740	脇		わき	side	N3	Vocabulary
+3741	分ける		わける	to divide,to separate	N3	Vocabulary
+3742			わざと	on purpose	N3	Vocabulary
+3743	僅か		わずか	only,merely,a little,small quantity	N3	Vocabulary
+3744	綿		わた	cotton,padding	N3	Vocabulary
+3745	話題		わだい	topic,subject	N3	Vocabulary
+3746	笑い		わらい	laugh,laughter,smile	N3	Vocabulary
+3747	割る		わる	to divide,to cut,to break,to halve	N3	Vocabulary
+3748	悪口		わるくち	abuse,insult,slander,evil speaking	N3	Vocabulary
+3749	我々		われわれ	we	N3	Vocabulary
+3750	湾		わん	bay,gulf,inlet	N3	Vocabulary
