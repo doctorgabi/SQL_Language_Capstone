@@ -1,5 +1,18 @@
 #USER STORIES
 
+User Story 0
+: As a Japanese language student
+: I want to be able to add new words I learned to the database
+: so that I can study them
+
+Usage: ./jstudy add --kunyomi ときどき --english occasionally --JLPTlevel 0 --category selfstudy
+
+* Acceptance Criteria:
+1. Saves the word in the database
+2. Prints out a summary of what it saved
+3. If kunyomi, english, JLPTlevel, or category are missing, it doesn't save the record and instead prints an error message
+
+
 User Story 1
 : As a Japanese language student
 : I want to see a list of what I need to study to pass a JLPT (e.g. level N5) exam
