@@ -1,1 +1,28 @@
 #!/usr/bin/env ruby
+
+# puts "ARGV[0] = #{ARGV[0]}"
+# puts "ARGV[1] = #{ARGV[1]}"
+# puts "ARGV[2] = #{ARGV[2]}"
+# puts "ARGV[3] = #{ARGV[4]}"
+
+command = ARGV[0]
+arguments = ARGV.drop(1) #drops the first value in the array, which was set to command
+
+if arguments.empty?
+ puts "You must provide the kunyomi of the word you want to add."
+else
+ missing_things = []
+ unless arguments.include?("--kunyomi")
+  missing_things << "kunyomi"
+ end
+ unless arguments.include?("--english")
+  missing_things << "english"
+ end
+ unless arguments.include?("--JLPTlevel")
+  missing_things << "JLPT level"
+ end
+ unless arguments.include?("--category")
+  missing_things << "category"
+ end
+ puts "You must provide the #{missing_things.join(" and ")} of the word you are adding."
+end
