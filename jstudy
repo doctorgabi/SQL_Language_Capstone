@@ -4,25 +4,39 @@
 # puts "ARGV[1] = #{ARGV[1]}"
 # puts "ARGV[2] = #{ARGV[2]}"
 # puts "ARGV[3] = #{ARGV[4]}"
+require 'optparse'
 
 command = ARGV[0]
-arguments = ARGV.drop(1) #drops the first value in the array, which was set to command
+options = {}
 
-if arguments.empty?
- puts "You must provide the kunyomi of the word you want to add."
-else
- missing_things = []
- unless arguments.include?("--kunyomi")
-  missing_things << "kunyomi"
+OptionParser.new do |opts|
+ opts.banner = "Usage: jstudy [command] [options]"
+
+ opts.on("--kunyomi [KUNYOMI]", "The kunyomi") do |kunyomi|
+  options[:kunyomi] = kunyomi
  end
- unless arguments.include?("--english")
-  missing_things << "english"
+
+ opts.on("--english [ENGLISH]", "The english translation") do |english|
+  options[:english] = english
  end
- unless arguments.include?("--JLPTlevel")
-  missing_things << "JLPT level"
+
+ opts.on("--JLPTlevel [JLPTLEVEL]", "The JLPT level") do |jlptlevel|
+  options[:jlptlevel] = jlptlevel
  end
- unless arguments.include?("--category")
-  missing_things << "category"
+
+ opts.on("--category [CATEGORY]", "The word category") do |category|
+  options[:category] = category
  end
+end.parse!
+
+missing_things = []
+missing_things << "kunyomi" unless options[:kunyomi]
+missing_things << "english" unless options[:english]
+missing_things << "jlpt level" unless options[:jlptlevel]
+missing_things << "category" unless options[:category]
+unless missing_things.empty?
  puts "You must provide the #{missing_things.join(" and ")} of the word you are adding."
+ exit
 end
+
+puts "Theoretically creating: a word with the kunyomi #{options[:kunyomi]}, the english translation '#{options[:english]}', JLPT level #{options[:jlptlevel]} and category '#{options[:category]}'"
