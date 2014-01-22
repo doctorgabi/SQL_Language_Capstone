@@ -5,15 +5,21 @@ require_relative 'lib/parse_arguments'
 
 command = ARGV[0]
 options = ParseArguments.parse
-error_messages = ParseArguments.validate(options)
 
-if error_messages.empty?
- require "sqlite3"
- database = Environment.database_connection(options[:environment])
- statement = "insert into words(kunyomi, english, jlptlevel, category) values('#{options[:kunyomi]}', '#{options[:english]}', '#{options[:jlptlevel]}', '#{options[:category]}')"
- database.execute(statement)
- puts "A word with the kunyomi #{options[:kunyomi]}, the english translation '#{options[:english]}', JLPT level #{options[:jlptlevel]} and category '#{options[:category]}' was created."
+if command == "search"
+ puts "What do you want to search for?"
+ input = $stdin.gets
+ puts "You asked for: #{input}"
 else
- puts error_messages
+ error_messages = ParseArguments.validate(options)
+ if error_messages.empty?
+  require "sqlite3"
+  database = Environment.database_connection(options[:environment])
+  statement = "insert into words(kunyomi, english, jlptlevel, category) values('#{options[:kunyomi]}', '#{options[:english]}', '#{options[:jlptlevel]}', '#{options[:category]}')"
+  database.execute(statement)
+  puts "A word with the kunyomi #{options[:kunyomi]}, the english translation '#{options[:english]}', JLPT level #{options[:jlptlevel]} and category '#{options[:category]}' was created."
+ else
+  puts error_messages
+ end
 end
 
