@@ -1,12 +1,10 @@
 #!/usr/bin/env ruby
 
-# puts "ARGV[0] = #{ARGV[0]}"
-# puts "ARGV[1] = #{ARGV[1]}"
-# puts "ARGV[2] = #{ARGV[2]}"
-# puts "ARGV[3] = #{ARGV[4]}"
 require 'optparse'
+require 'lib/parse_arguments'
 
 command = ARGV[0]
+
 options = {}
 
 OptionParser.new do |opts|
