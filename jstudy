@@ -1,40 +1,15 @@
 #!/usr/bin/env ruby
 
-require 'optparse'
-# require 'lib/parse_arguments'
+require_relative 'lib/parse_arguments'
 
 command = ARGV[0]
+options = ParseArguments.parse
+error_messages = ParseArguments.validate(options)
 
-options = {}
-
-OptionParser.new do |opts|
- opts.banner = "Usage: jstudy [command] [options]"
-
- opts.on("--kunyomi [KUNYOMI]", "The kunyomi") do |kunyomi|
-  options[:kunyomi] = kunyomi
- end
-
- opts.on("--english [ENGLISH]", "The english translation") do |english|
-  options[:english] = english
- end
-
- opts.on("--JLPTlevel [JLPTLEVEL]", "The JLPT level") do |jlptlevel|
-  options[:jlptlevel] = jlptlevel
- end
-
- opts.on("--category [CATEGORY]", "The word category") do |category|
-  options[:category] = category
- end
-end.parse!
-
-missing_things = []
-missing_things << "kunyomi" unless options[:kunyomi]
-missing_things << "english" unless options[:english]
-missing_things << "jlpt level" unless options[:jlptlevel]
-missing_things << "category" unless options[:category]
-unless missing_things.empty?
- puts "You must provide the #{missing_things.join(" and ")} of the word you are adding."
- exit
+if error_messages.empty?
+ puts "Theoretically creating: a word with the kunyomi #{options[:kunyomi]}, the english translation '#{options[:english]}', JLPT level #{options[:jlptlevel]} and category '#{options[:category]}'"
+else
+ puts error_messages
 end
 
-puts "Theoretically creating: a word with the kunyomi #{options[:kunyomi]}, the english translation '#{options[:english]}', JLPT level #{options[:jlptlevel]} and category '#{options[:category]}'"
+
