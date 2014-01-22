@@ -1,6 +1,7 @@
 require_relative 'helper'
+require 'sqlite3'
 
-class TestEnteringWords <MiniTest::Unit::TestCase
+class TestEnteringWords < JstudyTest
 
  def test_0_error_message_for_missing_all_arguments
   command = "./jstudy add"
@@ -52,8 +53,9 @@ class TestEnteringWords <MiniTest::Unit::TestCase
 
  def test_08_that_all_correct_info_is_accepted
   command = "./jstudy add --kunyomi ときどき --english occasionally --JLPTlevel 0 --category selfstudy"
-  expected = "Theoretically creating: a word with the kunyomi ときどき, the english translation 'occasionally', JLPT level 0 and category 'selfstudy'"
+  expected = "A word with the kunyomi ときどき, the english translation 'occasionally', JLPT level 0 and category 'selfstudy' was created."
   assert_command_output expected, command
  end
+
 
 end

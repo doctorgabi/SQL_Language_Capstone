@@ -1,4 +1,4 @@
-WordID	Kanji	Onyomi	Kunyomi	English	JLPT Level	Category
+id	kanji	onyomi	kunyomi	english	jlptlevel	category
 1	日	ニチ ジツ -	ひ -び	day, sun, Japan	N5	Kanji
 2	一	イチ イツ ヒト.	ひと-	one	N5	Kanji
 3	国	コク ク		country	N5	Kanji
