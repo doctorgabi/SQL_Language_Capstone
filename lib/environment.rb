@@ -1,5 +1,6 @@
 class Environment
- def self.database_connection
-  @connection ||= SQLite3::Database.new("db/jstudy_test.sqlite3")
+ def self.database_connection(environment = "production")
+  @connection ||= SQLite3::Database.new("db/jstudy_#{environment}.sqlite3")
  end
 end
+

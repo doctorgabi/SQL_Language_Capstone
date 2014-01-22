@@ -9,7 +9,7 @@ error_messages = ParseArguments.validate(options)
 
 if error_messages.empty?
  require "sqlite3"
- database = Environment.database_connection
+ database = Environment.database_connection(options[:environment])
  statement = "insert into words(kunyomi, english, jlptlevel, category) values('#{options[:kunyomi]}', '#{options[:english]}', '#{options[:jlptlevel]}', '#{options[:category]}')"
  database.execute(statement)
  puts "A word with the kunyomi #{options[:kunyomi]}, the english translation '#{options[:english]}', JLPT level #{options[:jlptlevel]} and category '#{options[:category]}' was created."

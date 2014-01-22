@@ -4,7 +4,7 @@ require 'optparse'
 class ParseArguments
 
  def self.parse
-  options = {}
+  options = { environment: "production"}
   OptionParser.new do |opts|
    opts.banner = "Usage: jstudy [command] [options]"
 
@@ -23,6 +23,11 @@ class ParseArguments
    opts.on("--category [CATEGORY]", "The word category") do |category|
     options[:category] = category
    end
+
+   opts.on("--environment [ENV]", "The database environment") do |env|
+    options[:environment] = env
+   end
+
   end.parse!
   options
  end
