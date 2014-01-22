@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'optparse'
-require 'lib/parse_arguments'
+# require 'lib/parse_arguments'
 
 command = ARGV[0]
 
