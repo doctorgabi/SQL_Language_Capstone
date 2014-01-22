@@ -1,9 +1,10 @@
 require 'minitest/autorun'
+require_relative '../lib/environment'
 
 class JstudyTest < MiniTest::Unit::TestCase
 
  def database
-  @database ||= SQLite3::Database.new("db/jstudy_test.sqlite3")
+  Environment.database_connection
  end
 
 

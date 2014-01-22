@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 
+require_relative 'lib/environment'
 require_relative 'lib/parse_arguments'
 
 command = ARGV[0]
@@ -8,7 +9,7 @@ error_messages = ParseArguments.validate(options)
 
 if error_messages.empty?
  require "sqlite3"
- database = SQLite3::Database.new("db/jstudy_test.sqlite3")
+ database = Environment.database_connection
  statement = "insert into words(kunyomi, english, jlptlevel, category) values('#{options[:kunyomi]}', '#{options[:english]}', '#{options[:jlptlevel]}', '#{options[:category]}')"
  database.execute(statement)
  puts "A word with the kunyomi #{options[:kunyomi]}, the english translation '#{options[:english]}', JLPT level #{options[:jlptlevel]} and category '#{options[:category]}' was created."
