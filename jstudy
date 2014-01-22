@@ -8,12 +8,11 @@ error_messages = ParseArguments.validate(options)
 
 if error_messages.empty?
  require "sqlite3"
- database = SQLite3::Database.new("jstudy_test")
+ database = SQLite3::Database.new("db/jstudy_test.sqlite3")
  statement = "insert into words(kunyomi, english, jlptlevel, category) values('#{options[:kunyomi]}', '#{options[:english]}', '#{options[:jlptlevel]}', '#{options[:category]}')"
  database.execute(statement)
  puts "A word with the kunyomi #{options[:kunyomi]}, the english translation '#{options[:english]}', JLPT level #{options[:jlptlevel]} and category '#{options[:category]}' was created."
 else
  puts error_messages
 end
-
 

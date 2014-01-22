@@ -3,7 +3,7 @@ require 'minitest/autorun'
 class JstudyTest < MiniTest::Unit::TestCase
 
  def database
-  @database ||= SQLite3::Database.new("jstudy_test")
+  @database ||= SQLite3::Database.new("db/jstudy_test.sqlite3")
  end
 
 
