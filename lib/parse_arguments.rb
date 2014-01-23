@@ -8,7 +8,15 @@ class ParseArguments
   OptionParser.new do |opts|
    opts.banner = "Usage: jstudy [command] [options]"
 
-   opts.on("--kunyomi [KUNYOMI]", "The kunyomi") do |kunyomi|
+   opts.on("--kanji [KANJI]", "The kanji") do |kanji|
+    options[:kanji] = kanji
+   end
+
+   opts.on("--onyomi [ONYOMI]", "The onyomi pronunciation") do |onyomi|
+    options[:onyomi] = onyomi
+   end
+
+   opts.on("--kunyomi [KUNYOMI]", "The kunyomi pronunciation") do |kunyomi|
     options[:kunyomi] = kunyomi
    end
 
