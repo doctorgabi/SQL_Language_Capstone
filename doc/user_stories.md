@@ -67,7 +67,7 @@ User Story 5
 : I want to be able to start a kanji practice session
 : so that I can focus my study just on the kanji knowledge portion of the exam
 
-Usage: ./jstudy studyN5 "kanji"
+Usage: ./jstudy start "kanji"
 
 Acceptance Criteria:
 1. Accepts user input command to start the test
@@ -245,7 +245,7 @@ User Story 9
 : I want to be able to start a vocabulary practice session
 : so that I can focus my study just on the vocabulary knowledge portion of the exam
 
-Usage: ./jstudy studyN5 "vocab"
+Usage: ./jstudy start "vocab"
 
 Acceptance Criteria:
 1. Accepts user input command to start the test
