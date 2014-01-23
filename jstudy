@@ -9,8 +9,11 @@ options = ParseArguments.parse
 if command == "search"
  puts "What do you want to search for?"
  input = $stdin.gets #this is just a 'gets'
- puts "You asked for: #{input}"
-else #can change this part to 'if command == "add"'
+ result_of_search = Words.search(input)
+ puts "You asked for: #{result_of_search}"
+end
+
+if command == "add"
  error_messages = ParseArguments.validate(options)
  if error_messages.empty?
   new_word_record = Words.create(options)
