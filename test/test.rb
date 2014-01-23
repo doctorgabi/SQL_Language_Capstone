@@ -67,7 +67,7 @@ class TestEnteringWords < JstudyTest
   assert_equal 1, result[0][0]
  end
 
- def test_invalid_words_doesnt_get_saved
+ def test_invalid_words_do_not_get_saved
   `./jstudy add --kunyomi ときどき --english occasionally`
   result = database.execute("select count(id) from words")
   assert_equal 0, result[0][0]
