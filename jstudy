@@ -2,22 +2,26 @@
 
 require_relative 'lib/environment'
 require_relative 'lib/parse_arguments'
+require_relative 'words'
 
 command = ARGV[0]
 options = ParseArguments.parse
 
+database = Environment.database_connection(options[:environment])
+
 if command == "search"
  puts "What do you want to search for?"
- input = $stdin.gets #this is just a 'gets'
- result_of_search = Words.search(input)
- puts "You asked for: #{result_of_search}"
-end
-
-if command == "add"
+ input = $stdin.gets.chomp #this is just a 'gets'
+ puts "You asked for: #{input}"
+ statement = "select words.english from words where english LIKE '%#{input}%'"
+ results = database.execute(statement)
+ puts results
+else
  error_messages = ParseArguments.validate(options)
  if error_messages.empty?
-  new_word_record = Words.create(options)
-  puts new_word_record
+  statement = "insert into words(kanji, onyomi, kunyomi, english, jlptlevel, category) values('#{options[:kanji]}', '#{options[:onyomi]}', '#{options[:kunyomi]}', '#{options[:english]}', '#{options[:jlptlevel]}', '#{options[:category]}')"
+  database.execute(statement)
+  puts "A word with the kunyomi #{options[:kunyomi]}, the english translation '#{options[:english]}', JLPT level #{options[:jlptlevel]} and category '#{options[:category]}' was created."
  else
   puts error_messages
  end
@@ -40,5 +44,15 @@ if command == "start"
   |  * * * * * * * * * * *    へようこそ   * * * * * * * * * * * |
   |______________________________________________________________|
 
+  hit v to start a vocabulary study session, k for a kanji session
+                          or hit q to quit
 "
+ lesson_type = $stdin.gets
+ if lesson_type == "v\n" || lesson_type == "k\n"
+  puts "let's start, はじめましょう！"
+ elsif lesson_type == "q\n"
+  puts "See you next time, じゃまたね"
+ else
+  puts "hit v to start a vocabulary study session, k for a kanji session"
+ end
 end
