@@ -2,7 +2,7 @@
 
 require_relative 'lib/environment'
 require_relative 'lib/parse_arguments'
-require_relative 'words'
+require_relative 'models/word'
 
 command = ARGV[0]
 options = ParseArguments.parse
@@ -17,7 +17,7 @@ if command == "search"
  statement = "select words.english from words where english LIKE '%#{input}%'"
  results = database.execute(statement)
  puts results
-else
+elsif command == "add"
  error_messages = ParseArguments.validate(options)
  if error_messages.empty?
   statement = "insert into words(kanji, onyomi, kunyomi, english, jlptlevel, category) values('#{options[:kanji]}', '#{options[:onyomi]}', '#{options[:kunyomi]}', '#{options[:english]}', '#{options[:jlptlevel]}', '#{options[:category]}')"
@@ -26,6 +26,15 @@ else
  else
   puts error_messages
  end
+elsif command == "list"
+ puts "All Words:"
+ puts Word.all
+  # ^equivalent to:
+  # Word.all.each do |word|
+  #  print word.to_s + "\n"
+  # end
+else
+ puts "Command not implemented"
 end
 
 if command == "start"
