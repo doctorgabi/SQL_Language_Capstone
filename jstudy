@@ -20,10 +20,9 @@ if command == "search"
 elsif command == "add"
  error_messages = ParseArguments.validate(options)
  if error_messages.empty?
-  word = Word.new(kanji: options[:kanji], onyomi: options[:onyomi], kunyomi: options[:kunyomi], english: options[:english], jlptlevel: options[:jlptlevel], category: options[:category])
-  puts word
-  word.save
-  puts "A word with the kanji #{word.kanji}, onyomi #{word.onyomi}, kunyomi #{word.kunyomi}, the english translation '#{word.english}', JLPT level #{word.jlptlevel} and category '#{word.category}' was created."
+  statement = "insert into words(kanji, onyomi, kunyomi, english, jlptlevel, category) values('#{options[:kanji]}', '#{options[:onyomi]}', '#{options[:kunyomi]}', '#{options[:english]}', '#{options[:jlptlevel]}', '#{options[:category]}')"
+  database.execute(statement)
+  puts "A word with the kunyomi #{options[:kunyomi]}, the english translation '#{options[:english]}', JLPT level #{options[:jlptlevel]} and category '#{options[:category]}' was created."
  else
   puts error_messages
  end
