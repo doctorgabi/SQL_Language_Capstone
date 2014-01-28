@@ -5,13 +5,26 @@ class TestWord < JstudyTest
 
  def test_to_s_prints_details
   word = Word.new(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
-  expected = "kanji: , onyomi: , kunyomi: ときどき, english: occasionally, JLPT level: 0, category: selfstudy"
+  expected = "kanji: , onyomi: , kunyomi: ときどき, english: occasionally, JLPT level: 0, category: selfstudy, id: #{word.id}"
   assert_equal expected, word.to_s
  end
 
+ def test_saved_words_are_saved
+  word = Word.new(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
+  occasionallys_before = database.execute("select count(id) from words")[0][0]
+  word.save
+  occasionallys_after = database.execute("select count(id) from words")[0][0]
+  assert_equal occasionallys_before + 1, occasionallys_after
+ end
+
+ def dest_save_creates_an_id
+  word = Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
+  refute_nil word.id, "Word id shouldn't be nil"
+ end
+
  def test_all_returns_all_words
-  database.execute("insert into words(kunyomi, english, jlptlevel, category) values('ときどき', 'occasionally', '0', 'selfstudy')")
-  database.execute("insert into words(kunyomi, english, jlptlevel, category) values('とくべつ', 'special', 'N5', 'vocabulary')")
+  Word.create(kunyomi:'ときどき', english: 'occasionally', jlptlevel: '0', category: 'selfstudy')
+  Word.create(kunyomi:'とくべつ', english: 'special', jlptlevel: 'N5', category: 'vocabulary')
   results = Word.all
   expected = ["occasionally", "special"]
   actual = results.map{ |word| word.english }

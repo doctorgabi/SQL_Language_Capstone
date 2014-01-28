@@ -3,8 +3,11 @@ require_relative '../lib/environment'
 
 class JstudyTest < MiniTest::Unit::TestCase
 
- def database
+ def setup
   Environment.environment = "test"
+ end
+
+ def database
   Environment.database_connection
  end
 
