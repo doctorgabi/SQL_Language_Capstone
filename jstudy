@@ -58,10 +58,10 @@ if command == "start"
   hit v to start a vocabulary study session, k for a kanji session
                           or hit q to quit
 "
- lesson_type = $stdin.gets
- if lesson_type == "v\n" || lesson_type == "k\n"
+ lesson_type = $stdin.gets.chomp
+ if lesson_type == "v" || lesson_type == "k"
   puts "let's start, はじめましょう！"
- elsif lesson_type == "q\n"
+ elsif lesson_type == "q"
   puts "See you next time, じゃまたね"
  else
   puts "hit v to start a vocabulary study session, k for a kanji session"
