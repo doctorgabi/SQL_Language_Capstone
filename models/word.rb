@@ -9,6 +9,13 @@ class Word
   end
  end
 
+ def save
+  database = Environment.database_connection
+  database.execute("insert into words(kanji, onyomi, kunyomi, english, jlptlevel, category) values('#{kanji}', '#{onyomi}', '#{kunyomi}', '#{english}', '#{jlptlevel}', '#{category}')")
+  # ^ fails silently!!
+  # ^ Also, susceptible to SQL injection!
+ end
+
  def self.all
   database = Environment.database_connection
   database.results_as_hash = true

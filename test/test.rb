@@ -52,7 +52,7 @@ class TestEnteringWords < JstudyTest
 
  def test_08_that_all_correct_info_is_accepted
   command = "./jstudy add --kunyomi ときどき --english occasionally --JLPTlevel 0 --category selfstudy"
-  expected = "A word with the kunyomi ときどき, the english translation 'occasionally', JLPT level 0 and category 'selfstudy' was created."
+  expected = "A word with the kanji , onyomi , kunyomi ときどき, the english translation 'occasionally', JLPT level 0 and category 'selfstudy' was created."
   assert_command_output expected, command
  end
 
