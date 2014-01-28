@@ -3,11 +3,24 @@ class Word
 
  def initialize attributes = {}
    # Long Way: @category = attributes[:category]
-   # Short Way:
-  attributes.each_pair do |attribute, value|
-   self.send("#{attribute}=", value)
-  end
+   # Short Way:''
+  # attributes.each_pair do |attribute, value|
+  #  self.send("#{attribute}=", value)
+  # end
+  @kanji = attributes[:kanji]
+  @onyomi = attributes[:onyomi]
+  @kunyomi = attributes[:kunyomi]
+  @english = attributes[:english]
+  @jlptlevel = attributes[:jlptlevel]
+  @category = attributes[:category]
  end
+
+def save
+ database = Environment.database_connection
+ database.execute("insert into words(kanji, onyomi, kunyomi, english, jlptlevel, category) values(#{@kanji}, #{@onyomi}, #{@kunyomi}, #{@english}, #{@jlptlevel}, #{@category})")
+ # ^ fails silently!!
+ # ^ Also, susceptible to SQL injection!
+end
 
  def self.all
   database = Environment.database_connection

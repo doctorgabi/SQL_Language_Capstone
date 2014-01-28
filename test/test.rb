@@ -59,8 +59,9 @@ class TestEnteringWords < JstudyTest
  def test_valid_word_gets_saved
   `./jstudy add --kunyomi ときどき --english occasionally --JLPTlevel 0 --category selfstudy --environment test`
   results = database.execute("select kunyomi, english, jlptlevel, category from words")
+  word = Word.new(kanji: nil, onyomi: nil, kunyomi: nil, english: nil, jlptlevel: nil, category: nil)
   expected = ["ときどき", "occasionally", "0", "selfstudy"]
-  assert_equal expected, results[0]
+  assert_equal expected, word.save
 
   result = database.execute("select count(id) from words")
   assert_equal 1, result[0][0]
