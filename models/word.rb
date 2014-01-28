@@ -3,9 +3,15 @@ class Word
 
  def initialize attributes = {}
    # Long Way: @category = attributes[:category]
+   # @kanji = attributes[:kanji]
+   # @onyomi = attributes[:onyomi]
+   # @kunyomi = attributes[:kunyomi]
+   # @english = attributes[:english]
+   # @jlptlevel = attributes[:jlptlevel]
+   # @category = attributes[:category]
    # Short Way:
-  attributes.each_pair do |attribute, value|
-   self.send("#{attribute}=", value)
+   [:kanji, :onyomi, :kunyomi, :english, :jlptlevel, :category].each do |attr|
+    self.send("#{attr}=", attributes[attr])
   end
  end
 

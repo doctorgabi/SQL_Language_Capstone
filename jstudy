@@ -20,7 +20,8 @@ if command == "search"
 elsif command == "add"
  error_messages = ParseArguments.validate(options)
  if error_messages.empty?
-  word = Word.new(kanji: options[:kanji], onyomi: options[:onyomi], kunyomi: options[:kunyomi], english: options[:english], jlptlevel: options[:jlptlevel], category: options[:category])
+  word = Word.new(options)
+  # word = Word.new(kanji: options[:kanji], onyomi: options[:onyomi], kunyomi: options[:kunyomi], english: options[:english], jlptlevel: options[:jlptlevel], category: options[:category])
   word.save
   puts "A word with the kanji #{word.kanji}, onyomi #{word.onyomi}, kunyomi #{word.kunyomi}, the english translation '#{word.english}', JLPT level #{word.jlptlevel} and category '#{word.category}' was created."
  else
