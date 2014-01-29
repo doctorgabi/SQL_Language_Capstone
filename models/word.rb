@@ -3,17 +3,7 @@ class Word
  attr_reader :id
 
  def initialize attributes = {}
-   # Long Way: @category = attributes[:category]
-   # @kanji = attributes[:kanji]
-   # @onyomi = attributes[:onyomi]
-   # @kunyomi = attributes[:kunyomi]
-   # @english = attributes[:english]
-   # @jlptlevel = attributes[:jlptlevel]
-   # @category = attributes[:category]
-   # Short Way:
-   [:kanji, :onyomi, :kunyomi, :english, :jlptlevel, :category].each do |attr|
-    self.send("#{attr}=", attributes[attr])
-  end
+  update_attributes(attributes)
  end
 
  def self.create(attributes = {})
@@ -22,12 +12,34 @@ class Word
   word
  end
 
+ def update attributes = {}
+  update_attributes(attributes)
+  save
+ end
+
  def save
   database = Environment.database_connection
-  database.execute("insert into words(kanji, onyomi, kunyomi, english, jlptlevel, category) values('#{kanji}', '#{onyomi}', '#{kunyomi}', '#{english}', '#{jlptlevel}', '#{category}')")
-  @id = database.last_insert_row_id
+  if id
+   database.execute("update words set kanji = '#{kanji}', onyomi = '#{onyomi}', kunyomi = '#{kunyomi}', english = '#{english}', jlptlevel = '#{jlptlevel}', category = '#{category}' where id = #{id}")
+  else
+   database.execute("insert into words(kanji, onyomi, kunyomi, english, jlptlevel, category) values('#{kanji}', '#{onyomi}', '#{kunyomi}', '#{english}', '#{jlptlevel}', '#{category}')")
+   @id = database.last_insert_row_id
+  end
   # ^ fails silently!!
   # ^ Also, susceptible to SQL injection!
+ end
+
+ def self.find id
+  database = Environment.database_connection
+  database.results_as_hash = true
+  results = database.execute("select * from words where id = #{id}")[0]
+  if results
+   word = Word.new(kanji: results["kanji"], onyomi: results["onyomi"], kunyomi: results["kunyomi"], english: results["english"], jlptlevel: results["jlptlevel"], category: results[:jlptlevel])
+   word.send("id=", results["id"])
+   word
+  else
+   nil
+  end
  end
 
  def self.all
@@ -49,5 +61,22 @@ class Word
 
  def id=(id)
   @id = id
+ end
+
+ def update_attributes(attributes)
+  # @kanji = attributes[:kanji]
+  # @onyomi = attributes[:onyomi]
+  # @kunyomi = attributes[:kunyomi]
+  # @english = attributes[:english]
+  # @jlptlevel = attributes[:jlptlevel]
+  # @category = attributes[:category]
+  # ^ Long way
+  # Short way:
+  [:kanji, :onyomi, :kunyomi, :english, :jlptlevel, :category].each do |attr|
+   if attributes[attr]
+    # self.kanji = attributes[:kanji]
+    self.send("#{attr}=", attributes[attr])
+   end
+  end
  end
 end

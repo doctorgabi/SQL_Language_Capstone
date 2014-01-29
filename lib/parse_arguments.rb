@@ -32,6 +32,10 @@ class ParseArguments
     options[:category] = category
    end
 
+   opts.on("--id [ID]", "The id of the word we are editing") do |id|
+    options[:id] = id
+   end
+
    opts.on("--environment [ENV]", "The database environment") do |env|
     options[:environment] = env
    end

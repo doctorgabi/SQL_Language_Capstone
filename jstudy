@@ -34,6 +34,13 @@ elsif command == "list"
   # Word.all.each do |word|
   #  print word.to_s + "\n"
   # end
+elsif command == "edit"
+ if word = Word.find(options[:id])
+  word.update(options)
+  puts "Word #{word.id} now has the kanji #{word.kanji}, the onyomi #{word.onyomi}, the kunyomi #{word.kunyomi}, the english translation '#{word.english}', the JLPT level #{word.jlptlevel} and the category #{word.category}."
+ else
+  puts "Word #{options[:id]} couldn't be found."
+ end
 else
  puts "Command not implemented"
 end

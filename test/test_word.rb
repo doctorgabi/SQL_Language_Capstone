@@ -9,6 +9,32 @@ class TestWord < JstudyTest
   assert_equal expected, word.to_s
  end
 
+ def test_update_doesnt_insert_new_row
+  word = Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
+  occasionallys_before = database.execute("select count(id) from words")[0][0]
+  word.update(english: "sometimes")
+  occasionallys_after = database.execute("select count(id) from words")[0][0]
+  assert_equal occasionallys_before, occasionallys_after
+ end
+
+ # def test_update_saves_to_the_database
+ #  word = Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
+ #  id = word.id
+ #  word.update(kunyomi: "だいたい", english: "roughly", jlptlevel: "N4", category: "vocabulary")
+ #  updated_word = Word.find(id)
+ #  expected = ["だいたい", "roughly", "N4", "vocabulary"]
+ #  actual = [ updated_word.kunyomi, updated_word.english, updated_word.jlptlevel, updated_word.category]
+ #  assert_equal expected, actual
+ # end
+
+ def test_update_is_reflected_in_existing_instance
+  word = Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
+  word.update(kunyomi: "だいたい", english: "roughly", jlptlevel: "N4", category: "vocabulary")
+  expected = ["だいたい", "roughly", "N4", "vocabulary"]
+  actual = [word.kunyomi, word.english, word.jlptlevel, word.category]
+  assert_equal expected, actual
+ end
+
  def test_saved_words_are_saved
   word = Word.new(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
   occasionallys_before = database.execute("select count(id) from words")[0][0]
@@ -20,6 +46,19 @@ class TestWord < JstudyTest
  def dest_save_creates_an_id
   word = Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
   refute_nil word.id, "Word id shouldn't be nil"
+ end
+
+ def test_find_returns_nil_if_unfindable
+  assert_nil Word.find(2938402984)
+ end
+
+ def test_find_returns_the_row_as_word_object
+  word = Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
+  found = Word.find(word.id)
+  # Ideally: assert_equal word, found
+  # Hacky way so that we can focus on today's material:
+  assert_equal word.english, found.english
+  assert_equal word.id, found.id
  end
 
  def test_all_returns_all_words
