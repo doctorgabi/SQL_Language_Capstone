@@ -42,6 +42,17 @@ class Word
   end
  end
 
+ def self.search(search_term)
+  database = Environment.database_connection
+  database.results_as_hash = true
+  results = database.execute("select words.english from words where kunyomi LIKE '%#{search_term}%'")
+  results.map do |row_hash|
+   word = Word.new(kanji: row_hash[:"kanji"], onyomi: row_hash[:"onyomi"], kunyomi: row_hash[:"kunyomi"], english: row_hash[:"english"], jlptlevel: row_hash[:"jlptlevel"], category: row_hash[:"category"])
+   word.send("id=", row_hash["id"])
+   word
+  end
+ end
+
  def self.all
   database = Environment.database_connection
   database.results_as_hash = true

@@ -17,15 +17,15 @@ class TestWord < JstudyTest
   assert_equal occasionallys_before, occasionallys_after
  end
 
- # def test_update_saves_to_the_database
- #  word = Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
- #  id = word.id
- #  word.update(kunyomi: "だいたい", english: "roughly", jlptlevel: "N4", category: "vocabulary")
- #  updated_word = Word.find(id)
- #  expected = ["だいたい", "roughly", "N4", "vocabulary"]
- #  actual = [ updated_word.kunyomi, updated_word.english, updated_word.jlptlevel, updated_word.category]
- #  assert_equal expected, actual
- # end
+ def test_update_saves_to_the_database
+  word = Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
+  id = word.id
+  word.update(kunyomi: "だいたい", english: "roughly", jlptlevel: "N4", category: "vocabulary")
+  updated_word = Word.find(id)
+  expected = ["だいたい", "roughly", "N4", "vocabulary"]
+  actual = [updated_word.kunyomi, updated_word.english, updated_word.jlptlevel, word.category]
+  assert_equal expected, actual
+ end
 
  def test_update_is_reflected_in_existing_instance
   word = Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
@@ -59,6 +59,30 @@ class TestWord < JstudyTest
   # Hacky way so that we can focus on today's material:
   assert_equal word.english, found.english
   assert_equal word.id, found.id
+ end
+
+ def test_search_returns_word_objects
+  Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
+  Word.create(kunyomi:"とくべつ", english: "special", jlptlevel: "N5", category: "vocabulary")
+  Word.create(kunyomi: "なにも", english: "nothing", jlptlevel: "N4", category: "vocabulary")
+  results = Word.search("と")
+  assert results.all?{ |result| result.is_a? Word }, "Not all results were Words"
+ end
+
+ def test_search_returns_appropriate_results
+  Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
+  Word.create(kunyomi:"とくべつ", english: "special", jlptlevel: "N5", category: "vocabulary")
+  Word.create(kunyomi: "なにも", english: "nothing", jlptlevel: "N4", category: "vocabulary")
+  results = Word.search("と")
+  assert_equal ["とくべつ", "ときどき"], results.map(&:kunyomi)
+ end
+
+ def test_search_returns_appropriate_results
+  Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
+  Word.create(kunyomi:"とくべつ", english: "special", jlptlevel: "N5", category: "vocabulary")
+  Word.create(kunyomi: "なにも", english: "nothing", jlptlevel: "N4", category: "vocabulary")
+  results = Word.search("は")
+  assert_equal [], results
  end
 
  def test_all_returns_all_words
