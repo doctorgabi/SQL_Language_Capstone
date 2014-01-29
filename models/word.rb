@@ -68,12 +68,9 @@ class Word
   "kanji: #{kanji}, onyomi: #{onyomi}, kunyomi: #{kunyomi}, english: #{english}, JLPT level: #{jlptlevel}, category: #{category}, id: #{id}"
  end
 
+
  def ==(other)
-  if other.is_a? Word
-   self.to_s == other.to_s
-  else
-   false
-  end
+  other.is_a?(Word) && self.to_s == other.to_s
  end
 
  protected
