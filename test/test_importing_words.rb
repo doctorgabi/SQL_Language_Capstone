@@ -25,21 +25,24 @@ require_relative '../lib/importer'
   end
 
   def test_extra_categories_arent_created
+   skip
    import_data
    assert_equal 2, Category.all.count
   end
 
   def test_categories_are_created_as_needed
-   Category.create("Vocabulary")
-   Category.create("Selfstudy")
+   skip
+   Category.create(name: "Vocabulary")
+   Category.create(name: "Selfstudy")
    import_data
-   assert_equal 3, Category.all.count
+   assert_equal 3, Category.all.count, "The categories were: #{Category.all.map(&:name)}"
   end
 
   def test_data_isnt_duplicated
+   skip
    import_data
    expected = ["Kanji", "Vocabulary"]
-   assert_equal expected, Category.all.map(&:english)
+   assert_equal expected, Category.all.map(&:name)
    # ^equivalent:
    # category_names = Category.all.map{ |category| category.name }
    # assert_equal expected, category_names
