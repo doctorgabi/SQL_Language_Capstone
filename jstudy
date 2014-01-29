@@ -2,75 +2,81 @@
 
 require_relative 'lib/environment'
 require_relative 'lib/parse_arguments'
-require_relative 'models/word'
+require_relative 'lib/interactions'
 
-command = ARGV[0]
-options = ParseArguments.parse
+# Router:
+class Jstudy
+ include Interactions
 
-Environment.environment = options[:environment] || "production"
-database = Environment.database_connection
+ def main
+  command = ARGV[0]
+  options = ParseArguments.parse
 
-if command == "search"
- puts "What do you want to search for?"
- input = $stdin.gets.chomp #this is just a 'gets'
- puts "You asked for: #{input}"
- statement = "select words.english from words where english LIKE '%#{input}%'"
- results = database.execute(statement)
- puts results
-elsif command == "add"
- error_messages = ParseArguments.validate(options)
- if error_messages.empty?
-  word = Word.new(options)
-  # word = Word.new(kanji: options[:kanji], onyomi: options[:onyomi], kunyomi: options[:kunyomi], english: options[:english], jlptlevel: options[:jlptlevel], category: options[:category])
-  word.save
-  puts "A word with the kanji #{word.kanji}, onyomi #{word.onyomi}, kunyomi #{word.kunyomi}, the english translation '#{word.english}', JLPT level #{word.jlptlevel} and category '#{word.category}' was created."
- else
-  puts error_messages
- end
-elsif command == "list"
- puts "All Words:"
- puts Word.all
-  # ^equivalent to:
-  # Word.all.each do |word|
-  #  print word.to_s + "\n"
-  # end
-elsif command == "edit"
- if word = Word.find(options[:id])
-  word.update(options)
-  puts "Word #{word.id} now has the kanji #{word.kanji}, the onyomi #{word.onyomi}, the kunyomi #{word.kunyomi}, the english translation '#{word.english}', the JLPT level #{word.jlptlevel} and the category #{word.category}."
- else
-  puts "Word #{options[:id]} couldn't be found."
- end
-else
- puts "Command not implemented"
+  Environment.environment = options[:environment] || "production"
+  database = Environment.database_connection
+
+  if command == "search"
+   search_term = ask("What do you want to search for?")
+
+   puts "You asked for: #{search_term}"
+   statement = "select words.english from words where english LIKE '%#{search_term}%'"
+   results = database.execute(statement)
+   puts results
+  elsif command == "add"
+   error_messages = ParseArguments.validate(options)
+   if error_messages.empty?
+    word = Word.new(options)
+    word.save
+    puts "A word with the kanji #{word.kanji}, onyomi #{word.onyomi}, kunyomi #{word.kunyomi}, the english translation '#{word.english}', JLPT level #{word.jlptlevel} and category '#{word.category}' was created."
+   else
+    puts error_messages
+   end
+  elsif command == "list"
+   puts "All Words:"
+   puts Word.all
+    # ^equivalent to:
+    # Word.all.each do |word|
+    #  print word.to_s + "\n"
+    # end
+  elsif command == "edit"
+   if word = Word.find(options[:id])
+    word.update(options)
+    puts "Word #{word.id} now has the kanji #{word.kanji}, the onyomi #{word.onyomi}, the kunyomi #{word.kunyomi}, the english translation '#{word.english}', the JLPT level #{word.jlptlevel} and the category #{word.category}."
+   else
+    puts "Word #{options[:id]} couldn't be found."
+   end
+  end
+
+  if command == "start"
+   puts "
+     ______________________________________________________________
+    | ___________________________________________________________  |
+    | |   _______     ______   _______ __   __  ______  __    __ | |
+    | |  |__   __|   /  ___ \\ |__  ___|| |  | | | ___ \\ \\ \\  / / | |
+    | |     | |      | |   \\_|   | |   | |  | | | |  | | \\ \\/ /  | |
+    | |     | |  __  |  \\___     | |   | |  | | | |  | |  \\  /   | |
+    | |  _  | | |__|  \\___  \\    | |   | |  | | | |  | |   | |   | |
+    | | | | | |       _   \\  |   | |   | |  | | | |  | |   | |   | |
+    | | | |_| |      | |__/  |   | |   | |__| | | |__/ |   | |   | |
+    | | \\_____/      \\______/    |_|   \\______/ |_____/    |_|   | |
+    | |__________________________________________________________| |
+    |                                                              |
+    |  * * * * * * * * * * *    へようこそ   * * * * * * * * * * * |
+    |______________________________________________________________|
+
+    hit v to start a vocabulary study session, k for a kanji session
+                            or hit q to quit
+  "
+   lesson_type = $stdin.gets.chomp
+   if lesson_type == "v" || lesson_type == "k"
+    puts "let's start, はじめましょう！"
+   elsif lesson_type == "q"
+    puts "See you next time, じゃまたね"
+   else
+    puts "hit v to start a vocabulary study session, k for a kanji session"
+   end
+  end
+  end
 end
-
-if command == "start"
- puts "
-   ______________________________________________________________
-  | ___________________________________________________________  |
-  | |   _______     ______   _______ __   __  ______  __    __ | |
-  | |  |__   __|   /  ___ \\ |__  ___|| |  | | | ___ \\ \\ \\  / / | |
-  | |     | |      | |   \\_|   | |   | |  | | | |  | | \\ \\/ /  | |
-  | |     | |  __  |  \\___     | |   | |  | | | |  | |  \\  /   | |
-  | |  _  | | |__|  \\___  \\    | |   | |  | | | |  | |   | |   | |
-  | | | | | |       _   \\  |   | |   | |  | | | |  | |   | |   | |
-  | | | |_| |      | |__/  |   | |   | |__| | | |__/ |   | |   | |
-  | | \\_____/      \\______/    |_|   \\______/ |_____/    |_|   | |
-  | |__________________________________________________________| |
-  |                                                              |
-  |  * * * * * * * * * * *    へようこそ   * * * * * * * * * * * |
-  |______________________________________________________________|
-
-  hit v to start a vocabulary study session, k for a kanji session
-                          or hit q to quit
-"
- lesson_type = $stdin.gets.chomp
- if lesson_type == "v" || lesson_type == "k"
-  puts "let's start, はじめましょう！"
- elsif lesson_type == "q"
-  puts "See you next time, じゃまたね"
- else
-  puts "hit v to start a vocabulary study session, k for a kanji session"
- end
-end
+jstudy = Jstudy.new()
+jstudy.main()
