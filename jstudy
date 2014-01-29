@@ -7,22 +7,26 @@ require_relative 'lib/interactions'
 # Router:
 class Jstudy
  include Interactions
+ attr_reader :options
+
+ def initialize
+  @options = ParseArguments.parse
+  @options[:command] = ARGV[0]
+  Environment.environment = @options[:environment] || "production"
+ end
 
  def main
-  command = ARGV[0]
-  options = ParseArguments.parse
 
-  Environment.environment = options[:environment] || "production"
   database = Environment.database_connection
 
-  if command == "search"
+  if options[:command] == "search"
    search_term = ask("What do you want to search for?")
 
    puts "You asked for: #{search_term}"
    statement = "select words.english from words where english LIKE '%#{search_term}%'"
    results = database.execute(statement)
    puts results
-  elsif command == "add"
+  elsif options[:command] == "add"
    error_messages = ParseArguments.validate(options)
    if error_messages.empty?
     word = Word.new(options)
@@ -31,14 +35,14 @@ class Jstudy
    else
     puts error_messages
    end
-  elsif command == "list"
+  elsif options[:command] == "list"
    puts "All Words:"
    puts Word.all
     # ^equivalent to:
     # Word.all.each do |word|
     #  print word.to_s + "\n"
     # end
-  elsif command == "edit"
+  elsif options[:command] == "edit"
    if word = Word.find(options[:id])
     word.update(options)
     puts "Word #{word.id} now has the kanji #{word.kanji}, the onyomi #{word.onyomi}, the kunyomi #{word.kunyomi}, the english translation '#{word.english}', the JLPT level #{word.jlptlevel} and the category #{word.category}."
@@ -47,7 +51,7 @@ class Jstudy
    end
   end
 
-  if command == "start"
+  if options[:command] == "start"
    puts "
      ______________________________________________________________
     | ___________________________________________________________  |
