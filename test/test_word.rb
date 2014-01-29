@@ -78,11 +78,12 @@ class TestWord < JstudyTest
  end
 
  def test_search_returns_appropriate_results
-  Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
-  Word.create(kunyomi:"とくべつ", english: "special", jlptlevel: "N5", category: "vocabulary")
-  Word.create(kunyomi: "なにも", english: "nothing", jlptlevel: "N4", category: "vocabulary")
-  results = Word.search("は")
-  assert_equal [], results
+  word1 = Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
+  word2 = Word.create(kunyomi:"とくべつ", english: "special", jlptlevel: "N5", category: "vocabulary")
+  word3 = Word.create(kunyomi: "なにも", english: "nothing", jlptlevel: "N4", category: "vocabulary")
+  expected = [word1, word2]
+  actual = Word.search("と")
+  assert_equal expected, actual
  end
 
  def test_all_returns_all_words

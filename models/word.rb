@@ -42,10 +42,10 @@ class Word
   end
  end
 
- def self.search(search_term)
+ def self.search(search_term = nil)
   database = Environment.database_connection
   database.results_as_hash = true
-  results = database.execute("select words.english from words where kunyomi LIKE '%#{search_term}%'")
+  results = database.execute("select words.* from words where kunyomi LIKE '%#{search_term}%' order by english ASC")
   results.map do |row_hash|
    word = Word.new(kanji: row_hash[:"kanji"], onyomi: row_hash[:"onyomi"], kunyomi: row_hash[:"kunyomi"], english: row_hash[:"english"], jlptlevel: row_hash[:"jlptlevel"], category: row_hash[:"category"])
    word.send("id=", row_hash["id"])
@@ -53,15 +53,20 @@ class Word
   end
  end
 
+ # class << self
+ #  alias :all :search
+ # end
+ # ^ is an alternative to:
  def self.all
-  database = Environment.database_connection
-  database.results_as_hash = true
-  results = database.execute("select * from words order by english ASC")
-  results.map do |row_hash|
-   word = Word.new(kanji: row_hash["kanji"], onyomi: row_hash["onyomi"], kunyomi: row_hash["kunyomi"], english: row_hash["english"], jlptlevel: row_hash["jlptlevel"], category: row_hash["category"])
-   word.send("id=", row_hash["id"])
-   word
-  end
+  # database = Environment.database_connection
+  # database.results_as_hash = true
+  # results = database.execute("select * from words order by english ASC")
+  # results.map do |row_hash|
+  #  word = Word.new(kanji: row_hash["kanji"], onyomi: row_hash["onyomi"], kunyomi: row_hash["kunyomi"], english: row_hash["english"], jlptlevel: row_hash["jlptlevel"], category: row_hash["category"], )
+  #  word.send("id=", row_hash["id"])
+  #  word
+  # end
+  search
  end
 
  def to_s
