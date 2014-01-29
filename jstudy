@@ -35,12 +35,7 @@ class Jstudy
     puts error_messages
    end
   elsif options[:command] == "list"
-   puts "All Words:"
-   puts Word.all
-    # ^equivalent to:
-    # Word.all.each do |word|
-    #  print word.to_s + "\n"
-    # end
+   list_words()
   elsif options[:command] == "edit"
    if word = Word.find(options[:id])
     word.update(options)
@@ -48,6 +43,8 @@ class Jstudy
    else
     puts "Word #{options[:id]} couldn't be found."
    end
+  else
+   puts "Command not implemented"
   end
 
   if options[:command] == "start"
@@ -79,7 +76,12 @@ class Jstudy
     puts "hit v to start a vocabulary study session, k for a kanji session"
    end
   end
-  end
+ end
+
+ def list_words()
+  puts "All Words:"
+  puts Word.all
+ end
 end
 jstudy = Jstudy.new()
 jstudy.main()
