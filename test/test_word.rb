@@ -104,4 +104,20 @@ class TestWord < JstudyTest
   assert_equal [], results
  end
 
+ def test_equality_on_same_object
+  word = Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
+  assert word == word
+ end
+
+ def test_equality_with_different_class
+  word = Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
+  refute word == "Word"
+ end
+
+ def test_equality_with_same_word_different_object_id
+  word1 = Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
+  word2 = Word.find(word1.id)
+  assert word1 == word2
+ end
+
 end
