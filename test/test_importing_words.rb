@@ -7,9 +7,8 @@ require_relative '../lib/importer'
   end
 
   def test_the_correct_number_of_words_are_imported
-   skip
    import_data
-   assert 4, Word.all.count
+   assert_equal 4, Word.all.count
   end
 
   def test_words_are_imported_fully
@@ -26,23 +25,23 @@ require_relative '../lib/importer'
   end
 
   def test_extra_categories_arent_created
-   skip
    import_data
-   assert 2, Category.all.count
+   assert_equal 2, Category.all.count
   end
 
   def test_categories_are_created_as_needed
-   skip
    Category.create("Vocabulary")
    Category.create("Selfstudy")
    import_data
-   assert 3, Category.all.count
+   assert_equal 3, Category.all.count
   end
 
   def test_data_isnt_duplicated
-   skip
    import_data
    expected = ["Kanji", "Vocabulary"]
    assert_equal expected, Category.all.map(&:english)
+   # ^equivalent:
+   # category_names = Category.all.map{ |category| category.name }
+   # assert_equal expected, category_names
   end
  end
