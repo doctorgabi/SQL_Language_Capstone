@@ -13,7 +13,7 @@ class JstudyTest < MiniTest::Unit::TestCase
 
  def teardown
   database.execute("delete from words")
-  database.execute("delete from categories")
+  # database.execute("delete from categories")
  end
 
  def assert_command_output expected, command

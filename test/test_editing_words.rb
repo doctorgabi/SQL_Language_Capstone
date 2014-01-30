@@ -26,8 +26,7 @@ class TestEditingWords < JstudyTest
 
  def test_04_attempting_to_update_with_bad_data
   skip
-  category = Category.find_or_create("selfstudy")
-  word = Word.new(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category_id: category.id)
+  word = Word.new(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
   word.save
   id = word.id #<--- First thing we have to implement
   command = "./jstudy edit --id #{id} --kunyomi ときどき --english occasionally --jlptlevel N35 --category selfstudy"
@@ -37,8 +36,7 @@ class TestEditingWords < JstudyTest
 
  def test_05_attempting_to_update_partial_data
   skip
-  category = Category.find_or_create("selfstudy")
-  word = Word.new(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category_id: category.id)
+  word = Word.new(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
   word.save
   id = word.id #<--First thing we have to implement
   command = "./jstudy edit --id #{id} -- english sometimes!"
