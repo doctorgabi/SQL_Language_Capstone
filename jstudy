@@ -21,6 +21,9 @@ class Jstudy
   if options[:command] == "search"
    search_term = ask("What do you want to search for?")
    search_words_for(search_term)
+  elsif options[:command] == "searchenglish"
+   search_term = ask("What do you want to search for?")
+   searchenglish_words_for(search_term)
   elsif options[:command] == "add"
    error_messages = ArgumentParser.validate(options)
    if error_messages.empty?
@@ -82,6 +85,11 @@ class Jstudy
  def search_words_for(search_term)
   puts "You asked for: #{search_term}"
   puts Word.search(search_term)
+ end
+
+ def searchenglish_words_for(search_term)
+  puts "You asked for: #{search_term}"
+  puts Word.searchenglish(search_term)
  end
 
 end
