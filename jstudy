@@ -21,12 +21,9 @@ class Jstudy
   if options[:command] == "search"
    search_term = ask("What do you want to search for?")
    search_words_for(search_term)
-<<<<<<< HEAD
   elsif options[:command] == "searchenglish"
    search_term = ask("What do you want to search for?")
    searchenglish_words_for(search_term)
-=======
->>>>>>> 20ca12273194f2bcd443084dbabe53eb2dc0f67d
   elsif options[:command] == "add"
    error_messages = ArgumentParser.validate(options)
    if error_messages.empty?
