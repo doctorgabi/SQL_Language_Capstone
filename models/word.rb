@@ -19,11 +19,10 @@ class Word
 
  def save
   database = Environment.database_connection
-
   if id
-   database.execute("update words set kanji = '#{kanji}', onyomi = '#{onyomi}', kunyomi = '#{kunyomi}', english = '#{english}', jlptlevel = '#{jlptlevel}', category = '#{category}' where id = #{id}")
+   database.execute("update words set kanji = '#{kanji}', onyomi = '#{onyomi}', kunyomi = '#{kunyomi}', english = '#{english}', jlptlevel = '#{jlptlevel}', category_id = '#{category_id}' where id = #{id}")
   else
-   database.execute("insert into words(kanji, onyomi, kunyomi, english, jlptlevel, category) values('#{kanji}', '#{onyomi}', '#{kunyomi}', '#{english}', '#{jlptlevel}', '#{category}')")
+   database.execute("insert into words(kanji, onyomi, kunyomi, english, jlptlevel, category_id) values('#{kanji}', '#{onyomi}', '#{kunyomi}', '#{english}', '#{jlptlevel}', '#{category_id}')")
    @id = database.last_insert_row_id
   end
  end

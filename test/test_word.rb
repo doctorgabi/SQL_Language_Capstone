@@ -20,7 +20,7 @@ class TestWord < JstudyTest
  def test_03_update_saves_to_the_database
   word = Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
   id = word.id
-  word.update(kunyomi: "だいたい", english: "roughly", jlptlevel: "N4", category: "vocabulary")
+  word.update(kunyomi: "だいたい", english: "roughly", jlptlevel: "N4", category_id: category2.id)
   updated_word = Word.find(id)
   expected = ["だいたい", "roughly", "N4", "vocabulary"]
   actual = [updated_word.kunyomi, updated_word.english, updated_word.jlptlevel, word.category]
@@ -31,7 +31,7 @@ class TestWord < JstudyTest
   word = Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
   word.update(kunyomi: "だいたい", english: "roughly", jlptlevel: "N4", category: "vocabulary")
   expected = ["だいたい", "roughly", "N4", "vocabulary"]
-  actual = [word.kunyomi, word.english, word.jlptlevel, word.category]
+  actual = [word.kunyomi, word.english, word.jlptlevel, category.name]
   assert_equal expected, actual
  end
 
