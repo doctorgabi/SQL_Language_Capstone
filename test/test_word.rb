@@ -72,7 +72,7 @@ class TestWord < JstudyTest
   Word.create(kunyomi:"とくべつ", english: "special", jlptlevel: "N5", category: "vocabulary")
   Word.create(kunyomi: "なにも", english: "nothing", jlptlevel: "N4", category: "vocabulary")
   results = Word.search("と")
-  assert_equal ["とくべつ", "ときどき"], results.map(&:kunyomi)
+  assert_equal ["ときどき", "とくべつ"], results.map(&:kunyomi)
  end
 
  def test_13_search_returns_appropriate_results
