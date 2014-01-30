@@ -1,7 +1,7 @@
 require_relative 'helper'
 
 class TestEditingWords < JstudyTest
- def test_updating_a_record_that_exists
+ def test_01_updating_a_record_that_exists
   word = Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
   id = word.id
   command = "./jstudy edit --id #{id} --kunyomi 'ときどき' --english 'sometimes!' --jlptlevel 'N4' --category 'vocabulary'"
@@ -10,13 +10,13 @@ class TestEditingWords < JstudyTest
   assert_command_output expected, command
  end
 
- def test_attempting_to_update_a_non_existant_record
+ def test_02_attempting_to_update_a_non_existant_record
   command = "./jstudy edit --id 2934892837498234 --kunyomi ときどき --english sometimes! --jlptlevel N4 --category vocabulary"
   expected = "Word 2934892837498234 couldn't be found."
   assert_command_output expected, command
  end
 
- def test_attempting_to_update_with_no_changes
+ def test_03_attempting_to_update_with_no_changes
   word = Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
   id = word.id
   command = "./jstudy edit --id #{id} --kunyomi ときどき --english occasionally --jlptlevel 0 --category selfstudy"
@@ -24,7 +24,7 @@ class TestEditingWords < JstudyTest
   assert_command_output expected, command
  end
 
- def test_attempting_to_update_with_bad_data
+ def test_04_attempting_to_update_with_bad_data
   skip
   word = Word.new(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
   word.save
@@ -34,7 +34,7 @@ class TestEditingWords < JstudyTest
   assert_command_output expected, command
  end
 
- def test_attempting_to_update_partial_data
+ def test_05_attempting_to_update_partial_data
   skip
   word = Word.new(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
   word.save
