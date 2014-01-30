@@ -2,8 +2,8 @@ require_relative 'helper'
 
 class TestEditingWords < JstudyTest
  def test_updating_a_record_that_exists
-  word = Word.new(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
-  word.save
+  category = Category.find_or_create("selfstudy")
+  word = Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category_id: category.id)
   id = word.id
   command = "./jstudy edit --id #{id} --kunyomi 'ときどき' --english 'sometimes!' --jlptlevel 'N4' --category 'vocabulary'"
   expected = "Word #{id} now has the kanji , the onyomi , the kunyomi ときどき, the english translation 'sometimes!', the JLPT level N4 and the category vocabulary."
@@ -18,7 +18,8 @@ class TestEditingWords < JstudyTest
  end
 
  def test_attempting_to_update_with_no_changes
-  word = Word.new(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
+  category = Category.find_or_create("selfstudy")
+  word = Word.new(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category_id: category.id)
   word.save
   id = word.id
   command = "./jstudy edit --id #{id} --kunyomi ときどき --english occasionally --jlptlevel 0 --category selfstudy"
@@ -28,7 +29,8 @@ class TestEditingWords < JstudyTest
 
  def test_attempting_to_update_with_bad_data
   skip
-  word = Word.new(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
+  category = Category.find_or_create("selfstudy")
+  word = Word.new(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category_id: category.id)
   word.save
   id = word.id #<--- First thing we have to implement
   command = "./jstudy edit --id #{id} --kunyomi ときどき --english occasionally --jlptlevel N35 --category selfstudy"
@@ -38,7 +40,8 @@ class TestEditingWords < JstudyTest
 
  def test_attempting_to_update_partial_data
   skip
-  word = Word.new(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
+  category = Category.find_or_create("selfstudy")
+  word = Word.new(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category_id: category.id)
   word.save
   id = word.id #<--First thing we have to implement
   command = "./jstudy edit --id #{id} -- english sometimes!"

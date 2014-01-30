@@ -3,14 +3,14 @@ class Category
  attr_reader :id
 
  def initialize(name)
-  self.name = name
+  @name = name
  end
 
  def name=(name)
   @name = name.strip
  end
 
- def self.all?
+ def self.all
   database = Environment.database_connection
   database.results_as_hash = true
   results = database.execute("select * from categories order by name ASC")
@@ -21,11 +21,20 @@ class Category
   end
  end
 
- def self.create name
-  category = Category.new(name)
+ def self.find_or_create name
   database = Environment.database_connection
-  database.execute("insert into categories(name) values('#{category.name}')")
-  category.send("id=", database.last_insert_row_id)
+  database.results_as_hash = true
+  category = Category.new(name)
+  results = database.execute("select * from categories where name = '#{category.name}'")
+
+
+  if results.empty?
+   database.execute("insert into categories(name) values('#{category.name}')")
+   category.send("id=", database.last_insert_row_id)
+  else
+   row_hash = results[0]
+   category.send("id=", row_hash["id"])
+  end
   category
  end
 
@@ -34,4 +43,5 @@ class Category
  def id=(id)
   @id = id
  end
+
 end
