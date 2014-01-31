@@ -27,26 +27,6 @@ task :test_prepare do
 end
 
 def create_tables(database_connection)
- database_connection.execute("CREATE TABLE words (id INTEGER PRIMARY KEY AUTOINCREMENT,
-  kanji varchar(5),
-  onyomi varchar(50),
-  kunyomi varchar(50),
-  english varchar(50),
-  jlptlevel varchar(2),
-  category varchar(15)
-  )")
- database_connection.execute("CREATE TABLE skills (id INTEGER PRIMARY KEY AUTOINCREMENT,
-  english_to_pronunciation integer,
-  pronunciation_to_english integer,
-  kanji_to_english integer,
-  english_to_kanji integer,
-  kanji_to_pronunciation integer,
-  pronunciation_to_kanji integer,
-  e_p_reps integer,
-  p_e_reps integer,
-  k_e_reps integer,
-  e_k_reps integer,
-  k_p_reps integer,
-  p_k_reps integer
-  )")
+ database_connection.execute("CREATE TABLE words (id INTEGER PRIMARY KEY AUTOINCREMENT, kanji varchar(5), onyomi varchar(50), kunyomi varchar(50), english varchar(50), jlptlevel varchar(2), category varchar(15))")
+ database_connection.execute("CREATE TABLE skills (id INTEGER PRIMARY KEY AUTOINCREMENT, english_to_pronunciation teger, pronunciation_to_english integer, kanji_to_english integer, english_to_kanji integer, kanji_to_pronunciation integer, pronunciation_to_kanji integer, e_p_reps integer, p_e_reps integer, k_e_reps integer, e_k_reps integer, k_p_reps integer, p_k_reps integer)")
 end

@@ -63,8 +63,8 @@ class Jstudy
     puts "See you next time, じゃまたね"
     exit
    end
-  elsif options[:command] == "db"
-   search_database(database)
+  # elsif options[:command] == "db"
+  #  search_database(database)
   else
    puts "Command not implemented"
   end
@@ -105,22 +105,26 @@ class Jstudy
  end
 
  def start_practicing(lesson_type, jlpt_level)
+  database = Environment.database_connection
+  Importer.import("Data/data_words.csv") if Word.all.count < 3750
+  Importer.skills_import("Data/data_skills.csv") if Skill.all.count < 3750
   if lesson_type == "k"
-   lesson_type = "kanji"
+   lesson_type = "Kanji"
   else
-   lesson_type = "vocabulary"
+   lesson_type = "Vocabulary"
   end
-  puts "\n\n>>The lesson type is #{lesson_type} and the JLPT difficulty level is N#{jlpt_level}.\n\n"
+  level = "N#{jlpt_level}"
+  # test = database.execute("select * from skills where english_to_pronunciation < 1 AND id = 5")
+  # puts test
+  test2 = database.execute("select kanji from words INNER JOIN skills ON words.id = skills.id where jlptlevel = '#{level}' AND category = '#{lesson_type}' AND english_to_pronunciation < 1")
+  random_id = rand(test2.count)
+  test3 = database.execute("select english from words where id = #{random_id}")
+  puts test3
  end
 
  def list_words()
   puts "All Words:"
   puts Word.all
- end
-
- def search_database(database)
-  Importer.import("Data/data_words.csv") if Word.all.count < 3750
-  puts Word.all.count
  end
 
  def search_words_for(search_term)
