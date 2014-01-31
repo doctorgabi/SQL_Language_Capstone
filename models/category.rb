@@ -27,7 +27,6 @@
 #   category = Category.new(name)
 #   results = database.execute("select * from categories where name = '#{category.name}'")
 
-
 #   if results.empty?
 #    database.execute("insert into categories(name) values('#{category.name}')")
 #    category.send("id=", database.last_insert_row_id)
