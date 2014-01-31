@@ -42,12 +42,41 @@ class Jstudy
    else
     puts "Word #{options[:id]} couldn't be found."
    end
+
+  elsif options[:command] == "start"
+   lesson_type = start_screen_gets_lesson_type
+
+   until(lesson_type == "v" || lesson_type == "k" || lesson_type == "q") do
+    lesson_type = start_screen_gets_lesson_type
+   end
+
+   if lesson_type == "v"
+    puts "let's start a vocabulary practice session, はじめましょう！"
+    jlpt_level = get_jlpt_level
+   elsif lesson_type == "k"
+    puts "let's start a kanji practice session, はじめましょう！"
+    jlpt_level = get_jlpt_level
+   else lesson_type == "q"
+    puts "See you next time, じゃまたね"
+    exit
+   end
   else
    puts "Command not implemented"
   end
+ end
 
-  if options[:command] == "start"
-   puts "
+ def get_jlpt_level
+  jlpt_level = ""
+  levels = ["1", "2", "3", "4", "5"]
+  until (levels.include?(jlpt_level)) do
+   puts "Choose your JLPT level, 1 through 5"
+   jlpt_level = $stdin.gets.chomp
+  end
+  puts "You chose JLPT level N#{jlpt_level}."
+ end
+
+ def start_screen_gets_lesson_type
+  puts "
      ______________________________________________________________
     | ___________________________________________________________  |
     | |   _______     ______   _______ __   __  ______  __    __ | |
@@ -66,15 +95,8 @@ class Jstudy
     hit v to start a vocabulary study session, k for a kanji session
                             or hit q to quit
   "
-   lesson_type = $stdin.gets.chomp
-   if lesson_type == "v" || lesson_type == "k"
-    puts "let's start, はじめましょう！"
-   elsif lesson_type == "q"
-    puts "See you next time, じゃまたね"
-   else
-    puts "hit v to start a vocabulary study session, k for a kanji session"
-   end
-  end
+  lesson_type = $stdin.gets.chomp
+  lesson_type
  end
 
  def list_words()
