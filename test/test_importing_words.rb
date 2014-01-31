@@ -25,4 +25,21 @@ require_relative '../lib/importer'
    assert_equal expected, actual
   end
 
+  def test_03_extra_skills_arent_created
+   import_data
+   assert 3, Skill.all.count
+  end
+
+  def test_04_skills_are_created_as_needed
+   Skill.create("know")
+   Skill.create("review")
+   import_data
+   assert 3, Skill.all.count
+  end
+
+  def test_05_data_isnt_duplicated
+   import_data
+   expected = ["know", "review", "unknown"]
+   assert_equal expected, Skill.all.map(&:name)
+  end
  end
