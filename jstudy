@@ -52,11 +52,11 @@ class Jstudy
    end
 
    if lesson_type == "v"
-    puts "let's start a vocabulary practice session, はじめましょう！"
+    puts "\n\n\n>>  Let's start a vocabulary practice session, はじめましょう！"
     jlpt_level = get_jlpt_level
     start_practicing(lesson_type, jlpt_level)
    elsif lesson_type == "k"
-    puts "let's start a kanji practice session, はじめましょう！"
+    puts "\n\n\n>>  Let's start a kanji practice session, はじめましょう！"
     jlpt_level = get_jlpt_level
     start_practicing(lesson_type, jlpt_level)
    else lesson_type == "q"
@@ -98,7 +98,7 @@ class Jstudy
   jlpt_level = ""
   levels = ["1", "2", "3", "4", "5"]
   until (levels.include?(jlpt_level)) do
-   puts "\n\n>>Choose your JLPT level, 1 through 5\n\n"
+   puts "\n\n>>  Choose your JLPT level, 1 through 5\n\n"
    jlpt_level = $stdin.gets.chomp
   end
   jlpt_level
@@ -109,17 +109,12 @@ class Jstudy
   Importer.import("Data/data_words.csv") if Word.all.count < 3750
   Importer.skills_import("Data/data_skills.csv") if Skill.all.count < 3750
   lesson_type = set_lesson_type(lesson_type)
-  if lesson_type == "Vocabulary"
-   word_data = generate_random_vocab_practice_word_and_id(database, jlpt_level, lesson_type)
-
+  play_again = true
+  until(play_again == false) do
+   word_data = get_new_word_data(database, jlpt_level, lesson_type)
    new_word = show_new_word(word_data)
    play_again = get_response(word_data)
-
-  else
-   word_data = generate_random_kanji_practice_word_and_id(database, jlpt_level, lesson_type)
-
-   new_word = show_new_word(word_data)
-   play_again = get_response(word_data)
+   puts "the user wants to play again" if play_again == true
   end
  end
 
@@ -134,7 +129,7 @@ class Jstudy
  def generate_random_vocab_practice_word_and_id(database, jlpt_level, lesson_type)
   possible_skills = ["kunyomi", "english"]
   random_skill = possible_skills[rand(possible_skills.length)]
-  puts "Let's test your level N#{jlpt_level} #{random_skill} skills."
+  puts "\n\n>>  Let's test your level N#{jlpt_level} #{random_skill} skills...\n\n\n"
   level = "N#{jlpt_level}"
   skill = get_skill_for_vocab_test(random_skill)
   word_data = get_random_word_and_id(database, level, lesson_type, skill, random_skill)
@@ -144,7 +139,7 @@ class Jstudy
  def generate_random_kanji_practice_word_and_id(database, jlpt_level, lesson_type)
   possible_skills = ["kanji", "onyomi", "kunyomi", "english"]
   random_skill = possible_skills[rand(possible_skills.count)]
-  puts "Let's test your level N#{jlpt_level} #{random_skill} skills..."
+  puts "\n\n>>  Let's test your level N#{jlpt_level} #{random_skill} skills...\n\n\n"
   level = "N#{jlpt_level}"
   skill = get_skill_for_kanji_test(random_skill)
   word_data = get_random_word_and_id(database, level, lesson_type, skill, random_skill)
@@ -204,7 +199,7 @@ class Jstudy
 
  def show_new_word(word_data)
   practice_word = word_data[0]
-  puts "Can you translate '#{practice_word}' to #{word_data[2][1]}?"
+  puts ">>  Can you translate '#{practice_word}' to #{word_data[2][1]}?"
   puts "\n\n'y' if you knew it for sure\n'n' if you didn't/weren't sure/had to guess\n'q' to quit at any time."
  end
 
@@ -213,10 +208,8 @@ class Jstudy
   skill_to_update = word_data[2][0]
   database = Environment.database_connection
   response = $stdin.gets.chomp
-  puts "Your response was '#{response}'"
-  statement = ""
   if response == "q"
-   puts "一生懸命練習して下さい Please keep practicing hard!"
+   puts "\n\n一生懸命練習して下さい Please keep practicing hard!"
    exit
   elsif response == "y"
    statement = "UPDATE skills SET #{skill_to_update} = 1 WHERE id = #{id}"
@@ -224,9 +217,17 @@ class Jstudy
    statement = "UPDATE skills SET #{skill_to_update} = 0 WHERE id = #{id}"
   end
   database.execute(statement)
-  puts statement
+  return true
  end
 
+ def get_new_word_data(database, jlpt_level, lesson_type)
+  if lesson_type == "Vocabulary"
+   word_data = generate_random_vocab_practice_word_and_id(database, jlpt_level, lesson_type)
+  else
+   word_data = generate_random_kanji_practice_word_and_id(database, jlpt_level, lesson_type)
+  end
+  word_data
+ end
 
  def list_words()
   puts "All Words:"
