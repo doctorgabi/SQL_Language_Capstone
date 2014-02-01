@@ -126,11 +126,10 @@ class Jstudy
 
  def generate_random_vocab_practice_word_and_id(database, jlpt_level, lesson_type)
   vocabulary_skills = ["kunyomi", "english"]
-  random_vocab_skill = vocabulary_skills[rand(vocabulary_skills.count)]
+  random_vocab_skill = vocabulary_skills[rand(vocabulary_skills.length)]
   puts "random_vocab_skill = #{random_vocab_skill}"
   level = "N#{jlpt_level}"
-  skill = "english_to_pronunciation"
-  skill = "pronunciation_to_english" if random_vocab_skill == "kunyomi"
+  skill = get_skill_for_vocab_test(random_vocab_skill)
   words_selection = database.execute("select * from words INNER JOIN skills ON words.id = skills.id where jlptlevel = '#{level}' AND category = '#{lesson_type}' AND #{skill} < 1")
   random_id = rand(words_selection.count)
   practice_word = database.execute("select #{random_vocab_skill} from words where id = #{random_id}")
@@ -144,7 +143,7 @@ class Jstudy
   random_kanji_skill = kanji_skills[rand(kanji_skills.count)]
   puts "random kanji skill = #{random_kanji_skill}"
   level = "N#{jlpt_level}"
-  skill = get_skill(random_kanji_skill)
+  skill = get_skill_for_kanji_test(random_kanji_skill)
   puts skill
   words_selection = database.execute("select * from words INNER JOIN skills ON words.id = skills.id where jlptlevel = '#{level}' AND category = '#{lesson_type}' AND #{skill} < 1")
   random_id = rand(words_selection.count)
@@ -154,7 +153,13 @@ class Jstudy
   word_data
  end
 
- def get_skill(random_kanji_skill)
+ def get_skill_for_vocab_test(random_vocab_skill)
+  skill = "english_to_pronunciation"
+  skill = "pronunciation_to_english" if random_vocab_skill == "kunyomi"
+  skill
+ end
+
+ def get_skill_for_kanji_test(random_kanji_skill)
   skills = []
   if random_kanji_skill == "onyomi" || random_kanji_skill == "kunyomi"
    skills << "pronunciation_to_english"
