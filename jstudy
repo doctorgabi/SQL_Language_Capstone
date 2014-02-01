@@ -110,16 +110,46 @@ class Jstudy
   Importer.skills_import("Data/data_skills.csv") if Skill.all.count < 3750
   lesson_type = set_lesson_type(lesson_type)
 
+  if lesson_type == "Vocabulary"
+   word_data = generate_random_vocab_practice_word_and_id(database, jlpt_level, lesson_type)
+   vocab_practice_word = word_data[0]
+   puts "Do you know the translation of: '#{vocab_practice_word}'?"
+   vocab_practice_word_id = word_data[1]
+   puts vocab_practice_word_id
+  else
+
+   word_data = generate_random_kanji_practice_word_and_id(database, jlpt_level, lesson_type)
+   kanji_practice_word = word_data[0]
+   puts "Do you know the translation of: '#{kanji_practice_word}'?"
+   kanji_practice_word_id = word_data[1]
+   puts kanji_practice_word_id
+  end
+ end
+
+ def generate_random_vocab_practice_word_and_id(database, jlpt_level, lesson_type)
   vocabulary_skills = ["kunyomi", "english"]
   random_vocab_skill = vocabulary_skills[rand(vocabulary_skills.count)]
   puts "random_vocab_skill = #{random_vocab_skill}"
   level = "N#{jlpt_level}"
-  words_selection = database.execute("select kanji from words INNER JOIN skills ON words.id = skills.id where jlptlevel = '#{level}' AND category = '#{lesson_type}' AND english_to_pronunciation < 1")
+  words_selection = database.execute("select * from words INNER JOIN skills ON words.id = skills.id where jlptlevel = '#{level}' AND category = '#{lesson_type}' AND english_to_pronunciation < 1")
   random_id = rand(words_selection.count)
   practice_word = database.execute("select #{random_vocab_skill} from words where id = #{random_id}")
   practice_word = practice_word[0]
-  puts "Do you know the translation of #{practice_word[0]}?"
+  word_data = [practice_word[0], random_id]
+  word_data
+ end
 
+ def generate_random_kanji_practice_word_and_id(database, jlpt_level, lesson_type)
+  kanji_skills = ["kanji", "onyomi", "kunyomi", "english"]
+  random_kanji_skill = kanji_skills[rand(kanji_skills.count)]
+  puts "random kanji skill = #{random_kanji_skill}"
+  level = "N#{jlpt_level}"
+  words_selection = database.execute("select * from words INNER JOIN skills ON words.id = skills.id where jlptlevel = '#{level}' AND category = '#{lesson_type}' AND english_to_pronunciation < 1")
+  random_id = rand(words_selection.count)
+  practice_word = database.execute("select #{random_kanji_skill} from words where id = #{random_id}")
+  practice_word = practice_word[0]
+  word_data = [practice_word[0], random_id]
+  word_data
  end
 
  def set_lesson_type(lesson_type)
