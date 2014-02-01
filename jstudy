@@ -144,6 +144,17 @@ class Jstudy
   random_kanji_skill = kanji_skills[rand(kanji_skills.count)]
   puts "random kanji skill = #{random_kanji_skill}"
   level = "N#{jlpt_level}"
+  skill = get_skill(random_kanji_skill)
+  puts skill
+  words_selection = database.execute("select * from words INNER JOIN skills ON words.id = skills.id where jlptlevel = '#{level}' AND category = '#{lesson_type}' AND #{skill} < 1")
+  random_id = rand(words_selection.count)
+  practice_word = database.execute("select #{random_kanji_skill} from words where id = #{random_id}")
+  practice_word = practice_word[0]
+  word_data = [practice_word[0], random_id]
+  word_data
+ end
+
+ def get_skill(random_kanji_skill)
   skills = []
   if random_kanji_skill == "onyomi" || random_kanji_skill == "kunyomi"
    skills << "pronunciation_to_english"
@@ -156,13 +167,7 @@ class Jstudy
    skills << "english_to_kanji"
   end
   skill = skills[rand(skills.count)]
-  puts skill
-  words_selection = database.execute("select * from words INNER JOIN skills ON words.id = skills.id where jlptlevel = '#{level}' AND category = '#{lesson_type}' AND #{skills[0]} < 1")
-  random_id = rand(words_selection.count)
-  practice_word = database.execute("select #{random_kanji_skill} from words where id = #{random_id}")
-  practice_word = practice_word[0]
-  word_data = [practice_word[0], random_id]
-  word_data
+  skill
  end
 
  def set_lesson_type(lesson_type)
