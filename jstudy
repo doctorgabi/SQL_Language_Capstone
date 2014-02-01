@@ -108,18 +108,26 @@ class Jstudy
   database = Environment.database_connection
   Importer.import("Data/data_words.csv") if Word.all.count < 3750
   Importer.skills_import("Data/data_skills.csv") if Skill.all.count < 3750
-  if lesson_type == "k"
-   lesson_type = "Kanji"
-  else
-   lesson_type = "Vocabulary"
-  end
+  lesson_type = set_lesson_type(lesson_type)
+
+  vocabulary_skills = ["kunyomi", "english"]
+  random_vocab_skill = vocabulary_skills[rand(vocabulary_skills.count)]
+  puts "random_vocab_skill = #{random_vocab_skill}"
   level = "N#{jlpt_level}"
-  # test = database.execute("select * from skills where english_to_pronunciation < 1 AND id = 5")
-  # puts test
-  test2 = database.execute("select kanji from words INNER JOIN skills ON words.id = skills.id where jlptlevel = '#{level}' AND category = '#{lesson_type}' AND english_to_pronunciation < 1")
-  random_id = rand(test2.count)
-  test3 = database.execute("select english from words where id = #{random_id}")
-  puts test3
+  words_selection = database.execute("select kanji from words INNER JOIN skills ON words.id = skills.id where jlptlevel = '#{level}' AND category = '#{lesson_type}' AND english_to_pronunciation < 1")
+  random_id = rand(words_selection.count)
+  practice_word = database.execute("select #{random_vocab_skill} from words where id = #{random_id}")
+  practice_word = practice_word[0]
+  puts "Do you know the translation of #{practice_word[0]}?"
+
+ end
+
+ def set_lesson_type(lesson_type)
+  if lesson_type == "k"
+   "Kanji"
+  else
+   "Vocabulary"
+  end
  end
 
  def list_words()
