@@ -42,9 +42,9 @@ class Jstudy
    else
     puts "Word #{options[:id]} couldn't be found."
    end
-
+   #*************************************************************************#
+   #*************************************************************************#
   elsif options[:command] == "start"
-
    lesson_type = start_screen_gets_lesson_type
 
    until(lesson_type == "v" || lesson_type == "k" || lesson_type == "q") do
@@ -63,8 +63,8 @@ class Jstudy
     puts "See you next time, じゃまたね"
     exit
    end
-  # elsif options[:command] == "db"
-  #  search_database(database)
+   #*************************************************************************#
+   #*************************************************************************#
   else
    puts "Command not implemented"
   end
