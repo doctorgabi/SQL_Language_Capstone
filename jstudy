@@ -115,14 +115,13 @@ class Jstudy
   else
    word_data = generate_random_kanji_practice_word_and_id(database, jlpt_level, lesson_type)
    new_word = show_new_word(word_data)
+   practice_word_id = word_data[1]
   end
  end
 
  def show_new_word(word_data)
   practice_word = word_data[0]
   puts "Can you translate '#{practice_word}' to #{word_data[2]}?"
-  practice_word_id = word_data[1]
-  puts practice_word_id
  end
 
  def generate_random_vocab_practice_word_and_id(database, jlpt_level, lesson_type)
@@ -131,11 +130,7 @@ class Jstudy
   puts "Let's test your level N#{jlpt_level} #{random_skill} skills."
   level = "N#{jlpt_level}"
   skill = get_skill_for_vocab_test(random_skill)
-  words_selection = get_words_selection(database, level, lesson_type, skill[0])
-  random_id = rand(words_selection.count)
-  practice_word = words_selection[random_id]
-  practice_word = database.execute("select #{random_skill} from words where id = #{practice_word["id"]}")
-  word_data = [practice_word[0][0], random_id, skill[1]]
+  word_data = get_random_word_and_id(database, level, lesson_type, skill, random_skill)
   word_data
  end
 
@@ -145,11 +140,17 @@ class Jstudy
   puts "Let's test your level N#{jlpt_level} #{random_skill} skills..."
   level = "N#{jlpt_level}"
   skill = get_skill_for_kanji_test(random_skill)
+  word_data = get_random_word_and_id(database, level, lesson_type, skill, random_skill)
+  word_data
+ end
+
+ def get_random_word_and_id(database, level, lesson_type, skill, random_skill)
   words_selection = get_words_selection(database, level, lesson_type, skill[0])
   random_id = rand(words_selection.count)
   practice_word = words_selection[random_id]
-  practice_word = database.execute("select #{random_skill} from words where id = #{practice_word["id"]}")
-  word_data = [practice_word[0][0], random_id, skill[1]]
+  word_id = practice_word["id"]
+  practice_word = database.execute("select #{random_skill} from words where id = #{practice_word['id']}")
+  word_data = [practice_word[0][0], word_id, skill[1]]
   word_data
  end
 
