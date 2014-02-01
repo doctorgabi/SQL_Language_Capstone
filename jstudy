@@ -120,7 +120,7 @@ class Jstudy
 
  def show_new_word(word_data)
   practice_word = word_data[0]
-  puts "Do you know the translation of: '#{practice_word}'?"
+  puts "Can you translate '#{practice_word}' to #{word_data[2]}?"
   practice_word_id = word_data[1]
   puts practice_word_id
  end
@@ -128,28 +128,28 @@ class Jstudy
  def generate_random_vocab_practice_word_and_id(database, jlpt_level, lesson_type)
   possible_skills = ["kunyomi", "english"]
   random_skill = possible_skills[rand(possible_skills.length)]
-  puts "random vocab skill = #{random_skill}"
+  puts "Let's test your level N#{jlpt_level} #{random_skill} skills."
   level = "N#{jlpt_level}"
   skill = get_skill_for_vocab_test(random_skill)
-  words_selection = get_words_selection(database, level, lesson_type, skill)
+  words_selection = get_words_selection(database, level, lesson_type, skill[0])
   random_id = rand(words_selection.count)
   practice_word = words_selection[random_id]
   practice_word = database.execute("select #{random_skill} from words where id = #{practice_word["id"]}")
-  word_data = [practice_word[0][0], random_id]
+  word_data = [practice_word[0][0], random_id, skill[1]]
   word_data
  end
 
  def generate_random_kanji_practice_word_and_id(database, jlpt_level, lesson_type)
   possible_skills = ["kanji", "onyomi", "kunyomi", "english"]
   random_skill = possible_skills[rand(possible_skills.count)]
-  puts "random kanji skill = #{random_skill}"
+  puts "Let's test your level N#{jlpt_level} #{random_skill} skills..."
   level = "N#{jlpt_level}"
   skill = get_skill_for_kanji_test(random_skill)
-  words_selection = get_words_selection(database, level, lesson_type, skill)
+  words_selection = get_words_selection(database, level, lesson_type, skill[0])
   random_id = rand(words_selection.count)
   practice_word = words_selection[random_id]
   practice_word = database.execute("select #{random_skill} from words where id = #{practice_word["id"]}")
-  word_data = [practice_word[0][0], random_id]
+  word_data = [practice_word[0][0], random_id, skill[1]]
   word_data
  end
 
@@ -162,6 +162,10 @@ class Jstudy
   skill = "english_to_pronunciation"
   skill = "pronunciation_to_english" if random_vocab_skill == "kunyomi"
   skill
+  target = "japanese pronunciation"
+  target = "english" if skill == "pronunciation_to_english"
+  test_data = [skill, target]
+  test_data
  end
 
  def get_skill_for_kanji_test(random_kanji_skill)
@@ -178,6 +182,16 @@ class Jstudy
   end
   skill = skills[rand(skills.count)]
   skill
+  target = ""
+  if skill == "pronunciation_to_english" || skill == "kanji_to_english"
+   target = "english"
+  elsif skill == "pronunciation_to_kanji" || skill == "english_to_kanji"
+   target = "kanji"
+  else
+   target = "its Japanese pronunciation"
+  end
+  test_data = [skill, target]
+  test_data
  end
 
  def set_lesson_type(lesson_type)
