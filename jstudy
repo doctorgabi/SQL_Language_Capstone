@@ -111,17 +111,24 @@ class Jstudy
   lesson_type = set_lesson_type(lesson_type)
   if lesson_type == "Vocabulary"
    word_data = generate_random_vocab_practice_word_and_id(database, jlpt_level, lesson_type)
+
    new_word = show_new_word(word_data)
+   play_again = get_response(word_data)
+
   else
    word_data = generate_random_kanji_practice_word_and_id(database, jlpt_level, lesson_type)
+
    new_word = show_new_word(word_data)
-   practice_word_id = word_data[1]
+   play_again = get_response(word_data)
   end
  end
 
- def show_new_word(word_data)
-  practice_word = word_data[0]
-  puts "Can you translate '#{practice_word}' to #{word_data[2]}?"
+ def set_lesson_type(lesson_type)
+  if lesson_type == "k"
+   "Kanji"
+  else
+   "Vocabulary"
+  end
  end
 
  def generate_random_vocab_practice_word_and_id(database, jlpt_level, lesson_type)
@@ -142,21 +149,6 @@ class Jstudy
   skill = get_skill_for_kanji_test(random_skill)
   word_data = get_random_word_and_id(database, level, lesson_type, skill, random_skill)
   word_data
- end
-
- def get_random_word_and_id(database, level, lesson_type, skill, random_skill)
-  words_selection = get_words_selection(database, level, lesson_type, skill[0])
-  random_id = rand(words_selection.count)
-  practice_word = words_selection[random_id]
-  word_id = practice_word["id"]
-  practice_word = database.execute("select #{random_skill} from words where id = #{practice_word['id']}")
-  word_data = [practice_word[0][0], word_id, skill[1]]
-  word_data
- end
-
- def get_words_selection(database, level, lesson_type, skill)
-  words_selection = database.execute("select * from words INNER JOIN skills ON words.id = skills.id where jlptlevel = '#{level}' AND category = '#{lesson_type}' AND #{skill} < 1")
-  words_selection
  end
 
  def get_skill_for_vocab_test(random_vocab_skill)
@@ -195,13 +187,46 @@ class Jstudy
   test_data
  end
 
- def set_lesson_type(lesson_type)
-  if lesson_type == "k"
-   "Kanji"
-  else
-   "Vocabulary"
-  end
+ def get_random_word_and_id(database, level, lesson_type, skill, random_skill)
+  words_selection = get_words_selection(database, level, lesson_type, skill[0])
+  random_id = rand(words_selection.count)
+  practice_word = words_selection[random_id]
+  word_id = practice_word["id"]
+  practice_word = database.execute("select #{random_skill} from words where id = #{practice_word['id']}")
+  word_data = practice_word[0][0], word_id, skill
+  word_data
  end
+
+ def get_words_selection(database, level, lesson_type, skill)
+  words_selection = database.execute("select * from words INNER JOIN skills ON words.id = skills.id where jlptlevel = '#{level}' AND category = '#{lesson_type}' AND #{skill} < 1")
+  words_selection
+ end
+
+ def show_new_word(word_data)
+  practice_word = word_data[0]
+  puts "Can you translate '#{practice_word}' to #{word_data[2][1]}?"
+  puts "\n\n'y' if you knew it for sure\n'n' if you didn't/weren't sure/had to guess\n'q' to quit at any time."
+ end
+
+ def get_response(word_data)
+  id = word_data[1]
+  skill_to_update = word_data[2][0]
+  database = Environment.database_connection
+  response = $stdin.gets.chomp
+  puts "Your response was '#{response}'"
+  statement = ""
+  if response == "q"
+   puts "一生懸命練習して下さい Please keep practicing hard!"
+   exit
+  elsif response == "y"
+   statement = "UPDATE skills SET #{skill_to_update} = 1 WHERE id = #{id}"
+  else
+   statement = "UPDATE skills SET #{skill_to_update} = 0 WHERE id = #{id}"
+  end
+  database.execute(statement)
+  puts statement
+ end
+
 
  def list_words()
   puts "All Words:"
