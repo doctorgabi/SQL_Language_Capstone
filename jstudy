@@ -51,6 +51,9 @@ class Jstudy
    end
    #*************************************************************************#
    #*************************************************************************#
+  elsif options[:command] == "show"
+   data = ArgumentParser.getdata(options)
+   puts "The data is #{data}"
   elsif options[:command] == "start"
    lesson_type = start_screen_gets_lesson_type
 

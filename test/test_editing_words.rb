@@ -6,7 +6,6 @@ class TestEditingWords < JstudyTest
   id = word.id
   command = "./jstudy edit --id #{id} --kunyomi 'ときどき' --english 'sometimes!' --jlptlevel 'N4' --category 'vocabulary'"
   expected = "Word #{id} now has the kanji , the onyomi , the kunyomi ときどき, the english translation 'sometimes!', the JLPT level N4 and the category vocabulary."
-  # What about the db?
   assert_command_output expected, command
  end
 

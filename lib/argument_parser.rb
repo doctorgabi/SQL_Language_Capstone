@@ -40,6 +40,10 @@ class ArgumentParser
     options[:environment] = env
    end
 
+   opts.on("--abilitylevel [ABL]", "The ability level for the word") do |abl|
+    options[:abilitylevel] = abl
+   end
+
   end.parse!
   options[:command] = ARGV[0]
   options
@@ -61,6 +65,12 @@ class ArgumentParser
  def self.getlevel options
   level = options[:jlptlevel]
   level
+ end
+
+ def self.getdata options
+  data = []
+  data << options[:jlptlevel]
+  data << options[:abilitylevel]
  end
 
 end
