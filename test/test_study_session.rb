@@ -36,6 +36,8 @@ class TestStudySession < JstudyTest
   `./jstudy add --kunyomi ときどき --english occasionally --JLPTlevel 0 --category selfstudy --environment test`
   `./jstudy add --kunyomi とくべつ --english special --JLPTlevel N5 --category vocabulary --environment test`
   `./jstudy add --kunyomi なにも --english nothing --JLPTlevel N4 --category vocabulary --environment test`
+  `./jstudy add --kanji 何 --kunyomi なに --english what --JLPTlevel N5 --category kanji --environment test`
+
   shell_output = ""
   IO.popen('./jstudy start --environment test', 'r+') do |pipe|
    pipe.puts("v")
