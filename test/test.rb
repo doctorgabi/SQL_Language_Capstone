@@ -56,7 +56,7 @@ class TestEnteringWords < JstudyTest
   assert_command_output expected, command
  end
 
- def test_valid_word_gets_saved
+ def test_09_valid_word_gets_saved
   `./jstudy add --kunyomi ときどき --english occasionally --JLPTlevel 0 --category selfstudy --environment test`
   database.results_as_hash = false
   results = database.execute("select kunyomi, english, jlptlevel, category from words")
@@ -67,7 +67,7 @@ class TestEnteringWords < JstudyTest
   assert_equal 1, result[0][0]
  end
 
- def test_invalid_words_do_not_get_saved
+ def test_10_invalid_words_do_not_get_saved
   `./jstudy add --kunyomi ときどき --english occasionally`
   result = database.execute("select count(id) from words")
   assert_equal 0, result[0][0]
