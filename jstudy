@@ -51,9 +51,18 @@ class Jstudy
    end
    #*************************************************************************#
    #*************************************************************************#
-  elsif options[:command] == "show"
+  elsif options[:command] == "status"
    data = ArgumentParser.getdata(options)
-   puts "The data is #{data}"
+   level = data[0]
+   if data[1].nil?
+    ability = -1
+   elsif data[1].to_i > 1 || data[1].to_i < 0
+    puts "Please enter 0 for problem words, 1 for mastered words or leave blank for words not yet studied."
+    exit
+   else
+    ability = data[1]
+   end
+
   elsif options[:command] == "start"
    lesson_type = start_screen_gets_lesson_type
 
