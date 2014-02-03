@@ -211,23 +211,28 @@ class Jstudy
 
  def get_response(word_data)
   skill = word_data[2][1]
-  skill = "onyomi, kunyomi" if skill == "japanese pronunciation"
+  skill = "onyomi, kunyomi" if skill.include?("pronunciation")
   id = word_data[1]
   skill_to_update = word_data[2][0]
   database = Environment.database_connection
   response = $stdin.gets.chomp
   if response == "q"
    puts "\n\n一生懸命練習して下さい Please keep practicing hard!"
-   exit
+   # exit
+   return false
   elsif response == "y"
    statement = "UPDATE skills SET #{skill_to_update} = 1 WHERE id = #{id}"
   else
    statement = "UPDATE skills SET #{skill_to_update} = 0 WHERE id = #{id}"
-   answer = database.execute("select #{skill} from words WHERE id = #{id}")
-   correct_answer = answer[0][0]
-   correct_answer = answer[0][1] if answer[0][0] == ""
-   puts "\n\n\n>>  The correct answer was '#{correct_answer}'"
+   # answer = database.execute("select #{skill} from words WHERE id = #{id}")
+   # correct_answer = answer[0][0]
+   # correct_answer = answer[0][1] if answer[0][0] == ""
+   # puts "\n\n\n>>  The correct answer was '#{correct_answer}'"
   end
+  answer = database.execute("select #{skill} from words WHERE id = #{id}")
+  correct_answer = answer[0][0]
+  correct_answer = answer[0][1] if answer[0][0] == ""
+  puts "\n\n\n>>  The correct answer was '#{correct_answer}'"
   database.execute(statement)
   return true
  end
