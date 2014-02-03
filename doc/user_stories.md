@@ -11,6 +11,8 @@ Usage: ./jstudy add --kunyomi ときどき --english occasionally --JLPTlevel 0 
 1. Saves the word in the database
 2. Prints out a summary of what it saved
 3. If kunyomi, english, JLPTlevel, or category are missing, it doesn't save the record and instead prints an error message
+4. A corresponding row should be added to the skills table at the same time.
+
 
 
 User Story 1
@@ -18,11 +20,13 @@ User Story 1
 : I want to see a list of what I need to study to pass a JLPT (e.g. level N5) exam
 : so that I can focus on only studying material needed for the test.
 
-Usage: ./jstudy viewAll "N5"
+Usage: ./jstudy list --jlptlevel N5
+
 
 * Acceptance Criteria:
 1. Accepts input of a JLPT level
 2. Prints a list of everything in the specified level's category.
+
 
 
 User Story 2
@@ -64,10 +68,12 @@ Usage: ./jstudy review "N5"
 
 User Story 5
 : As a Japanese language student
-: I want to be able to start a kanji practice session
+: I want to be able to start a kanji practice session for a specific jlpt level
 : so that I can focus my study just on the kanji knowledge portion of the exam
 
-Usage: ./jstudy start "kanji"
+Usage: ./jstudy start
+k
+1..5
 
 Acceptance Criteria:
 1. Accepts user input command to start the test
@@ -76,47 +82,37 @@ Acceptance Criteria:
 
 User Story 5a (kanji -->English & pronunciation)
 : As a Japanese language student
-: I want to see a random kanji word I don't yet know when I press a key
-: so that I can see if I know the correct pronunciation or English translation.
+: I want to see a random kanji category word I don't yet know when I press a key
+: so that I can see if I know the correct kanji, pronunciation or English translation.
 
-Usage: "k"
+Usage: "k" (when starting the session)
+Usage: "y" (when continuing the session after getting an answer right)
+Usage: "n" (when continuing the session after getting an answer wrong)
 
 * Acceptance Criteria:
-1. Accepts a user input key that links to unknown kanji for the correct JLPT level
-2. Prints a randomly selected single kanji from the specified level.
-3. Kanji not specified as required kanji but only as required vocabulary are not included.
+1. Accepts a user input key that links to unknown kanji category word for the correct JLPT level
+2. Prints a randomly selected single kanji category word from the specified level.
+3. Words not specified as required kanji but only as required vocabulary are not included.
 
 
 User Story 5b (kanji --> display pronunciation)
 : As a Japanese language student
-: I want to see the correct pronunciation for the kanji already on the screen when I press a key
+: I want to see the correct answer for the kanji category word already on the screen when I press a key
 : so that I can check if my answer was correct.
 
-Usage: "kp"
+Usage: "y" (when continuing the session after getting an answer right)
+Usage: "n" (when continuing the session after getting an answer wrong)
 
 * Acceptance Criteria:
-1. Accepts a user input key that links to pronunciation of the current kanji
-2. Prints both the current kanji and the associated pronunciation.
+1. Accepts a user input key that prints the correct answer for the current kanji category word
 
 
-User Story 5c (kanji --> display English)
-: As a Japanese language student
-: I want to see the correct English translation for the kanji already on the screen when I press a key
-: so that I check if my answer was correct.
-
-Usage: "ke"
-
-* Acceptance Criteria:
-1. Accepts a user input key that links to the English translation of the current kanji
-2. Prints both the current kanji and the associated English translation.
-
-
-User Story 5d (update)
+User Story 5c (update)
 : As a Japanese language student
 : I want to update the record for the kanji currently on the screen when I press a key
 : so that I can keep up to date with what I have learned.
 
-Usage: "k" || "r"
+Usage: "y" || "n"
 
 * Acceptance Criteria:
 1. Accepts one of two user input keys that link to the pronunciation status of the current kanji
@@ -366,7 +362,7 @@ Usage: "delete" (followed by 'Are you sure (Y/N)?') "y"
 4. Prints a confirmation message that the row was not deleted if 'n' was entered.
 
 
-User Story 11 (update record)
+User Story 13 (update record)
 : As a Japanese language student
 : I want to update a record in the database if necessary
 : so that I know I am studying correct information.

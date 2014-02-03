@@ -2,7 +2,6 @@ require_relative 'helper'
 
 class TestListingWords < JstudyTest
  def test_01_list_returns_relevant_results
-  # create will be new+save
   occasionally = Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
   special = Word.create(kunyomi: "とくべつ", english: "special", jlptlevel: "N5", category: "vocabulary")
   nothing = Word.create(kunyomi: "なにも", english: "nothing", jlptlevel: "N4", category: "vocabulary")
