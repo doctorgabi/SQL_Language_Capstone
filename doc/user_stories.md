@@ -107,47 +107,35 @@ Usage: "n" (when continuing the session after getting an answer wrong)
 1. Accepts a user input key that prints the correct answer for the current kanji category word
 
 
+
 User Story 5c (update)
 : As a Japanese language student
 : I want to update the record for the kanji currently on the screen when I press a key
 : so that I can keep up to date with what I have learned.
 
-Usage: "y" || "n"
+Usage: "y" || "n" (during a kanji study session after seeing a quiz word)
 
 * Acceptance Criteria:
 1. Accepts one of two user input keys that link to the pronunciation status of the current kanji
-2. Updates the record to 'know' or 'needs review' depending on the key.
-3. Accepts two user input keys that link to the translation status of the current kanji
-4. Updates the record to 'know' or 'needs review' depending on the key.
+2. Updates the record to '1' or '0' for 'y' or 'n', respectively.
 
 
 
-User Story 6a (pronunciation --> kanji & English)
+
+User Story 6
 : As a Japanese language student
-: I want to see a random pronunciation of a kanji category word I don't yet know when I press a key
-: so that I can see if I know the correct kanji or English translation.
+: I want to be able to start a vocabulary practice session for a specific jlpt level
+: so that I can focus my study just on the vocabulary knowledge portion of the exam
 
-Usage: "p"
+Usage: ./jstudy start
+v
+1..5
 
-* Acceptance Criteria:
-1. Accepts a user input key that links to unknown pronunciations for the correct JLPT level
-2. Prints a randomly selected single pronunciation from kanji category words at the specified level.
-3. Pronunciations not specified as required kanji but only as required vocabulary are not included.
+Acceptance Criteria:
+1. Accepts user input command to start the test
+2. Prints a confirmation that the vocabulary test is ready to begin
 
-
-User Story 6b (pronunciation --> display kanji)
-: As a Japanese language student
-: I want to see the correct kanji for the pronunciation already on the screen when I press a key
-: so that I can check if my answer was correct.
-
-Usage: "pk"
-
-* Acceptance Criteria:
-1. Accepts a user input key that links to the kanji for the current pronunciation
-2. Prints both the current pronunciation and the associated kanji.
-
-
-User Story 6c (pronunciation --> display English)
+User Story 6a (Japanese pronunciation --> display English)
 : As a Japanese language student
 : I want to see the correct English translation for the pronunciation already on the screen when I press a key
 : so that I check if my answer was correct.
