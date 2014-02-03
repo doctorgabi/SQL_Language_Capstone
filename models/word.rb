@@ -1,3 +1,5 @@
+require_relative '../lib/environment'
+
 class Word
  attr_accessor :kanji, :onyomi, :kunyomi, :english, :jlptlevel, :category
  attr_reader :id
@@ -9,6 +11,8 @@ class Word
  def self.create(attributes = {})
   word = Word.new(attributes)
   word.save
+  # database.execute("insert into skills(english_to_pronunciation, pronunciation_to_english, kanji_to_english, english_to_kanji, kanji_to_pronunciation, pronunciation_to_kanji, k_e_reps, e_k_reps, k_p_reps, p_k_reps, e_p_reps, p_e_reps) values('-1', '-1', '-1', '-1', '-1', '-1', '0', '0', '0', '0', '0', '0')")
+  Skill.new()
   word
  end
 
@@ -52,15 +56,31 @@ class Word
  end
 
  def self.searchenglish(search_term = nil)
-   database = Environment.database_connection
-   database.results_as_hash = true
-   results = database.execute("select words.* from words where english LIKE '%#{search_term}%' order by english ASC")
-   results.map do |row_hash|
-    word = Word.new(kanji: row_hash["kanji"], onyomi: row_hash["onyomi"], kunyomi: row_hash["kunyomi"], english: row_hash["english"], jlptlevel: row_hash["jlptlevel"], category: row_hash["category"])
-    word.send("id=", row_hash["id"])
-    word
-   end
+  database = Environment.database_connection
+  database.results_as_hash = true
+  results = database.execute("select words.* from words where english LIKE '%#{search_term}%' order by english ASC")
+  results.map do |row_hash|
+   word = Word.new(kanji: row_hash["kanji"], onyomi: row_hash["onyomi"], kunyomi: row_hash["kunyomi"], english: row_hash["english"], jlptlevel: row_hash["jlptlevel"], category: row_hash["category"])
+   word.send("id=", row_hash["id"])
+   word
   end
+ end
+
+ def self.searchjlpt(search_term = nil)
+  database = Environment.database_connection
+  database.results_as_hash = true
+  results = database.execute("select words.* from words where jlptlevel LIKE '%#{search_term}%' order by english ASC")
+  results.map do |row_hash|
+   word = Word.new(kanji: row_hash["kanji"], onyomi: row_hash["onyomi"], kunyomi: row_hash["kunyomi"], english: row_hash["english"], jlptlevel: row_hash["jlptlevel"], category: row_hash["category"])
+   word.send("id=", row_hash["id"])
+   word
+  end
+ end
+
+ def self.listlevel(level)
+  searchjlpt(level)
+ end
+
  def self.all
   search
  end

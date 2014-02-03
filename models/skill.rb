@@ -1,4 +1,3 @@
-require 'pry'
 class Skill
 
  attr_accessor :english_to_pronunciation, :pronunciation_to_english, :kanji_to_english, :english_to_kanji, :kanji_to_pronunciation, :pronunciation_to_kanji, :k_e_reps, :e_k_reps, :k_p_reps, :p_k_reps, :e_p_reps, :p_e_reps
@@ -37,6 +36,7 @@ class Skill
     p_k_reps = '#{p_k_reps}',
     where id = #{id}")
   else
+   # database.execute("insert into skills(english_to_pronunciation, pronunciation_to_english, kanji_to_english, english_to_kanji, kanji_to_pronunciation, pronunciation_to_kanji, k_e_reps, e_k_reps, k_p_reps, p_k_reps, e_p_reps, p_e_reps) values('-1', '-1', '-1', '-1', '-1', '-1', '0', '0', '0', '0', '0', '0')")
    database.execute("insert into skills(
     english_to_pronunciation,
     pronunciation_to_english,
@@ -50,21 +50,7 @@ class Skill
     e_k_reps,
     k_p_reps,
     p_k_reps
-    )
-    values(
-     '#{english_to_pronunciation}',
-     '#{pronunciation_to_english}',
-     '#{kanji_to_english}',
-     '#{english_to_kanji}',
-     '#{kanji_to_pronunciation}',
-     '#{pronunciation_to_kanji}',
-     '#{e_p_reps}',
-     '#{p_e_reps}',
-     '#{k_e_reps}',
-     '#{e_k_reps}',
-     '#{k_p_reps}',
-     '#{p_k_reps}'
-     )")
+    )values('-1', '-1', '-1', '-1', '-1', '-1', '0', '0', '0', '0', '0', '0')")
    @id = database.last_insert_row_id
   end
  end

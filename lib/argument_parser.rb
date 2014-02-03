@@ -24,7 +24,7 @@ class ArgumentParser
     options[:english] = english
    end
 
-   opts.on("--JLPTlevel [JLPTLEVEL]", "The JLPT level") do |jlptlevel|
+   opts.on("--jlptlevel [JLPTLEVEL]", "The JLPT level") do |jlptlevel|
     options[:jlptlevel] = jlptlevel
    end
 
@@ -56,6 +56,11 @@ class ArgumentParser
    errors << "You must provide the #{missing_things.join(" and ")} of the word you are adding."
   end
   errors
+ end
+
+ def self.getlevel options
+  level = options[:jlptlevel]
+  level
  end
 
 end

@@ -29,12 +29,19 @@ class Jstudy
    if error_messages.empty?
     word = Word.new(options)
     word.save
+    skill = Skill.new
+    skill.save
     puts "A word with the kanji #{word.kanji}, onyomi #{word.onyomi}, kunyomi #{word.kunyomi}, the english translation '#{word.english}', JLPT level #{word.jlptlevel} and category '#{word.category}' was created."
    else
     puts error_messages
    end
   elsif options[:command] == "list"
-   list_words()
+   level = ArgumentParser.getlevel(options)
+   if level
+    list_words_by_level(level)
+   else
+    list_words()
+   end
   elsif options[:command] == "edit"
    if word = Word.find(options[:id])
     word.update(options)
@@ -234,7 +241,12 @@ class Jstudy
   word_data
  end
 
- def list_words()
+ def list_words_by_level(level)
+  puts "All #{level} Words:"
+  puts Word.listlevel(level)
+ end
+
+ def list_words
   puts "All Words:"
   puts Word.all
  end
