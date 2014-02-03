@@ -24,24 +24,4 @@ class TestEditingWords < JstudyTest
   assert_command_output expected, command
  end
 
- def test_04_attempting_to_update_with_bad_data
-  skip
-  word = Word.new(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
-  word.save
-  id = word.id #<--- First thing we have to implement
-  command = "./jstudy edit --id #{id} --kunyomi ときどき --english occasionally --jlptlevel N35 --category selfstudy"
-  expected = "Word #{id} can't be updated. JLPT level must be 2 digits maximum."
-  assert_command_output expected, command
- end
-
- def test_05_attempting_to_update_partial_data
-  skip
-  word = Word.new(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
-  word.save
-  id = word.id #<--First thing we have to implement
-  command = "./jstudy edit --id #{id} -- english sometimes!"
-  expected = "Word #{id} now has the kunyomi ときどき, the english sometimes!, the JLPT level 0 and the category selfstudy."
-  assert_command_output expected, command
- end
-
 end
