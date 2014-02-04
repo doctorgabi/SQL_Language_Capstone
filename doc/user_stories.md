@@ -31,13 +31,13 @@ Usage: ./jstudy list --jlptlevel N5
 
 User Story 2
 : As a Japanese language student
-: I want to see a list of what I have already studied
+: I want to see a list of what I have already studied and mastered
 : so that I can check my progress.
 
-Usage: ./jstudy viewStudied "N5"
+Usage: ./jstudy status --jlptlevel N5 --abilitylevel 1
 
 * Acceptance Criteria:
-1. Accepts a user input specifying the JLPT level's already studied records
+1. Accepts a user input specifying the JLPT level's already studied and mastered records
 2. Prints a list of already studied records in the specified level.
 
 
@@ -46,7 +46,7 @@ User Story 3
 : I want to see a list of what I have not yet studied
 : so that I can see how much work I still have to do.
 
-Usage: ./jstudy notStudied "N5"
+Usage: ./jstudy status --jlptlevel N5
 
 * Acceptance Criteria:
 1. Accepts a user input specifying the JLPT level's not yet studied records
@@ -58,7 +58,7 @@ User Story 4
 : I want to see a list of terms I'm having trouble with
 : so that I can focus my study on problem areas.
 
-Usage: ./jstudy review "N5"
+Usage: ./jstudy status --jlptlevel N5 --abilitylevel 0
 
 * Acceptance Criteria:
 1. Accepts a user input specifying the JLPT level's problem area records
