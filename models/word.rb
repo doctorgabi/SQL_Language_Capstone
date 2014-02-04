@@ -77,6 +77,13 @@ class Word
   end
  end
 
+ def self.status(level, ability)
+  database = Environment.database_connection
+  database.results_as_hash = true
+  results = database.execute("select kanji, onyomi, kunyomi, english from words inner join skills on words.id = skills.id where(english_to_pronunciation = #{ability} or pronunciation_to_english = #{ability} or kanji_to_english = #{ability} or english_to_kanji = #{ability} or pronunciation_to_kanji = #{ability} or kanji_to_pronunciation = #{ability}) and jlptlevel = '#{level}'")
+  results
+ end
+
  def self.listlevel(level)
   searchjlpt(level)
  end

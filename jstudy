@@ -62,7 +62,7 @@ class Jstudy
    else
     ability = data[1]
    end
-
+   word_status(level, ability)
   elsif options[:command] == "start"
    lesson_type = start_screen_gets_lesson_type
 
@@ -266,6 +266,10 @@ class Jstudy
  def list_words
   puts "All Words:"
   puts Word.all
+ end
+
+ def word_status(level, ability)
+  puts Word.status(level, ability)
  end
 
  def search_words_for(search_term)
