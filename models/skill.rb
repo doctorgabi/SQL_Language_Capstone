@@ -66,6 +66,12 @@ class Skill
   end
  end
 
+ def self.delete_by_id(id)
+  database = Environment.database_connection
+  database.results_as_hash = true
+  results = database.execute("delete from skills where id = #{id}")
+ end
+
  def self.find_or_create english_to_pronunciation
   database = Environment.database_connection
   database.results_as_hash = true

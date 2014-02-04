@@ -84,6 +84,21 @@ class Jstudy
    end
    #*************************************************************************#
    #*************************************************************************#
+  elsif options[:command] == "delete"
+   allowed_terms = ["id", "kanji", "english", "onyomi", "kunyomi"]
+   searchterm = ""
+   until (allowed_terms.include?(searchterm)) do
+    puts "Choose 'id', 'kanji', 'english', 'onyomi' or 'kunyomi'."
+    searchterm = $stdin.gets.chomp
+   end
+   puts "Enter what you want to delete in the form of #{searchterm}."
+   word = $stdin.gets.chomp
+   words = Word.search_to_delete(searchterm, word)
+   puts "The search returned the following words:\n\n #{words}.\n\n Enter the id of the word you want to delete or hit ctrl C to quit"
+   id = $stdin.gets.chomp
+   word = Word.delete_by_id(id)
+   skill = Skill.delete_by_id(id)
+   puts "Word id #{id} has been deleted."
   else
    puts "Command not implemented"
   end

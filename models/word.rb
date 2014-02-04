@@ -66,6 +66,19 @@ class Word
   end
  end
 
+ def self.search_to_delete(searchterm, word)
+  database = Environment.database_connection
+  database.results_as_hash = true
+  results = database.execute("select words.* from words where #{searchterm} LIKE '%#{word}%' order by english ASC")
+  results
+ end
+
+ def self.delete_by_id(id)
+  database = Environment.database_connection
+  database.results_as_hash = true
+  results = database.execute("delete from words where id = #{id}")
+ end
+
  def self.searchjlpt(search_term = nil)
   database = Environment.database_connection
   database.results_as_hash = true
