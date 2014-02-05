@@ -218,7 +218,7 @@ User Story 10 (delete record)
 : I want to be able to delete a record from the database if necessary
 : so that I know I am not studying errors.
 
-Usage: "delete" (followed by 'Are you sure (Y/N)?') "y"
+Usage: ./jstudy delete -->(id/kanji/english/onyomi/kunyomi) -->(id)
 
 * Acceptance Criteria:
 1. Accepts a user input to delete the requested record.
