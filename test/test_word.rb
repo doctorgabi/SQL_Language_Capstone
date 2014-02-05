@@ -1,5 +1,5 @@
 require_relative 'helper'
-require_relative '../models/word'
+# require_relative '../models/word'
 
 class TestWord < JstudyTest
 

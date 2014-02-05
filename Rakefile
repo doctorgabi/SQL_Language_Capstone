@@ -2,10 +2,10 @@
 # -*- ruby -*-
 
 require_relative 'lib/environment'
-require 'rake/testtask'
 
+require 'rake/testtask'
 Rake::TestTask.new() do |t|
- t.pattern = "test/test*.rb"
+ t.pattern = "test/test_*.rb"
 end
 
 desc "Run tests"
