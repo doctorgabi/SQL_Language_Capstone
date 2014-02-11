@@ -1,5 +1,4 @@
 require 'csv'
-require 'pry'
 class Importer
  def self.import(from_filename)
   CSV.foreach(from_filename, headers: true) do |row_hash|

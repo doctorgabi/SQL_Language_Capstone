@@ -62,15 +62,12 @@ class TestEnteringWords < JstudyTest
   results = database.execute("select kunyomi, english, jlptlevel, category from words")
   expected = ["ときどき", "occasionally", "0", "selfstudy"]
   assert_equal expected, results[0]
-
-  result = database.execute("select count(id) from words")
-  assert_equal 1, result[0][0]
+  assert_equal 1, Word.count
  end
 
  def test_10_invalid_words_do_not_get_saved
   `./jstudy add --kunyomi ときどき --english occasionally`
-  result = database.execute("select count(id) from words")
-  assert_equal 0, result[0][0]
+  assert_equal 0, Word.count
  end
 
 end

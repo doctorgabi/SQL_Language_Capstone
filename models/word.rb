@@ -8,6 +8,11 @@ class Word
   update_attributes(attributes)
  end
 
+ def self.count
+  database = Environment.database_connection
+  database.execute("select count(id) from words")[0][0]
+ end
+
  def self.create(attributes = {})
   word = Word.new(attributes)
   word.save

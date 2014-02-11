@@ -11,9 +11,9 @@ class TestWord < JstudyTest
 
  def test_02_update_doesnt_insert_new_row
   word = Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
-  occasionallys_before = database.execute("select count(id) from words")[0][0]
+  occasionallys_before = Word.count
   word.update(english: "sometimes")
-  occasionallys_after = database.execute("select count(id) from words")[0][0]
+  occasionallys_after = Word.count
   assert_equal occasionallys_before, occasionallys_after
  end
 
@@ -37,9 +37,9 @@ class TestWord < JstudyTest
 
  def test_05_saved_words_are_saved
   word = Word.new(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
-  occasionallys_before = database.execute("select count(id) from words")[0][0]
+  occasionallys_before = Word.count
   word.save
-  occasionallys_after = database.execute("select count(id) from words")[0][0]
+  occasionallys_after = Word.count
   assert_equal occasionallys_before + 1, occasionallys_after
  end
 
@@ -120,4 +120,14 @@ class TestWord < JstudyTest
   assert word1 == word2
  end
 
+ def test_19_count_when_no_words
+  assert_equal 0, Word.count
+ end
+
+ def test_20_count_of_multiple_words
+  Word.create(kunyomi: "ときどき", english: "occasionally", jlptlevel: "0", category: "selfstudy")
+  Word.create(kunyomi:"とくべつ", english: "special", jlptlevel: "N5", category: "vocabulary")
+  Word.create(kunyomi: "なにも", english: "nothing", jlptlevel: "N4", category: "vocabulary")
+  assert_equal 3, Word.count
+ end
 end

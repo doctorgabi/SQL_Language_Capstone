@@ -7,6 +7,11 @@ class Skill
   update_attributes(attributes)
  end
 
+ def self.count
+  database = Environment.database_connection
+  database.execute("select count(id) from skills")[0][0]
+ end
+
  def self.create attributes = {}
   skill = Skill.new(attributes)
   skill.save
