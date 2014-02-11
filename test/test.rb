@@ -58,10 +58,14 @@ class TestEnteringWords < JstudyTest
 
  def test_09_valid_word_gets_saved
   `./jstudy add --kunyomi ときどき --english occasionally --JLPTlevel 0 --category selfstudy --environment test`
-  database.results_as_hash = false
-  results = database.execute("select kunyomi, english, jlptlevel, category from words")
+  # database.results_as_hash = false
+  # results = database.execute("select kunyomi, english, jlptlevel, category from words")
+  # expected = ["ときどき", "occasionally", "0", "selfstudy"]
+  # assert_equal expected, results[0]
+  word = Word.all.first
   expected = ["ときどき", "occasionally", "0", "selfstudy"]
-  assert_equal expected, results[0]
+  actual = [Word.onyomi, word.english, word.jlptlevel, word.category]
+  assert_equal expected, actual
   assert_equal 1, Word.count
  end
 

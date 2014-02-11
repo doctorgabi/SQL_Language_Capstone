@@ -41,7 +41,10 @@ class Word
   database.results_as_hash = true
   results = database.execute("select * from words where id = #{id}")[0]
   if results
-   word = Word.new(kanji: results["kanji"], onyomi: results["onyomi"], kunyomi: results["kunyomi"], english: results["english"], jlptlevel: results["jlptlevel"], category: results["category"])
+   # word = Word.new(kanji: results["kanji"], onyomi: results["onyomi"], kunyomi: results["kunyomi"], english: results["english"], jlptlevel: results["jlptlevel"], category: results["category"])
+
+  skill = Skill.all.find{ |skill| skill.id == results["skill_id"] }
+  word = Word.new(kanji: results["kanji"], onyomi: results["onyomi"], kunyomi: results["kunyomi"], english: results["english"], jlptlevel: results["jlptlevel"], category: results["category"], skill: skill)
    word.send("id=", results["id"])
    word
   else
